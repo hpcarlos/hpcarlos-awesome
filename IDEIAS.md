@@ -10,7 +10,31 @@ passo concreto.
 
 ## Em aberto
 
-_(nada ainda — comece adicionando achados)_
+### Vitrine web dos achados
+
+Site estático gerado a partir do front-matter de `achados/`: cartões por categoria,
+filtro por tag e por nota, busca no cliente. A parte de dados é trivial — os scripts já
+leem tudo. O que costuma sair feio é a interface, e é aí que entra o
+[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md):
+`shape` para planejar, `craft` para construir, `audit` e `polish` para tirar a cara de
+template. Publicável no GitHub Pages.
+
+- **Alimenta:** impeccable
+- **Esforço:** médio
+- **Primeiro passo:** `scripts/exportar.py` que despeja todos os achados num `dados.json`
+  (o `lib_achados.py` já entrega os objetos prontos) — o site consome isso.
+- **Bônus:** é um projeto frontend real para testar o impeccable de verdade, em vez de
+  avaliar a ferramenta por captura de tela.
+
+### Digest do que entrou
+
+CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
+como issue no próprio repositório. Reaproveita `scripts/buscar.py --desde`, que já
+filtra por data. Vale mais quando houver volume; fica anotado para depois.
+
+- **Alimenta:** (nenhum achado específico ainda)
+- **Esforço:** baixo
+- **Primeiro passo:** `python3 scripts/buscar.py --desde $(date -d '7 days ago' +%F)`
 
 ## Em andamento
 

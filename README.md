@@ -8,11 +8,13 @@ Cada achado vira um arquivo em [`achados/`](achados/) com metadados (tipo, categ
 tags, nota, status) e um resumo em português. Os índices são gerados automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
-**0** achados · **0** categorias · **0** tags · atualizado em 2026-08-21
+**1** achados · **2** categorias · **6** tags · atualizado em 2026-08-21
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-|  |  |  |  |  |
+| ferramenta | 1 |  | novo | 1 |
+
+Categorias: `design` · `ia`
 <!-- FIM:ESTATISTICAS -->
 
 ## Como usar
@@ -62,7 +64,7 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 ## Últimos achados
 
 <!-- INICIO:RECENTES -->
-_Nenhum achado ainda. Cole um link em [`INBOX.md`](INBOX.md) para começar._
+- `2026-08-21` ⚙️ **[impeccable — design language e skill para agentes de código](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** ([link original](https://github.com/pbakaus/impeccable)) — <sub>ferramenta · ★★★★☆ · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
 <!-- FIM:RECENTES -->
 
 ---
