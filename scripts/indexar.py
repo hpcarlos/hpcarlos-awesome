@@ -41,19 +41,20 @@ def estrelas(nota: int) -> str:
 
 
 def linha(a: Achado) -> str:
+    """Um item de listagem: nome curto, o que é numa frase, e os metadados."""
     marca = EMOJI_TIPO.get(a.tipo, "🔗")
-    partes = [f"- {marca} **[{a.titulo}]({a.rel})**"]
-    if a.url:
-        partes.append(f"([link original]({a.url}))")
+    texto = f"- {marca} **[{a.nome}]({a.rel})** — {a.tldr}" if a.tldr \
+        else f"- {marca} **[{a.nome}]({a.rel})**"
     meta = [a.tipo]
     if a.nota:
         meta.append(estrelas(a.nota))
     if a.status and a.status != "novo":
         meta.append(a.status)
+    if a.url:
+        meta.append(f"[{a.dominio} ↗]({a.url})")
     if a.tags:
         meta.append(" ".join(f"`{t}`" for t in a.tags))
-    partes.append(f"— <sub>{' · '.join(meta)}</sub>")
-    return " ".join(partes)
+    return texto + f"<br><sub>{' · '.join(meta)}</sub>"
 
 
 def validar(achados):
@@ -72,6 +73,8 @@ def validar(achados):
             problemas.append(f"{a.rel}: nota fora de 1..5")
         if not a.categorias:
             problemas.append(f"{a.rel}: sem categorias")
+        if len(a.tldr) > 200:
+            problemas.append(f"{a.rel}: 'tldr' longo demais ({len(a.tldr)} caracteres, máx. 200)")
     return problemas
 
 
@@ -87,7 +90,7 @@ def gerar_indice(achados) -> str:
 
     out += ["## Por categoria", ""]
     for cat in sorted(por_cat):
-        itens = sorted(por_cat[cat], key=lambda a: (-a.nota, a.titulo.lower()))
+        itens = sorted(por_cat[cat], key=lambda a: (-a.nota, a.nome.lower()))
         out.append(f"### {cat} ({len(itens)})")
         out.append("")
         out += [linha(a) for a in itens]
@@ -109,7 +112,7 @@ def gerar_indice(achados) -> str:
         por_status[a.status].append(a)
     for st in STATUS:
         if st in por_status:
-            nomes = ", ".join(f"[{a.titulo}]({a.rel})" for a in sorted(por_status[st], key=lambda x: x.titulo.lower()))
+            nomes = ", ".join(f"[{a.nome}]({a.rel})" for a in sorted(por_status[st], key=lambda x: x.nome.lower()))
             out.append(f"- **{st}** ({len(por_status[st])}): {nomes}")
     out.append("")
     return "\n".join(out).rstrip() + "\n"
@@ -131,7 +134,7 @@ def gerar_tags(achados) -> str:
     for tag in sorted(por_tag):
         out.append(f"## `{tag}`")
         out.append("")
-        out += [linha(a) for a in sorted(por_tag[tag], key=lambda a: (-a.nota, a.titulo.lower()))]
+        out += [linha(a) for a in sorted(por_tag[tag], key=lambda a: (-a.nota, a.nome.lower()))]
         out.append("")
     if not por_tag:
         out += ["_Nenhuma tag ainda._", ""]

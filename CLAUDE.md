@@ -17,6 +17,12 @@ Quando o usuário mandar um ou mais links (na conversa ou colados em `INBOX.md`)
    duplicadas (saída com código 2 — nesse caso, **atualize o achado existente** em vez de
    criar outro).
 3. **Preencha o achado** editando o arquivo gerado:
+   - `nome:` e `tldr:` no front-matter — **são eles que aparecem nas listagens.**
+     `nome` é o nome curto pelo qual o usuário chamaria a coisa (`impeccable`, não
+     "impeccable — design language e skill para agentes de código"); `tldr` é **uma
+     frase** dizendo o que é e para que serve, com no máximo 200 caracteres. Sem esses
+     campos, o indexador se vira com fallbacks (o título antes do primeiro `—`/`:` e a
+     primeira frase do `## Resumo`) — mas prefira escrevê-los à mão.
    - `## Resumo` — 2 a 4 frases, em português, sobre o que a coisa **é** e o que ela faz.
    - `## Por que guardei` — o problema concreto que isso resolve. Se o usuário deu o
      contexto, use as palavras dele; se não, infira e deixe claro que é inferência.
@@ -64,6 +70,10 @@ e mencione a mudança ao usuário.
   veja com `python3 scripts/buscar.py --categorias`. Todo achado precisa de pelo menos uma.
 - `tags`: livres e específicas, minúsculas, sem acento (`python`, `rag`, `postgres`,
   `self-hosted`). Reutilize as existentes: `python3 scripts/buscar.py --tags`.
+- `nome`: nome curto para as listagens. Opcional — sem ele, o indexador corta o título
+  no primeiro `—`, `–`, `-` ou `:`.
+- `tldr`: uma frase (máx. 200 caracteres) com o que a coisa é e para que serve. Opcional
+  — sem ele, o indexador usa a primeira frase do `## Resumo`.
 
 ## Quando o usuário pedir para "encontrar algo"
 

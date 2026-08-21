@@ -123,6 +123,42 @@ class Achado:
         return str(self.meta.get("url") or "")
 
     @property
+    def nome(self) -> str:
+        """Nome curto usado nas listagens. Cai para a parte do titulo antes
+        do primeiro separador (ex.: "impeccable - design language" -> "impeccable")."""
+        v = str(self.meta.get("nome") or "").strip()
+        if v:
+            return v
+        t = self.titulo
+        for sep in (" \u2014 ", " \u2013 ", " - ", ": "):
+            if sep in t:
+                return t.split(sep)[0].strip()
+        return t
+
+    @property
+    def tldr(self) -> str:
+        """Uma frase sobre o que a coisa e / para que serve. Cai para a
+        primeira frase do ## Resumo."""
+        v = str(self.meta.get("tldr") or "").strip()
+        if v:
+            return v
+        r = self.resumo
+        if not r or r.startswith("_(") or r.startswith(">"):
+            return ""
+        m = re.match(r"(.+?[.!?])(?:\s|$)", r)
+        frase = m.group(1) if m else r
+        if len(frase) > 170:
+            frase = frase[:167].rsplit(" ", 1)[0] + "\u2026"
+        return frase
+
+    @property
+    def dominio(self) -> str:
+        """Dominio da url, para exibir um link curto."""
+        from urllib.parse import urlparse
+        d = urlparse(self.url).netloc.lower()
+        return d[4:] if d.startswith("www.") else d
+
+    @property
     def tipo(self) -> str:
         return str(self.meta.get("tipo") or "outro")
 

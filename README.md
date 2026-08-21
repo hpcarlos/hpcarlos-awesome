@@ -5,7 +5,9 @@ ferramentas, papers e vídeos — organizados, resumidos e cruzados entre si, co
 concretas do que dá para construir com eles.
 
 Cada achado vira um arquivo em [`achados/`](achados/) com metadados (tipo, categorias,
-tags, nota, status) e um resumo em português. Os índices são gerados automaticamente.
+tags, nota, status) e um resumo em português. Nas listagens aparece só o nome curto e uma
+frase dizendo o que a coisa é — o resto está a um clique. Os índices são gerados
+automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
 **1** achados · **2** categorias · **6** tags · atualizado em 2026-08-21
@@ -31,7 +33,8 @@ Ou peça direto na conversa: *"guarda esse link aqui: ..."*
 
 ```bash
 python3 scripts/novo.py https://exemplo.com/artigo \
-  --titulo "Título do artigo" \
+  --titulo "Título do artigo" --nome "nome-curto" \
+  --tldr "O que é e para que serve, em uma frase." \
   --tipo artigo --categorias ia --tags rag,python --nota 4
 python3 scripts/indexar.py
 ```
@@ -64,7 +67,7 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 ## Últimos achados
 
 <!-- INICIO:RECENTES -->
-- `2026-08-21` ⚙️ **[impeccable — design language e skill para agentes de código](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** ([link original](https://github.com/pbakaus/impeccable)) — <sub>ferramenta · ★★★★☆ · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
+- `2026-08-21` ⚙️ **[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** — Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/pbakaus/impeccable) · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
 <!-- FIM:RECENTES -->
 
 ---

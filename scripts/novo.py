@@ -74,6 +74,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Registra um novo achado.")
     ap.add_argument("url")
     ap.add_argument("--titulo", default="")
+    ap.add_argument("--nome", default="", help="nome curto para as listagens (ex.: impeccable)")
+    ap.add_argument("--tldr", default="", help="uma frase: o que é e para que serve (máx. 200 caracteres)")
     ap.add_argument("--tipo", default="", choices=[""] + TIPOS)
     ap.add_argument("--categorias", default="")
     ap.add_argument("--tags", default="")
@@ -114,6 +116,8 @@ def main() -> None:
     texto = (
         modelo
         .replace("{{TITULO}}", titulo.replace('"', "'"))
+        .replace("{{NOME}}", args.nome)
+        .replace("{{TLDR}}", args.tldr.replace('"', "'"))
         .replace("{{URL}}", url)
         .replace("{{TIPO}}", tipo)
         .replace("{{CATEGORIAS}}", fmt_lista(lista(args.categorias)))

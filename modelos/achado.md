@@ -1,5 +1,7 @@
 ---
 titulo: "{{TITULO}}"
+nome: {{NOME}}
+tldr: "{{TLDR}}"
 url: {{URL}}
 tipo: {{TIPO}}
 categorias: {{CATEGORIAS}}
