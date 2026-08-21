@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: []
+relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md]
 ---
 
 # impeccable — design language e skill para agentes de código
@@ -68,6 +68,10 @@ sozinho no CI, sem depender de IA nenhuma.
   `PRODUCT.md` e `DESIGN.md` (público, marca, voz, anti-referências, paleta,
   tipografia) e guardar esse par como identidade visual reutilizável, copiada para todo
   projeto novo. É a diferença entre "não parece IA" e "parece **meu**". _Esforço: baixo._
+- **Bancada barata de frontend, com o [OmniRoute](2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)**
+  — rodar o agente através do gateway (modelos de tier gratuito) com o impeccable
+  instalado: um corta o custo por token, o outro garante que o que sai não tenha cara de
+  template. _Esforço: baixo._
 - **Um impeccable para outro domínio** — clonar a arquitetura (skill com comandos +
   detectores determinísticos + hooks) e apontá-la para escrita técnica em pt-BR ou para
   design de API REST: o valor do projeto está tanto no formato quanto nas regras.

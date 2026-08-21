@@ -26,6 +26,25 @@ template. Publicável no GitHub Pages.
 - **Bônus:** é um projeto frontend real para testar o impeccable de verdade, em vez de
   avaliar a ferramenta por captura de tela.
 
+### Bancada barata de frontend
+
+O par mais óbvio dos dois primeiros achados: o
+[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+derruba o custo por token roteando o agente para tiers gratuitos, e o
+[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+garante que o resultado não saia com cara de template. Juntos viram um ambiente de
+geração de interface que dá para deixar rodando sem medo da fatura.
+
+- **Alimenta:** OmniRoute + impeccable
+- **Esforço:** baixo
+- **Primeiro passo:** `npm i -g omniroute && omniroute setup`, depois
+  `omniroute run claude` num projeto que já tenha o impeccable instalado.
+- **O que medir:** se a qualidade do código cai ao trocar o modelo forte pelo gratuito.
+  Se cair muito, a combinação certa é modelo barato para construir e modelo forte só no
+  `/impeccable critique`.
+- **Cuidado:** parte dos tiers gratuitos é marcada como ToS-flagged pelo próprio
+  OmniRoute — vale escolher quais usar antes de automatizar.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou

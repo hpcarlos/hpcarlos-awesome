@@ -10,13 +10,13 @@ frase dizendo o que a coisa é — o resto está a um clique. Os índices são g
 automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
-**1** achados · **2** categorias · **6** tags · atualizado em 2026-08-21
+**2** achados · **3** categorias · **10** tags · atualizado em 2026-08-21
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 1 |  | novo | 1 |
+| ferramenta | 2 |  | novo | 2 |
 
-Categorias: `design` · `ia`
+Categorias: `design` · `devops` · `ia`
 <!-- FIM:ESTATISTICAS -->
 
 ## Como usar
@@ -67,6 +67,7 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 ## Últimos achados
 
 <!-- INICIO:RECENTES -->
+- `2026-08-21` ⚙️ **[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)** — Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/diegosouzapw/OmniRoute) · `gateway` `llm` `self-hosted` `claude-code` `cli` `openai-api`</sub>
 - `2026-08-21` ⚙️ **[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** — Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/pbakaus/impeccable) · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
 <!-- FIM:RECENTES -->
 
