@@ -1,0 +1,35 @@
+name: Índices
+
+on:
+  push:
+    branches: ["**"]
+    paths:
+      - "achados/**"
+      - "scripts/**"
+      - ".github/workflows/indices.yml"
+  pull_request:
+    paths:
+      - "achados/**"
+      - "scripts/**"
+  workflow_dispatch:
+
+jobs:
+  conferir:
+    name: Conferir índices e front-matter
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+      - name: Validar achados e conferir se os índices estão em dia
+        run: python3 scripts/indexar.py --conferir
+
+# ---------------------------------------------------------------------------
+# Para ativar: copie este arquivo para .github/workflows/indices.yml
+#   mkdir -p .github/workflows
+#   cp modelos/github-workflow-indices.yml .github/workflows/indices.yml
+#   git add .github && git commit -m "ci: confere os índices a cada push" && git push
+# (Não pôde ser criado automaticamente: a credencial da sessão do Claude não
+#  tem o escopo `workflow` do GitHub.)
+# ---------------------------------------------------------------------------

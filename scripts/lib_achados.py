@@ -1,0 +1,193 @@
+"""Utilitarios compartilhados: leitura dos achados em achados/*.md.
+
+Sem dependencias externas - roda com Python 3.8+ puro.
+Cada achado e um arquivo Markdown com front-matter YAML simples:
+
+    ---
+    titulo: Nome do achado
+    url: https://exemplo.com
+    tipo: artigo
+    categorias: [ia, ferramentas]
+    tags: [python, llm]
+    status: novo
+    nota: 4
+    adicionado: 2026-08-21
+    ---
+"""
+
+from __future__ import annotations
+
+import os
+import re
+import sys
+from dataclasses import dataclass, field
+from typing import Any, Dict, List
+
+RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+DIR_ACHADOS = os.path.join(RAIZ, "achados")
+
+TIPOS = [
+    "projeto", "artigo", "video", "ferramenta", "biblioteca",
+    "curso", "paper", "thread", "newsletter", "podcast", "outro",
+]
+STATUS = ["novo", "lendo", "lido", "testado", "usado", "arquivado"]
+
+# Campos de lista no front-matter.
+CAMPOS_LISTA = ("categorias", "tags", "relacionados")
+
+
+def _limpa(valor: str) -> str:
+    valor = valor.strip()
+    if len(valor) >= 2 and valor[0] == valor[-1] and valor[0] in "\"'":
+        valor = valor[1:-1]
+    return valor.strip()
+
+
+def _parse_lista(valor: str) -> List[str]:
+    valor = valor.strip()
+    if valor.startswith("[") and valor.endswith("]"):
+        valor = valor[1:-1]
+    itens = [_limpa(p) for p in valor.split(",")]
+    return [i for i in itens if i]
+
+
+def parse_front_matter(texto: str) -> Dict[str, Any]:
+    """Le o bloco --- ... --- do topo do arquivo. Suporta listas inline,
+    listas em bloco (- item) e valores escalares."""
+    if not texto.startswith("---"):
+        return {}
+    fim = texto.find("\n---", 3)
+    if fim == -1:
+        return {}
+    bloco = texto[3:fim].strip("\n")
+
+    dados: Dict[str, Any] = {}
+    chave_atual = None
+    for linha in bloco.split("\n"):
+        if not linha.strip() or linha.strip().startswith("#"):
+            continue
+        # Item de lista em bloco: "  - valor"
+        if linha.lstrip().startswith("- ") and chave_atual:
+            item = _limpa(linha.lstrip()[2:])
+            if item:
+                dados.setdefault(chave_atual, [])
+                if isinstance(dados[chave_atual], list):
+                    dados[chave_atual].append(item)
+            continue
+        if ":" not in linha:
+            continue
+        chave, _, valor = linha.partition(":")
+        chave = chave.strip()
+        valor = valor.strip()
+        chave_atual = chave
+        if valor == "":
+            dados[chave] = [] if chave in CAMPOS_LISTA else ""
+        elif valor.startswith("["):
+            dados[chave] = _parse_lista(valor)
+        elif chave in CAMPOS_LISTA:
+            dados[chave] = _parse_lista(valor)
+        else:
+            dados[chave] = _limpa(valor)
+    return dados
+
+
+def corpo_markdown(texto: str) -> str:
+    if not texto.startswith("---"):
+        return texto
+    fim = texto.find("\n---", 3)
+    if fim == -1:
+        return texto
+    return texto[fim + 4:].lstrip("\n")
+
+
+@dataclass
+class Achado:
+    caminho: str
+    meta: Dict[str, Any]
+    corpo: str
+
+    @property
+    def arquivo(self) -> str:
+        return os.path.basename(self.caminho)
+
+    @property
+    def rel(self) -> str:
+        return os.path.relpath(self.caminho, RAIZ).replace(os.sep, "/")
+
+    @property
+    def titulo(self) -> str:
+        return str(self.meta.get("titulo") or os.path.splitext(self.arquivo)[0])
+
+    @property
+    def url(self) -> str:
+        return str(self.meta.get("url") or "")
+
+    @property
+    def tipo(self) -> str:
+        return str(self.meta.get("tipo") or "outro")
+
+    @property
+    def status(self) -> str:
+        return str(self.meta.get("status") or "novo")
+
+    @property
+    def adicionado(self) -> str:
+        return str(self.meta.get("adicionado") or "")
+
+    @property
+    def nota(self) -> int:
+        try:
+            return int(str(self.meta.get("nota") or 0))
+        except ValueError:
+            return 0
+
+    @property
+    def categorias(self) -> List[str]:
+        v = self.meta.get("categorias") or []
+        return [v] if isinstance(v, str) and v else list(v)
+
+    @property
+    def tags(self) -> List[str]:
+        v = self.meta.get("tags") or []
+        return [v] if isinstance(v, str) and v else list(v)
+
+    @property
+    def resumo(self) -> str:
+        """Primeiro paragrafo apos o titulo/secao Resumo, para os indices."""
+        m = re.search(r"##\s*Resumo\s*\n+(.+?)(?:\n\s*\n|\n##)", self.corpo, re.S)
+        if m:
+            return " ".join(m.group(1).split())
+        for par in self.corpo.split("\n\n"):
+            par = par.strip()
+            if par and not par.startswith("#"):
+                return " ".join(par.split())
+        return ""
+
+
+def carregar_achados(diretorio: str = DIR_ACHADOS) -> List[Achado]:
+    achados: List[Achado] = []
+    if not os.path.isdir(diretorio):
+        return achados
+    for nome in sorted(os.listdir(diretorio)):
+        if not nome.endswith(".md") or nome.startswith("_"):
+            continue
+        caminho = os.path.join(diretorio, nome)
+        with open(caminho, encoding="utf-8") as fh:
+            texto = fh.read()
+        achados.append(Achado(caminho, parse_front_matter(texto), corpo_markdown(texto)))
+    return achados
+
+
+def slugify(texto: str, limite: int = 60) -> str:
+    import unicodedata
+    texto = unicodedata.normalize("NFKD", texto)
+    texto = texto.encode("ascii", "ignore").decode("ascii").lower()
+    texto = re.sub(r"[^a-z0-9]+", "-", texto).strip("-")
+    if len(texto) > limite:
+        texto = texto[:limite].rstrip("-")
+    return texto or "achado"
+
+
+def erro(msg: str) -> None:
+    print(f"erro: {msg}", file=sys.stderr)
+    sys.exit(1)
