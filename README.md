@@ -10,12 +10,12 @@ frase dizendo o que a coisa é — o resto está a um clique. Os índices são g
 automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
-**7** achados · **7** categorias · **30** tags · atualizado em 2026-08-22
+**8** achados · **7** categorias · **31** tags · atualizado em 2026-08-22
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| projeto | 4 |  | novo | 7 |
-| ferramenta | 3 |  |  |  |
+| ferramenta | 4 |  | novo | 8 |
+| projeto | 4 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
@@ -73,6 +73,7 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 - `2026-08-22` 🛠 **[munder-difflin](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)** — App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/chaitanyagiri/munder-difflin) · `agentes` `electron` `multiagente` `claude-code` `typescript` `cli`</sub>
 - `2026-08-22` ⚙️ **[mattpocock/skills](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)** — Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/mattpocock/skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review`</sub>
 - `2026-08-22` 🛠 **[saas-starter-kit](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)** — Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos.<br><sub>projeto · ★★★★☆ · [github.com ↗](https://github.com/boxyhq/saas-starter-kit) · `nextjs` `typescript` `saas` `prisma` `postgres` `auth` `boilerplate`</sub>
+- `2026-08-22` ⚙️ **[addyosmani/agent-skills](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)** — 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/addyosmani/agent-skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review` `performance`</sub>
 - `2026-08-21` ⚙️ **[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)** — Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/diegosouzapw/OmniRoute) · `gateway` `llm` `self-hosted` `claude-code` `cli` `openai-api`</sub>
 - `2026-08-21` ⚙️ **[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** — Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/pbakaus/impeccable) · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
 <!-- FIM:RECENTES -->

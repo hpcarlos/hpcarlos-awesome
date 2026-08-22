@@ -10,7 +10,7 @@ status: novo
 nota: 5
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md]
 ---
 
 # mattpocock/skills — skills de engenharia para agentes de código
@@ -71,6 +71,10 @@ mais imediato da coleção até agora.
   `wizard` para entender a estrutura, e escrever skills para as tarefas que você repete
   (organizar achados, revisar PR de um jeito específico, publicar). O repositório vira
   ponto de partida em vez de dependência. _Esforço: médio._
+- **Bake-off contra o [addyosmani/agent-skills](2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)** — as duas coleções resolvem o
+  mesmo problema por filosofias opostas: aqui, peças pequenas que você compõe; lá, um
+  sistema de 24 skills com portões de verificação. Rodar a mesma tarefa nas duas e
+  anotar tempo, retrabalho e custo responde a pergunta de uma vez. _Esforço: médio._
 - **Combinar com o [munder-difflin](2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)**
   — se a ideia for orquestrar vários agentes, vale dar a eles um método comum em vez de
   cada um improvisar. As skills são o método; o outro projeto é o palco. _Esforço: médio._

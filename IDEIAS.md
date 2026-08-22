@@ -83,20 +83,29 @@ até agora — e a que tem cliente pagante mais óbvio do outro lado.
   (verificação da empresa, modelos de mensagem, custo por conversa). É a Meta, e não a
   stack, que decide se o projeto existe.
 
-### Método antes de escala
+### Método antes de escala — e qual método
 
-Antes de sonhar com um escritório de agentes, vale instalar as
-[skills do Matt Pocock](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
-e usar `triage`, `to-spec` e `grill-me` sobre as próprias ideias deste arquivo. É a coisa
-de menor esforço e maior retorno na coleção inteira: transforma texto solto em trabalho
-definido, e mata as ideias que não sobrevivem a uma entrevista.
+Há agora duas coleções de skills concorrentes no repositório, com filosofias opostas:
+[mattpocock/skills](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+aposta em peças pequenas que você compõe e edita, enquanto
+[addyosmani/agent-skills](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)
+entrega um sistema de 24 skills com portões de verificação obrigatórios. Em vez de
+escolher por autoridade, use o próprio `IDEIAS.md` como campo de prova: passe as ideias
+daqui por `/spec` e `/plan` de um lado, e por `to-spec`, `to-tickets` e `grill-me` do
+outro, e compare o que sai.
 
-- **Alimenta:** mattpocock/skills
-- **Esforço:** baixo
-- **Primeiro passo:** `claude plugins install mattpocock-skills`, depois
-  `/setup-matt-pocock-skills` neste repositório e `/grill-me` sobre a ideia da vitrine web.
-- **Teste de fogo:** se metade das ideias daqui não sobreviver ao `grill-me`, a skill
-  funcionou.
+- **Alimenta:** mattpocock/skills + addyosmani/agent-skills
+- **Esforço:** médio (baixo, se testar só uma)
+- **Primeiro passo:** instalar as duas (`claude plugins install mattpocock-skills` e
+  `/plugin marketplace add addyosmani/agent-skills`) e rodar cada uma sobre a ideia da
+  vitrine web.
+- **O que medir:** tempo até a primeira tarefa executável, retrabalho, tokens gastos e
+  quanto do resultado você teve de reescrever.
+- **Teste de fogo:** se metade das ideias daqui não sobreviver ao `grill-me` ou ao
+  `/spec`, o método funcionou.
+- **Atalho de retorno imediato:** mesmo sem decidir nada, as sete checklists do Addy
+  (definition of done, segurança, acessibilidade, performance) já valem coladas num
+  projeto seu.
 
 ### Escritório de agentes que cabe no bolso
 

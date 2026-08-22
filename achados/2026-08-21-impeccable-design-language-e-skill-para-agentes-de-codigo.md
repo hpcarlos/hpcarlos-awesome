@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md]
+relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md]
 ---
 
 # impeccable — design language e skill para agentes de código
