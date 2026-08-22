@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md]
 ---
 
 # OmniRoute — gateway de IA com um endpoint para centenas de provedores
@@ -68,6 +68,10 @@ mesmas ferramentas.
 - **Roteamento por tipo de tarefa** — configurar estratégias para mandar trabalho
   mecânico (renomear, formatar, escrever teste óbvio) para modelo de tier gratuito e
   reservar o modelo forte para revisão e design. Medir depois se a qualidade caiu.
+  _Esforço: médio._
+- **Backend de modelo de um micro-SaaS** — o gateway como camada de inferência de um
+  produto construído sobre o [saas-starter-kit](2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md): o kit resolve contas, times e
+  cobrança; o OmniRoute resolve o custo por token e o fallback quando um provedor cai.
   _Esforço: médio._
 - **Sentinela de cota** — cron que compara o catálogo de tiers gratuitos entre duas
   auditorias e avisa quando um provedor que você usa muda de regra ou é marcado como

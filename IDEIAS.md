@@ -45,6 +45,26 @@ geração de interface que dá para deixar rodando sem medo da fatura.
 - **Cuidado:** parte dos tiers gratuitos é marcada como ToS-flagged pelo próprio
   OmniRoute — vale escolher quais usar antes de automatizar.
 
+### Micro-SaaS de IA com o encanamento resolvido
+
+Os três achados se encaixam num produto só. O
+[saas-starter-kit](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)
+entrega contas, times, convites, papéis e audit log; o
+[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+entrega inferência barata com fallback entre provedores; o
+[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+evita que o resultado tenha a cara de todo mundo que clonou o mesmo boilerplate. Sobra
+construir a única parte que importa: o que o produto faz de fato.
+
+- **Alimenta:** saas-starter-kit + OmniRoute + impeccable
+- **Esforço:** médio
+- **Primeiro passo:** clonar o kit, subir com `docker-compose up -d` e `npx prisma db push`,
+  e conferir o que o módulo de cobrança realmente faz hoje — é a peça mais incerta.
+- **Ordem que faz sentido:** encanamento (kit) → identidade visual (`/impeccable init`,
+  enquanto trocar tema ainda é barato) → inferência (OmniRoute) → o produto.
+- **Custo escondido:** o kit depende de Svix, Retraced, Stripe e um SMTP. Decidir cedo o
+  que vale pagar e o que dá para trocar por alternativa auto-hospedada.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
