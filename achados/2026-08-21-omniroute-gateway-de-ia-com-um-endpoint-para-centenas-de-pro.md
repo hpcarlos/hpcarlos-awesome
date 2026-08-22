@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md]
 ---
 
 # OmniRoute — gateway de IA com um endpoint para centenas de provedores
@@ -76,6 +76,9 @@ mesmas ferramentas.
 - **Assistente do [wacrm](2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) rodando de graça** — o CRM chama OpenAI/Anthropic
   para sugerir respostas; apontar a URL base dele para `http://localhost:20128/v1`
   move esse custo para os tiers gratuitos. _Esforço: baixo._
+- **Combustível de um escritório de agentes** — o [munder-difflin](2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md) roda
+  vários CLIs de agente em paralelo, o que multiplica o consumo; apontar todos para o
+  gateway é o que torna o experimento pagável. _Esforço: médio._
 - **Sentinela de cota** — cron que compara o catálogo de tiers gratuitos entre duas
   auditorias e avisa quando um provedor que você usa muda de regra ou é marcado como
   ToS-flagged. Transforma a maior fragilidade da ferramenta em algo monitorado.

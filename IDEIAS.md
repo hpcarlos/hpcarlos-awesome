@@ -83,6 +83,37 @@ até agora — e a que tem cliente pagante mais óbvio do outro lado.
   (verificação da empresa, modelos de mensagem, custo por conversa). É a Meta, e não a
   stack, que decide se o projeto existe.
 
+### Método antes de escala
+
+Antes de sonhar com um escritório de agentes, vale instalar as
+[skills do Matt Pocock](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+e usar `triage`, `to-spec` e `grill-me` sobre as próprias ideias deste arquivo. É a coisa
+de menor esforço e maior retorno na coleção inteira: transforma texto solto em trabalho
+definido, e mata as ideias que não sobrevivem a uma entrevista.
+
+- **Alimenta:** mattpocock/skills
+- **Esforço:** baixo
+- **Primeiro passo:** `claude plugins install mattpocock-skills`, depois
+  `/setup-matt-pocock-skills` neste repositório e `/grill-me` sobre a ideia da vitrine web.
+- **Teste de fogo:** se metade das ideias daqui não sobreviver ao `grill-me`, a skill
+  funcionou.
+
+### Escritório de agentes que cabe no bolso
+
+O [munder-difflin](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)
+orquestra vários CLIs de agente em paralelo — e paralelismo multiplica consumo de tokens.
+Apontar todos para o [OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+e dar a eles o método comum das
+[skills](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+transforma uma curiosidade cara num experimento defensável.
+
+- **Alimenta:** munder-difflin + OmniRoute + mattpocock/skills
+- **Esforço:** médio
+- **Primeiro passo:** rodar uma tarefa real com dois agentes e anotar tempo, qualidade e
+  custo. Sem esse número, a discussão sobre multiagente vira opinião.
+- **Ordem:** método (skills) → custo (OmniRoute) → orquestração (munder-difflin). Na ordem
+  inversa, o resultado é caro e desorganizado ao mesmo tempo.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
