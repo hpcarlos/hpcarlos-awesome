@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md]
 ---
 
 # OmniRoute — gateway de IA com um endpoint para centenas de provedores
@@ -73,6 +73,9 @@ mesmas ferramentas.
   produto construído sobre o [saas-starter-kit](2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md): o kit resolve contas, times e
   cobrança; o OmniRoute resolve o custo por token e o fallback quando um provedor cai.
   _Esforço: médio._
+- **Assistente do [wacrm](2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) rodando de graça** — o CRM chama OpenAI/Anthropic
+  para sugerir respostas; apontar a URL base dele para `http://localhost:20128/v1`
+  move esse custo para os tiers gratuitos. _Esforço: baixo._
 - **Sentinela de cota** — cron que compara o catálogo de tiers gratuitos entre duas
   auditorias e avisa quando um provedor que você usa muda de regra ou é marcado como
   ToS-flagged. Transforma a maior fragilidade da ferramenta em algo monitorado.

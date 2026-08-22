@@ -65,6 +65,24 @@ construir a única parte que importa: o que o produto faz de fato.
 - **Custo escondido:** o kit depende de Svix, Retraced, Stripe e um SMTP. Decidir cedo o
   que vale pagar e o que dá para trocar por alternativa auto-hospedada.
 
+### CRM de WhatsApp com IA que não custa por resposta
+
+O [wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) já traz um
+assistente de resposta que fala com OpenAI/Anthropic. Como o
+[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+expõe exatamente um endpoint compatível com a OpenAI, trocar a URL base deve bastar para
+o assistente rodar em tiers gratuitos. É a combinação de menor esforço entre os achados
+até agora — e a que tem cliente pagante mais óbvio do outro lado.
+
+- **Alimenta:** wacrm + OmniRoute
+- **Esforço:** baixo
+- **Primeiro passo:** subir o wacrm em modo local e apontar a variável de URL base da IA
+  para `http://localhost:20128/v1`, conferindo se ele respeita URL customizada ou se
+  assume o endereço oficial no código.
+- **Antes de qualquer código:** confirmar que a conta na WhatsApp Business API é viável
+  (verificação da empresa, modelos de mensagem, custo por conversa). É a Meta, e não a
+  stack, que decide se o projeto existe.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou

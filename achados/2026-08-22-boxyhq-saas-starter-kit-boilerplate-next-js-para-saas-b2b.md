@@ -10,7 +10,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md]
 ---
 
 # BoxyHQ SaaS Starter Kit — boilerplate Next.js para SaaS B2B
