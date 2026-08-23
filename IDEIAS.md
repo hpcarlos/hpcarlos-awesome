@@ -123,6 +123,23 @@ transforma uma curiosidade cara num experimento defensável.
 - **Ordem:** método (skills) → custo (OmniRoute) → orquestração (munder-difflin). Na ordem
   inversa, o resultado é caro e desorganizado ao mesmo tempo.
 
+### Fechar a conta dos agentes
+
+Duas fontes de dado que ninguém cruza: o
+[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)
+acompanha gasto por execução e guarda auditoria; o
+[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+registra uso por provedor em SQLite. Juntas respondem "quanto custou cada projeto, em qual
+modelo, em que semana" — pergunta que apareceu no primeiro achado de gateway e segue sem
+resposta. Ambos usam SQLite, então o cruzamento é uma consulta, não uma integração.
+
+- **Alimenta:** mission-control + OmniRoute
+- **Esforço:** médio
+- **Primeiro passo:** subir os dois localmente e olhar os dois esquemas de banco lado a
+  lado antes de escrever qualquer código.
+- **Cuidado:** o mission-control é alpha declarado e o esquema pode mudar entre versões —
+  não construa nada rígido em cima dele agora.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou

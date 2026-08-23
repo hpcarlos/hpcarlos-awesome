@@ -10,7 +10,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md]
+relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md]
 ---
 
 # munder-difflin — escritório de agentes de IA num app de desktop

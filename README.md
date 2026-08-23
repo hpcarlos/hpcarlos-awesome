@@ -10,11 +10,11 @@ frase dizendo o que a coisa é — o resto está a um clique. Os índices são g
 automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
-**9** achados · **7** categorias · **34** tags · atualizado em 2026-08-23
+**10** achados · **7** categorias · **36** tags · atualizado em 2026-08-23
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 4 |  | novo | 9 |
+| ferramenta | 5 |  | novo | 10 |
 | projeto | 4 |  |  |  |
 | outro | 1 |  |  |  |
 
@@ -70,6 +70,7 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 
 <!-- INICIO:RECENTES -->
 - `2026-08-23` 🔗 **[system-prompts](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)** — Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar.<br><sub>outro · ★★★☆☆ · [github.com ↗](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · `prompts` `llm` `agentes` `prompt-engineering` `referencia`</sub>
+- `2026-08-23` ⚙️ **[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)** — Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/builderz-labs/mission-control) · `agentes` `self-hosted` `nextjs` `sqlite` `mcp` `observabilidade` `typescript`</sub>
 - `2026-08-22` 🛠 **[wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)** — CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/ArnasDon/wacrm) · `whatsapp` `crm` `nextjs` `supabase` `self-hosted` `typescript` `mcp`</sub>
 - `2026-08-22` 🛠 **[sub2api](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)** — Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso.<br><sub>projeto · ★★☆☆☆ · [github.com ↗](https://github.com/Wei-Shaw/sub2api) · `gateway` `go` `self-hosted` `llm` `billing` `api`</sub>
 - `2026-08-22` 🛠 **[munder-difflin](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)** — App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/chaitanyagiri/munder-difflin) · `agentes` `electron` `multiagente` `claude-code` `typescript` `cli`</sub>
