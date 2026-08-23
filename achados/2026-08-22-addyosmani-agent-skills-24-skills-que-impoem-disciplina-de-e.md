@@ -10,7 +10,7 @@ status: novo
 nota: 5
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md]
+relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md]
 ---
 
 # addyosmani/agent-skills — 24 skills que impõem disciplina de engenharia ao agente
