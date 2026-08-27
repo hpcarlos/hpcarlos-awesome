@@ -10,12 +10,12 @@ frase dizendo o que a coisa é — o resto está a um clique. Os índices são g
 automaticamente.
 
 <!-- INICIO:ESTATISTICAS -->
-**10** achados · **7** categorias · **36** tags · atualizado em 2026-08-23
+**12** achados · **7** categorias · **37** tags · atualizado em 2026-08-27
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 5 |  | novo | 10 |
-| projeto | 4 |  |  |  |
+| ferramenta | 6 |  | novo | 12 |
+| projeto | 5 |  |  |  |
 | outro | 1 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `seguranca` · `web`
@@ -69,6 +69,8 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 ## Últimos achados
 
 <!-- INICIO:RECENTES -->
+- `2026-08-27` 🛠 **[lobehub](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)** — Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/lobehub/lobehub) · `agentes` `self-hosted` `nextjs` `mcp` `chat` `typescript`</sub>
+- `2026-08-27` ⚙️ **[bifrost](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)** — Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/maximhq/bifrost) · `gateway` `go` `llm` `openai-api` `observabilidade` `self-hosted` `mcp`</sub>
 - `2026-08-23` 🔗 **[system-prompts](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)** — Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar.<br><sub>outro · ★★★☆☆ · [github.com ↗](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · `prompts` `llm` `agentes` `prompt-engineering` `referencia`</sub>
 - `2026-08-23` ⚙️ **[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)** — Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/builderz-labs/mission-control) · `agentes` `self-hosted` `nextjs` `sqlite` `mcp` `observabilidade` `typescript`</sub>
 - `2026-08-22` 🛠 **[wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)** — CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/ArnasDon/wacrm) · `whatsapp` `crm` `nextjs` `supabase` `self-hosted` `typescript` `mcp`</sub>
@@ -77,8 +79,6 @@ Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
 - `2026-08-22` ⚙️ **[mattpocock/skills](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)** — Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/mattpocock/skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review`</sub>
 - `2026-08-22` 🛠 **[saas-starter-kit](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)** — Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos.<br><sub>projeto · ★★★★☆ · [github.com ↗](https://github.com/boxyhq/saas-starter-kit) · `nextjs` `typescript` `saas` `prisma` `postgres` `auth` `boilerplate`</sub>
 - `2026-08-22` ⚙️ **[addyosmani/agent-skills](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)** — 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/addyosmani/agent-skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review` `performance`</sub>
-- `2026-08-21` ⚙️ **[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)** — Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/diegosouzapw/OmniRoute) · `gateway` `llm` `self-hosted` `claude-code` `cli` `openai-api`</sub>
-- `2026-08-21` ⚙️ **[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)** — Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/pbakaus/impeccable) · `frontend` `ui` `claude-code` `cli` `skills` `linter`</sub>
 <!-- FIM:RECENTES -->
 
 ---

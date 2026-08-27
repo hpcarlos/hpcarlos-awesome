@@ -10,7 +10,7 @@ status: novo
 nota: 2
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md]
+relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md]
 ---
 
 # sub2api — gateway que distribui quotas de assinaturas de IA

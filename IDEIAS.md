@@ -133,12 +133,33 @@ registra uso por provedor em SQLite. Juntas respondem "quanto custou cada projet
 modelo, em que semana" — pergunta que apareceu no primeiro achado de gateway e segue sem
 resposta. Ambos usam SQLite, então o cruzamento é uma consulta, não uma integração.
 
-- **Alimenta:** mission-control + OmniRoute
+- **Alimenta:** mission-control + OmniRoute + bifrost
 - **Esforço:** médio
 - **Primeiro passo:** subir os dois localmente e olhar os dois esquemas de banco lado a
   lado antes de escrever qualquer código.
+- **Atalho melhor:** o [bifrost](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)
+  já expõe métricas em Prometheus. Se o painel for para valer, começar por ele evita
+  reinventar coleta de métrica em cima de SQLite.
 - **Cuidado:** o mission-control é alpha declarado e o esquema pode mudar entre versões —
   não construa nada rígido em cima dele agora.
+
+### Decidir o gateway de uma vez
+
+Já são três gateways na coleção resolvendo o mesmo problema, e a escolha não é de gosto:
+[bifrost](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)
+é Apache 2.0 e roda sobre as suas próprias chaves, com governança e Prometheus;
+[OmniRoute](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)
+é MIT e vive de tiers gratuitos instáveis;
+[sub2api](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)
+redistribui assinaturas e o próprio README avisa que isso pode violar termos de serviço.
+
+- **Regra prática:** bifrost onde houver cliente ou produto; OmniRoute para experimento
+  pessoal; sub2api só como leitura de arquitetura.
+- **Esforço:** baixo — é decisão, não construção.
+- **Primeiro passo:** `npx -y @maximhq/bifrost`, apontar um projeto existente para
+  `localhost:8080` e ver se a troca é mesmo só de URL base.
+- **Ganho colateral:** decidido isso, todo achado futuro de IA já nasce sabendo por onde
+  suas chamadas passam.
 
 ### Digest do que entrou
 
