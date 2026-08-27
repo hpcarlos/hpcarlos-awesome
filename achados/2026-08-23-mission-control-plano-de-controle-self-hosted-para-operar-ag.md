@@ -2,6 +2,8 @@
 titulo: "mission-control — plano de controle self-hosted para operar agentes de IA"
 nome: mission-control
 tldr: "Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só."
+licenca: "MIT"
+alerta: "alpha declarado; troque as credenciais padrão antes de expor na rede"
 url: https://github.com/builderz-labs/mission-control
 tipo: ferramenta
 categorias: [ia, devops]

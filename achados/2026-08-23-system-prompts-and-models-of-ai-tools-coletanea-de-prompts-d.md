@@ -2,6 +2,8 @@
 titulo: "system-prompts-and-models-of-ai-tools — coletânea de prompts de sistema de ferramentas comerciais"
 nome: system-prompts
 tldr: "Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar."
+licenca: "GPL-3.0 declarada"
+alerta: "conteúdo de terceiros sem origem informada; não reutilize os textos"
 url: https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools
 tipo: outro
 categorias: [ia, engenharia]

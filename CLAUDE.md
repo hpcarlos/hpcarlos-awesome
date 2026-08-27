@@ -23,6 +23,12 @@ Quando o usuário mandar um ou mais links (na conversa ou colados em `INBOX.md`)
      frase** dizendo o que é e para que serve, com no máximo 200 caracteres. Sem esses
      campos, o indexador se vira com fallbacks (o título antes do primeiro `—`/`:` e a
      primeira frase do `## Resumo`) — mas prefira escrevê-los à mão.
+   - `licenca:` e `alerta:` no front-matter — também aparecem na lista. `licenca` é a
+     licença declarada pelo projeto (`MIT`, `Apache-2.0`, `própria`…); `alerta` é **uma
+     ressalva curta** (máx. 160 caracteres) que muda a decisão de adotar: licença
+     restritiva, dependência cara, risco de termos de uso, software em alpha. Deixe
+     `alerta` vazio quando não houver nada a avisar — o ⚠️ perde força se aparecer em
+     todo item.
    - `## Resumo` — 2 a 4 frases, em português, sobre o que a coisa **é** e o que ela faz.
    - `## Por que guardei` — o problema concreto que isso resolve. Se o usuário deu o
      contexto, use as palavras dele; se não, infira e deixe claro que é inferência.
@@ -34,8 +40,8 @@ Quando o usuário mandar um ou mais links (na conversa ou colados em `INBOX.md`)
    - `## Notas` — trechos de código, comandos, pegadinhas, links relacionados.
 4. **Preencha `relacionados:`** no front-matter com os nomes de arquivo de achados
    conectados, e adicione o link recíproco no achado do outro lado.
-5. **Rode `python3 scripts/indexar.py`** para regenerar `INDICE.md`, `TAGS.md` e os blocos
-   automáticos do `README.md`.
+5. **Rode `python3 scripts/indexar.py`** para regenerar a lista no `README.md` (sumário,
+   seções por categoria, estatísticas e recentes) e o `TAGS.md`.
 6. **Atualize `IDEIAS.md`** se o achado novo destravar ou reforçar alguma ideia de projeto
    que cruze vários achados.
 7. **Limpe o `INBOX.md`**: remova as linhas que já viraram achados (o arquivo é só uma
@@ -45,6 +51,24 @@ Quando o usuário mandar um ou mais links (na conversa ou colados em `INBOX.md`)
 9. **Responda ao usuário** com: o que foi arquivado, onde ficou, e a melhor ideia de
    projeto que surgiu — em 5 linhas, não mais.
 
+## O formato da lista
+
+O `README.md` é uma lista no estilo *awesome* — é a vitrine do repositório e o que as
+pessoas leem primeiro. O miolo dele é **gerado**: os blocos entre `<!-- INICIO:X -->` e
+`<!-- FIM:X -->` (`ESTATISTICAS`, `SUMARIO`, `LISTA`, `RECENTES`) saem do front-matter dos
+achados. Nunca edite esses blocos à mão — mude o achado e rode o indexador. O cabeçalho, a
+legenda e o rodapé são fixos e podem ser editados normalmente.
+
+Cada item da lista sai assim, e é por isso que `nome`, `tldr`, `licenca` e `alerta`
+importam tanto:
+
+```
+* ⚙️ [nome](url-original) - tldr. `LICENÇA` ★★★★☆ [análise](achados/arquivo.md)
+  ⚠️ alerta
+```
+
+As categorias com mais de 4 achados são subdivididas por tipo automaticamente.
+
 ## Regras de conteúdo
 
 - **Sempre em português do Brasil**, incluindo resumos de conteúdo em inglês.
@@ -53,7 +77,7 @@ Quando o usuário mandar um ou mais links (na conversa ou colados em `INBOX.md`)
 - **Um achado por URL.** Links diferentes do mesmo projeto (repo + docs + post) vão para
   o mesmo arquivo: o repo vira `url:` e o resto entra em `## Notas`.
 - **Seja específico nas ideias de projeto.** "Fazer um app com IA" não serve. "CLI que lê
-  o `INDICE.md` e gera um digest semanal por e-mail usando a API do Claude — esforço
+  o `README.md` e gera um digest semanal por e-mail usando a API do Claude — esforço
   baixo" serve.
 
 ## Vocabulário controlado
@@ -74,6 +98,10 @@ e mencione a mudança ao usuário.
   no primeiro `—`, `–`, `-` ou `:`.
 - `tldr`: uma frase (máx. 200 caracteres) com o que a coisa é e para que serve. Opcional
   — sem ele, o indexador usa a primeira frase do `## Resumo`.
+- `licenca`: licença declarada pelo projeto, como aparece nele (`MIT`, `Apache-2.0`,
+  `LGPL-3.0`, `própria`). Vazio quando não foi possível apurar.
+- `alerta`: ressalva curta (máx. 160 caracteres) exibida com ⚠️ na lista. Use só quando
+  houver algo que mude a decisão de adotar.
 
 ## Quando o usuário pedir para "encontrar algo"
 

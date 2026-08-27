@@ -90,7 +90,12 @@ def main() -> None:
 
     for a in resultados:
         nota = ("★" * a.nota) if a.nota else "-"
-        print(f"{cor(a.titulo, NEGRITO)}  {cor(nota, AMARELO)}")
+        print(f"{cor(a.nome, NEGRITO)}  {cor(nota, AMARELO)}"
+              + (f"  {cor(a.licenca, CINZA)}" if a.licenca else ""))
+        if a.tldr:
+            print(f"  {a.tldr}")
+        if a.alerta:
+            print(f"  {cor('⚠️  ' + a.alerta, AMARELO)}")
         print(f"  {cor(a.rel, VERDE)}  ·  {a.tipo} · {a.status}"
               + (f" · {' '.join('#' + t for t in a.tags)}" if a.tags else ""))
         print(f"  {cor(a.url, CINZA)}")
@@ -108,4 +113,11 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    try:
+        main()
+    except BrokenPipeError:
+        # saída cortada por `| head` e afins — encerra em silêncio
+        os.dup2(os.open(os.devnull, os.O_WRONLY), sys.stdout.fileno())
+        sys.exit(0)
+    except KeyboardInterrupt:
+        sys.exit(130)

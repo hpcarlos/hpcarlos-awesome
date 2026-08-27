@@ -2,6 +2,8 @@
 titulo: "lobehub — plataforma de orquestração de agentes de IA"
 nome: lobehub
 tldr: "Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais."
+licenca: "própria"
+alerta: "LobeHub Community License, com restrições de uso comercial"
 url: https://github.com/lobehub/lobehub
 tipo: projeto
 categorias: [ia, web]

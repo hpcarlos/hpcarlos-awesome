@@ -26,6 +26,39 @@ from typing import Any, Dict, List
 RAIZ = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 DIR_ACHADOS = os.path.join(RAIZ, "achados")
 
+# Rotulos legiveis das categorias, usados nos titulos de secao do README.
+ROTULOS_CATEGORIA = {
+    "ia": "Inteligência artificial",
+    "engenharia": "Engenharia de software",
+    "devops": "Infraestrutura e DevOps",
+    "web": "Web",
+    "design": "Design",
+    "seguranca": "Segurança",
+    "negocios": "Negócios",
+    "dados": "Dados",
+    "hardware": "Hardware",
+    "carreira": "Carreira",
+}
+
+
+def rotulo_categoria(cat: str) -> str:
+    return ROTULOS_CATEGORIA.get(cat, cat.replace("-", " ").capitalize())
+
+
+def ancora(titulo: str) -> str:
+    """Ancora no estilo do GitHub: minusculas, espacos viram hifen,
+    pontuacao removida (acentos sao preservados)."""
+    import unicodedata
+    t = titulo.strip().lower()
+    saida = []
+    for ch in t:
+        if ch.isalnum() or ch in "-_ ":
+            saida.append(ch)
+        elif unicodedata.category(ch).startswith("M"):
+            saida.append(ch)
+    return "".join(saida).replace(" ", "-")
+
+
 TIPOS = [
     "projeto", "artigo", "video", "ferramenta", "biblioteca",
     "curso", "paper", "thread", "newsletter", "podcast", "outro",
@@ -150,6 +183,17 @@ class Achado:
         if len(frase) > 170:
             frase = frase[:167].rsplit(" ", 1)[0] + "\u2026"
         return frase
+
+    @property
+    def licenca(self) -> str:
+        """Licenca declarada (MIT, Apache-2.0, ...). Vazio se desconhecida."""
+        return str(self.meta.get("licenca") or "").strip()
+
+    @property
+    def alerta(self) -> str:
+        """Ressalva curta exibida na listagem (licenca restritiva, risco de
+        termos de uso, software alpha...). Vazio quando nao ha."""
+        return str(self.meta.get("alerta") or "").strip()
 
     @property
     def dominio(self) -> str:

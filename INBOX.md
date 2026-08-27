@@ -5,8 +5,8 @@ comentário depois do link dizendo por que ele te interessou; isso vira o
 "Por que guardei" do achado.
 
 Depois é só pedir ao Claude: **"processa a inbox"**. Ele lê cada página, cria o achado em
-`achados/`, classifica, cruza com o que já existe, sugere projetos, regenera os índices e
-apaga a linha daqui.
+`achados/`, classifica, cruza com o que já existe, sugere projetos, regenera a lista do
+`README.md` e apaga a linha daqui.
 
 ## A processar
 

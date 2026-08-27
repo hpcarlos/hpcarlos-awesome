@@ -2,6 +2,8 @@
 titulo: "mattpocock/skills — skills de engenharia para agentes de código"
 nome: mattpocock/skills
 tldr: "Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review."
+licenca: "MIT"
+alerta: ""
 url: https://github.com/mattpocock/skills
 tipo: ferramenta
 categorias: [ia, engenharia]

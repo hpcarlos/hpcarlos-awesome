@@ -2,6 +2,8 @@
 titulo: "impeccable — design language e skill para agentes de código"
 nome: impeccable
 tldr: "Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais."
+licenca: "Apache-2.0"
+alerta: ""
 url: https://github.com/pbakaus/impeccable
 tipo: ferramenta
 categorias: [ia, design]

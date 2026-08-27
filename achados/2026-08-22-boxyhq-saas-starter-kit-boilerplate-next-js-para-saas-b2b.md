@@ -2,6 +2,8 @@
 titulo: "BoxyHQ SaaS Starter Kit — boilerplate Next.js para SaaS B2B"
 nome: saas-starter-kit
 tldr: "Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos."
+licenca: "Apache-2.0"
+alerta: "webhooks, audit log e cobrança dependem de serviços externos pagos"
 url: https://github.com/boxyhq/saas-starter-kit
 tipo: projeto
 categorias: [web, seguranca]

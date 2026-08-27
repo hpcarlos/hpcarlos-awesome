@@ -2,6 +2,8 @@
 titulo: "addyosmani/agent-skills — 24 skills que impõem disciplina de engenharia ao agente"
 nome: addyosmani/agent-skills
 tldr: "24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias."
+licenca: "MIT"
+alerta: "instalar skill avulsa não traz as checklists de `references/`"
 url: https://github.com/addyosmani/agent-skills
 tipo: ferramenta
 categorias: [ia, engenharia]

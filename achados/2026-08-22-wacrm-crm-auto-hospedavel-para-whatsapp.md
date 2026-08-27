@@ -2,6 +2,8 @@
 titulo: "wacrm — CRM auto-hospedável para WhatsApp"
 nome: wacrm
 tldr: "CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta."
+licenca: "MIT"
+alerta: "depende de conta aprovada na WhatsApp Business API, com custo por conversa"
 url: https://github.com/ArnasDon/wacrm
 tipo: projeto
 categorias: [web, negocios]

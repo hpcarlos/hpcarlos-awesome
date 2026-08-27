@@ -2,6 +2,8 @@
 titulo: "OmniRoute — gateway de IA com um endpoint para centenas de provedores"
 nome: OmniRoute
 tldr: "Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba."
+licenca: "MIT"
+alerta: "parte dos tiers gratuitos é marcada como sensível a termos de uso"
 url: https://github.com/diegosouzapw/OmniRoute
 tipo: ferramenta
 categorias: [ia, devops]

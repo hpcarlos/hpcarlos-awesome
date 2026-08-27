@@ -1,13 +1,23 @@
-# 🧭 Achados
+Achados
+===
 
-Minha biblioteca pessoal de coisas boas encontradas na internet: projetos, artigos,
-ferramentas, papers e vídeos — organizados, resumidos e cruzados entre si, com ideias
-concretas do que dá para construir com eles.
+[![Licença: CC BY 4.0](https://img.shields.io/badge/licen%C3%A7a-CC_BY_4.0-lightgrey)](LICENSE)
+[![Awesome](https://awesome.re/badge-flat.svg)](https://github.com/sindresorhus/awesome)
 
-Cada achado vira um arquivo em [`achados/`](achados/) com metadados (tipo, categorias,
-tags, nota, status) e um resumo em português. Nas listagens aparece só o nome curto e uma
-frase dizendo o que a coisa é — o resto está a um clique. Os índices são gerados
-automaticamente.
+Biblioteca pessoal de coisas boas encontradas na internet — projetos, artigos,
+ferramentas, papers e vídeos. Cada item traz uma frase dizendo o que é, a licença, uma
+nota de relevância e um link para a **análise completa**: resumo em português, pontos-chave,
+ressalvas e ideias concretas de projeto.
+
+**Legenda**
+
+`MIT` `Apache-2.0` `própria` — licença declarada pelo projeto;
+★★★★☆ — relevância para mim, de 1 a 5;
+[análise] — leva ao achado completo, com pontos-chave e ideias de projeto;
+⚠️ — ressalva que muda a decisão de adotar (licença restritiva, dependência cara,
+risco de termos de uso, software em alpha).
+
+🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
 **12** achados · **7** categorias · **37** tags · atualizado em 2026-08-27
@@ -21,66 +31,133 @@ automaticamente.
 Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
 
-## Como usar
+## Conteúdo
 
-### Mandar um link novo
+<!-- INICIO:SUMARIO -->
+- [Inteligência artificial](#inteligência-artificial) <sub>10</sub>
+    - [Ferramentas](#ferramentas) <sub>6</sub>
+    - [Projetos](#projetos) <sub>3</sub>
+    - [Outros](#outros) <sub>1</sub>
+- [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>4</sub>
+- [Engenharia de software](#engenharia-de-software) <sub>4</sub>
+- [Web](#web) <sub>3</sub>
+- [Design](#design) <sub>1</sub>
+- [Negócios](#negócios) <sub>1</sub>
+- [Segurança](#segurança) <sub>1</sub>
+<!-- FIM:SUMARIO -->
 
-O jeito mais simples: cole a URL em [`INBOX.md`](INBOX.md) (uma por linha, com um
-comentário se quiser) e peça ao Claude para processar a caixa de entrada. Ele lê a
-página, escreve o resumo, classifica, cruza com o que já existe e regenera os índices.
+- [Adicionados recentemente](#adicionados-recentemente)
+- [Como isto funciona](#como-isto-funciona)
 
-Ou peça direto na conversa: *"guarda esse link aqui: ..."*
+<!-- INICIO:LISTA -->
+## Inteligência artificial
 
-### Registrar manualmente
+### Ferramentas
+
+* ⚙️ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias. `MIT` ★★★★★ [análise](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)<br><sub>⚠️ instalar skill avulsa não traz as checklists de `references/`</sub>
+* ⚙️ [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review. `MIT` ★★★★★ [análise](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+* ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
+* ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+* ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
+* ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
+
+### Projetos
+
+* 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
+* 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+* 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
+
+### Outros
+
+* 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
+
+## Infraestrutura e DevOps
+
+* ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
+* ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
+* ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
+* 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
+
+## Engenharia de software
+
+* ⚙️ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias. `MIT` ★★★★★ [análise](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)<br><sub>⚠️ instalar skill avulsa não traz as checklists de `references/`</sub>
+* ⚙️ [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review. `MIT` ★★★★★ [análise](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+* 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+* 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
+
+## Web
+
+* 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
+* 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
+* 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
+
+## Design
+
+* ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+
+## Negócios
+
+* 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
+
+## Segurança
+
+* 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
+<!-- FIM:LISTA -->
+
+## Adicionados recentemente
+
+<!-- INICIO:RECENTES -->
+* `2026-08-27` [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais.
+* `2026-08-27` [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus.
+* `2026-08-23` [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar.
+* `2026-08-23` [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só.
+* `2026-08-22` [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta.
+* `2026-08-22` [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso.
+* `2026-08-22` [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art.
+* `2026-08-22` [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review.
+<!-- FIM:RECENTES -->
+
+## Como isto funciona
+
+Mando um link, o Claude lê a página, escreve a análise em português, classifica, cruza com
+o que já está aqui e regenera esta lista. O detalhe do fluxo está em
+[`CLAUDE.md`](CLAUDE.md).
+
+**Mandar um link novo:** cole a URL em [`INBOX.md`](INBOX.md) e peça *"processa a inbox"*,
+ou mande direto na conversa.
+
+**Registrar à mão:**
 
 ```bash
 python3 scripts/novo.py https://exemplo.com/artigo \
-  --titulo "Título do artigo" --nome "nome-curto" \
+  --titulo "Título" --nome "nome-curto" \
   --tldr "O que é e para que serve, em uma frase." \
-  --tipo artigo --categorias ia --tags rag,python --nota 4
+  --tipo ferramenta --categorias ia --tags rag,python --nota 4
 python3 scripts/indexar.py
 ```
 
-### Encontrar algo depois
+**Procurar depois:**
 
 ```bash
-python3 scripts/buscar.py rag --detalhe        # busca por texto
-python3 scripts/buscar.py --tag python         # por tag
-python3 scripts/buscar.py --categoria ia --tipo projeto --nota-min 4
-python3 scripts/buscar.py --tags               # lista as tags existentes
+python3 scripts/buscar.py rag --detalhe
+python3 scripts/buscar.py --tag python --tipo projeto --nota-min 4
+python3 scripts/buscar.py --tags          # todas as tags existentes
 ```
 
-Ou simplesmente navegue por [`INDICE.md`](INDICE.md) e [`TAGS.md`](TAGS.md).
-
-## Mapa do repositório
+Veja também [`TAGS.md`](TAGS.md) (mapa de tags) e [`IDEIAS.md`](IDEIAS.md) — projetos que
+só existem cruzando mais de um achado.
 
 | Caminho | O que é |
 | --- | --- |
-| [`INBOX.md`](INBOX.md) | Caixa de entrada — cole links crus aqui |
-| [`achados/`](achados/) | Um arquivo Markdown por achado (fonte da verdade) |
-| [`INDICE.md`](INDICE.md) | Índice por categoria, data e status — **gerado** |
-| [`TAGS.md`](TAGS.md) | Mapa de tags → achados — **gerado** |
-| [`IDEIAS.md`](IDEIAS.md) | Projetos que dá para construir cruzando os achados |
-| [`modelos/achado.md`](modelos/achado.md) | Template de um achado |
+| [`achados/`](achados/) | Um Markdown por achado — a fonte da verdade |
+| [`INBOX.md`](INBOX.md) | Caixa de entrada para links crus |
+| [`IDEIAS.md`](IDEIAS.md) | Ideias que cruzam vários achados |
+| [`TAGS.md`](TAGS.md) | Mapa de tags — **gerado** |
 | [`scripts/`](scripts/) | `novo.py`, `indexar.py`, `buscar.py` (Python puro, sem deps) |
-| [`CLAUDE.md`](CLAUDE.md) | O fluxo que o Claude segue ao organizar tudo isso |
-| [`modelos/github-workflow-indices.yml`](modelos/github-workflow-indices.yml) | CI opcional que confere os índices — copie para `.github/workflows/` |
-
-## Últimos achados
-
-<!-- INICIO:RECENTES -->
-- `2026-08-27` 🛠 **[lobehub](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)** — Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/lobehub/lobehub) · `agentes` `self-hosted` `nextjs` `mcp` `chat` `typescript`</sub>
-- `2026-08-27` ⚙️ **[bifrost](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)** — Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/maximhq/bifrost) · `gateway` `go` `llm` `openai-api` `observabilidade` `self-hosted` `mcp`</sub>
-- `2026-08-23` 🔗 **[system-prompts](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)** — Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar.<br><sub>outro · ★★★☆☆ · [github.com ↗](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) · `prompts` `llm` `agentes` `prompt-engineering` `referencia`</sub>
-- `2026-08-23` ⚙️ **[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)** — Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só.<br><sub>ferramenta · ★★★★☆ · [github.com ↗](https://github.com/builderz-labs/mission-control) · `agentes` `self-hosted` `nextjs` `sqlite` `mcp` `observabilidade` `typescript`</sub>
-- `2026-08-22` 🛠 **[wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)** — CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/ArnasDon/wacrm) · `whatsapp` `crm` `nextjs` `supabase` `self-hosted` `typescript` `mcp`</sub>
-- `2026-08-22` 🛠 **[sub2api](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)** — Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso.<br><sub>projeto · ★★☆☆☆ · [github.com ↗](https://github.com/Wei-Shaw/sub2api) · `gateway` `go` `self-hosted` `llm` `billing` `api`</sub>
-- `2026-08-22` 🛠 **[munder-difflin](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)** — App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art.<br><sub>projeto · ★★★☆☆ · [github.com ↗](https://github.com/chaitanyagiri/munder-difflin) · `agentes` `electron` `multiagente` `claude-code` `typescript` `cli`</sub>
-- `2026-08-22` ⚙️ **[mattpocock/skills](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)** — Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/mattpocock/skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review`</sub>
-- `2026-08-22` 🛠 **[saas-starter-kit](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)** — Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos.<br><sub>projeto · ★★★★☆ · [github.com ↗](https://github.com/boxyhq/saas-starter-kit) · `nextjs` `typescript` `saas` `prisma` `postgres` `auth` `boilerplate`</sub>
-- `2026-08-22` ⚙️ **[addyosmani/agent-skills](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)** — 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias.<br><sub>ferramenta · ★★★★★ · [github.com ↗](https://github.com/addyosmani/agent-skills) · `claude-code` `skills` `agentes` `workflow` `tdd` `code-review` `performance`</sub>
-<!-- FIM:RECENTES -->
+| [`modelos/`](modelos/) | Template de achado e workflow de CI opcional |
 
 ---
 
-<sub>Índices gerados por `scripts/indexar.py`. Não edite `INDICE.md` nem `TAGS.md` à mão.</sub>
+<sub>Esta página é gerada por `scripts/indexar.py` a partir de `achados/` — edite os
+achados, não os blocos entre marcadores. Conteúdo sob CC BY 4.0; cada projeto listado
+mantém a própria licença.</sub>

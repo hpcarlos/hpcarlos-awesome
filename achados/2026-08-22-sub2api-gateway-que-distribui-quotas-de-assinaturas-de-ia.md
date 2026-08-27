@@ -2,6 +2,8 @@
 titulo: "sub2api — gateway que distribui quotas de assinaturas de IA"
 nome: sub2api
 tldr: "Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso."
+licenca: "LGPL-3.0"
+alerta: "o próprio README avisa que o uso pode violar os termos dos provedores"
 url: https://github.com/Wei-Shaw/sub2api
 tipo: projeto
 categorias: [ia, devops]

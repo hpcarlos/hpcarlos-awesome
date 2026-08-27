@@ -2,6 +2,8 @@
 titulo: "munder-difflin — escritório de agentes de IA num app de desktop"
 nome: munder-difflin
 tldr: "App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art."
+licenca: "MIT"
+alerta: "protótipo; a arte em pixel tem licença própria com exigência de crédito"
 url: https://github.com/chaitanyagiri/munder-difflin
 tipo: projeto
 categorias: [ia, engenharia]

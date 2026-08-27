@@ -2,6 +2,8 @@
 titulo: "bifrost — gateway de IA em Go com governança e observabilidade"
 nome: bifrost
 tldr: "Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus."
+licenca: "Apache-2.0"
+alerta: "modelo open core: cluster e recursos avançados ficam na edição paga"
 url: https://github.com/maximhq/bifrost
 tipo: ferramenta
 categorias: [ia, devops]

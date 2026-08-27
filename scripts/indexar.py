@@ -2,9 +2,9 @@
 """Regenera os indices a partir dos arquivos em achados/.
 
 Gera:
-  INDICE.md  - todos os achados por categoria e por data
+  README.md  - a lista em si (sumario, secoes por categoria, estatisticas,
+               recentes), no estilo das listas "awesome"
   TAGS.md    - mapa de tags -> achados
-  README.md  - atualiza o bloco de estatisticas e os ultimos achados
 
 Uso: python3 scripts/indexar.py [--conferir]
      --conferir  nao escreve nada; sai com codigo 1 se algo estiver desatualizado
@@ -20,9 +20,10 @@ import os
 import sys
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
-from lib_achados import RAIZ, STATUS, TIPOS, Achado, carregar_achados  # noqa: E402
+from lib_achados import (  # noqa: E402
+    RAIZ, STATUS, TIPOS, Achado, ancora, carregar_achados, rotulo_categoria,
+)
 
-INDICE = os.path.join(RAIZ, "INDICE.md")
 TAGS = os.path.join(RAIZ, "TAGS.md")
 README = os.path.join(RAIZ, "README.md")
 
@@ -41,20 +42,95 @@ def estrelas(nota: int) -> str:
 
 
 def linha(a: Achado) -> str:
-    """Um item de listagem: nome curto, o que é numa frase, e os metadados."""
+    """Um item no estilo awesome: nome com link para a origem, o que é numa
+    frase, e os marcadores (licença, nota, análise, ressalva)."""
     marca = EMOJI_TIPO.get(a.tipo, "🔗")
-    texto = f"- {marca} **[{a.nome}]({a.rel})** — {a.tldr}" if a.tldr \
-        else f"- {marca} **[{a.nome}]({a.rel})**"
-    meta = [a.tipo]
+    tldr = a.tldr.rstrip()
+    if tldr and tldr[-1] not in ".!?":
+        tldr += "."
+    partes = [f"* {marca} [{a.nome}]({a.url or a.rel})"]
+    if tldr:
+        partes.append(f"- {tldr}")
+    if a.licenca:
+        partes.append(f"`{a.licenca}`")
     if a.nota:
-        meta.append(estrelas(a.nota))
+        partes.append(estrelas(a.nota))
+    partes.append(f"[análise]({a.rel})")
     if a.status and a.status != "novo":
-        meta.append(a.status)
-    if a.url:
-        meta.append(f"[{a.dominio} ↗]({a.url})")
-    if a.tags:
-        meta.append(" ".join(f"`{t}`" for t in a.tags))
-    return texto + f"<br><sub>{' · '.join(meta)}</sub>"
+        partes.append(f"<sub>{a.status}</sub>")
+    linha_item = " ".join(partes)
+    if a.alerta:
+        linha_item += f"<br><sub>⚠️ {a.alerta}</sub>"
+    return linha_item
+
+
+PLURAL_TIPO = {
+    "projeto": "Projetos", "artigo": "Artigos", "video": "Vídeos",
+    "ferramenta": "Ferramentas", "biblioteca": "Bibliotecas", "curso": "Cursos",
+    "paper": "Papers", "thread": "Threads", "newsletter": "Newsletters",
+    "podcast": "Podcasts", "outro": "Outros",
+}
+
+# Acima deste número de itens, a categoria é subdividida por tipo — como as
+# subseções do awesome-mac.
+LIMITE_SUBSECAO = 4
+
+
+def estrutura(achados):
+    """Monta a árvore da lista uma única vez, para que o sumário e o corpo
+    fiquem sempre em sincronia. Devolve [(nível, título, âncora, itens)].
+
+    As âncoras seguem a regra do GitHub para títulos repetidos: o segundo
+    'Ferramentas' vira 'ferramentas-1'.
+    """
+    por_cat = collections.defaultdict(list)
+    for a in achados:
+        for c in (a.categorias or ["sem-categoria"]):
+            por_cat[c].append(a)
+
+    ordem = lambda a: (-a.nota, a.nome.lower())  # noqa: E731
+    vistas: collections.Counter = collections.Counter()
+
+    def anc(titulo: str) -> str:
+        base = ancora(titulo)
+        vistas[base] += 1
+        return base if vistas[base] == 1 else f"{base}-{vistas[base] - 1}"
+
+    arvore = []
+    for cat in sorted(por_cat, key=lambda c: (-len(por_cat[c]), c)):
+        itens = por_cat[cat]
+        rot = rotulo_categoria(cat)
+        if len(itens) > LIMITE_SUBSECAO:
+            arvore.append((2, rot, anc(rot), [], len(itens)))
+            por_tipo = collections.defaultdict(list)
+            for a in itens:
+                por_tipo[a.tipo].append(a)
+            for tipo in sorted(por_tipo, key=lambda t: (-len(por_tipo[t]), t)):
+                t = PLURAL_TIPO.get(tipo, tipo.capitalize())
+                itens_tipo = sorted(por_tipo[tipo], key=ordem)
+                arvore.append((3, t, anc(t), itens_tipo, len(itens_tipo)))
+        else:
+            arvore.append((2, rot, anc(rot), sorted(itens, key=ordem), len(itens)))
+    return arvore
+
+
+def secoes_da_lista(achados) -> str:
+    out = []
+    for nivel, titulo, _, itens, _total in estrutura(achados):
+        out += ["#" * nivel + f" {titulo}", ""]
+        if itens:
+            out += [linha(a) for a in itens]
+            out.append("")
+    return "\n".join(out).rstrip()
+
+
+def sumario(achados) -> str:
+    """Índice de âncoras, aninhado como o Contents do awesome-mac."""
+    out = []
+    for nivel, titulo, anc, _itens, total in estrutura(achados):
+        recuo = "    " * (nivel - 2)
+        out.append(f"{recuo}- [{titulo}](#{anc}) <sub>{total}</sub>")
+    return "\n".join(out)
 
 
 def validar(achados):
@@ -75,47 +151,9 @@ def validar(achados):
             problemas.append(f"{a.rel}: sem categorias")
         if len(a.tldr) > 200:
             problemas.append(f"{a.rel}: 'tldr' longo demais ({len(a.tldr)} caracteres, máx. 200)")
+        if len(a.alerta) > 160:
+            problemas.append(f"{a.rel}: 'alerta' longo demais ({len(a.alerta)} caracteres, máx. 160)")
     return problemas
-
-
-def gerar_indice(achados) -> str:
-    por_cat = collections.defaultdict(list)
-    for a in achados:
-        for c in (a.categorias or ["sem-categoria"]):
-            por_cat[c].append(a)
-
-    out = ["# Índice de achados", "",
-           f"{len(achados)} achado(s) · atualizado automaticamente por `scripts/indexar.py` — não edite à mão.",
-           ""]
-
-    out += ["## Por categoria", ""]
-    for cat in sorted(por_cat):
-        itens = sorted(por_cat[cat], key=lambda a: (-a.nota, a.nome.lower()))
-        out.append(f"### {cat} ({len(itens)})")
-        out.append("")
-        out += [linha(a) for a in itens]
-        out.append("")
-
-    out += ["## Por data de entrada", ""]
-    por_mes = collections.defaultdict(list)
-    for a in achados:
-        por_mes[(a.adicionado or "0000-00")[:7]].append(a)
-    for mes in sorted(por_mes, reverse=True):
-        out.append(f"### {mes}")
-        out.append("")
-        out += [linha(a) for a in sorted(por_mes[mes], key=lambda a: a.adicionado, reverse=True)]
-        out.append("")
-
-    out += ["## Por status", ""]
-    por_status = collections.defaultdict(list)
-    for a in achados:
-        por_status[a.status].append(a)
-    for st in STATUS:
-        if st in por_status:
-            nomes = ", ".join(f"[{a.nome}]({a.rel})" for a in sorted(por_status[st], key=lambda x: x.nome.lower()))
-            out.append(f"- **{st}** ({len(por_status[st])}): {nomes}")
-    out.append("")
-    return "\n".join(out).rstrip() + "\n"
 
 
 def gerar_tags(achados) -> str:
@@ -126,13 +164,13 @@ def gerar_tags(achados) -> str:
 
     out = ["# Tags", "",
            f"{len(por_tag)} tag(s) em {len(achados)} achado(s) · gerado por `scripts/indexar.py` — não edite à mão.",
-           ""]
+           "", "Volte para a lista completa: [README.md](README.md).", ""]
     if por_tag:
         nuvem = sorted(por_tag.items(), key=lambda kv: (-len(kv[1]), kv[0]))
         out += ["## Mais usadas", "",
-                " · ".join(f"`{t}` ({len(v)})" for t, v in nuvem[:30]), ""]
+                " · ".join(f"[`{t}`](#{ancora(t)}) ({len(v)})" for t, v in nuvem[:30]), ""]
     for tag in sorted(por_tag):
-        out.append(f"## `{tag}`")
+        out.append(f"## {tag}")
         out.append("")
         out += [linha(a) for a in sorted(por_tag[tag], key=lambda a: (-a.nota, a.nome.lower()))]
         out.append("")
@@ -165,11 +203,13 @@ def bloco_estatisticas(achados) -> str:
     return "\n".join(linhas)
 
 
-def bloco_recentes(achados, n: int = 10) -> str:
+def bloco_recentes(achados, n: int = 8) -> str:
     recentes = sorted(achados, key=lambda a: (a.adicionado, a.arquivo), reverse=True)[:n]
     if not recentes:
         return "_Nenhum achado ainda. Cole um link em [`INBOX.md`](INBOX.md) para começar._"
-    return "\n".join(f"- `{a.adicionado}` " + linha(a)[2:] for a in recentes)
+    return "\n".join(
+        f"* `{a.adicionado}` [{a.nome}]({a.url or a.rel}) - {a.tldr}" for a in recentes
+    )
 
 
 def substituir_bloco(texto: str, marca: str, conteudo: str) -> str:
@@ -208,13 +248,14 @@ def main() -> None:
             sys.exit(1)
 
     mudou: list = []
-    escrever(INDICE, gerar_indice(achados), args.conferir, mudou)
     escrever(TAGS, gerar_tags(achados), args.conferir, mudou)
 
     if os.path.exists(README):
         with open(README, encoding="utf-8") as fh:
             readme = fh.read()
         novo = substituir_bloco(readme, "ESTATISTICAS", bloco_estatisticas(achados))
+        novo = substituir_bloco(novo, "SUMARIO", sumario(achados))
+        novo = substituir_bloco(novo, "LISTA", secoes_da_lista(achados))
         novo = substituir_bloco(novo, "RECENTES", bloco_recentes(achados))
         escrever(README, novo, args.conferir, mudou)
 
