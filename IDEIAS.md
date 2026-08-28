@@ -178,7 +178,27 @@ diz que se deve tratar agente como entrada não confiável; este mostra como.
   — um limite de ações por execução e um log append-only — no primeiro projeto seu em que
   o agente faz algo irreversível.
 - **Por que agora:** metade da coleção já é sobre dar mais autonomia a agentes. Esta é a
-  única entrada que fala em como tirar essa autonomia de volta quando algo dá errado.
+  única linha que fala em como tirar essa autonomia de volta quando algo dá errado.
+- **Confirmação independente:** o [claude-ads](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)
+  chega ao mesmo desenho em outro domínio — leitura por padrão, mudança como rascunho,
+  escrita atrás de aprovação, idempotência e verificação. Dois projetos sem relação
+  convergindo é um bom indício de que esse é *o* padrão, e não gosto de um autor.
+
+### Fazer o agente declarar o que não sabe
+
+O [claude-ads](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)
+calcula a própria **cobertura de evidência**: quanto do que precisava ser olhado foi de
+fato olhado. Abaixo de 60%, ele se declara insuficiente em vez de entregar conclusão
+bonita. Isso ataca o defeito mais comum de relatório gerado por IA — soar convincente sem
+sustentação — e não tem nada de específico de anúncios.
+
+- **Alimenta:** claude-ads + addyosmani/agent-skills
+- **Esforço:** médio
+- **Primeiro passo:** escolher uma tarefa sua de análise (revisão de código, leitura de
+  contrato, auditoria de infra) e exigir da saída duas linhas: o que foi verificado e o que
+  ficou fora. Só isso já muda a conversa.
+- **Encaixe:** a regra de "verificação inegociável" das skills do Addy é a mesma ideia pelo
+  lado do processo; aqui ela vira número.
 
 ### Digest do que entrou
 
