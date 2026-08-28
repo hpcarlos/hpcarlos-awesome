@@ -20,11 +20,11 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**23** achados · **8** categorias · **69** tags · atualizado em 2026-08-28
+**24** achados · **8** categorias · **71** tags · atualizado em 2026-08-28
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 14 |  | novo | 23 |
+| ferramenta | 15 |  | novo | 24 |
 | projeto | 7 |  |  |  |
 | outro | 2 |  |  |  |
 
@@ -34,12 +34,12 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>17</sub>
-    - [Ferramentas](#ferramentas) <sub>11</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>18</sub>
+    - [Ferramentas](#ferramentas) <sub>12</sub>
     - [Projetos](#projetos) <sub>5</sub>
     - [Outros](#outros) <sub>1</sub>
-- [Engenharia de software](#engenharia-de-software) <sub>10</sub>
-    - [Ferramentas](#ferramentas-1) <sub>7</sub>
+- [Engenharia de software](#engenharia-de-software) <sub>11</sub>
+    - [Ferramentas](#ferramentas-1) <sub>8</sub>
     - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
 - [Web](#web) <sub>7</sub>
@@ -73,6 +73,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * ⚙️ [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)<br><sub>⚠️ telemetria ligada por padrão; imagem e vídeo consomem API paga por conta própria, e ainda está em 0.10</sub>
 * ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
+* ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
 
@@ -98,6 +99,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual. `Apache-2.0 e MIT` ★★★★☆ [análise](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)<br><sub>⚠️ a v1 pública ainda não saiu (o desenvolvimento corre no branch v8) e há plataforma comercial paralela</sub>
 * ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
+* ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 
 ### Projetos
@@ -167,13 +169,13 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 <!-- INICIO:RECENTES -->
 * `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
+* `2026-08-28` [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma.
 * `2026-08-28` [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script.
 * `2026-08-28` [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome.
 * `2026-08-28` [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada.
 * `2026-08-28` [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real.
 * `2026-08-28` [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual.
 * `2026-08-28` [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório.
-* `2026-08-28` [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

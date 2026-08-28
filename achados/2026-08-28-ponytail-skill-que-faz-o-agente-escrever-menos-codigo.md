@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md]
+relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md]
 ---
 
 # ponytail — skill que faz o agente escrever menos código

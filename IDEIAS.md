@@ -106,6 +106,11 @@ outro, e compare o que sai.
   quanto do resultado você teve de reescrever.
 - **Teste de fogo:** se metade das ideias daqui não sobreviver ao `grill-me` ou ao
   `/spec`, o método funcionou.
+- **Atalho que dispensa o experimento:** com o
+  [task-observer](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)
+  instalado, o dado se coleta sozinho — qual skill é acionada, em que situação, onde você
+  teve de corrigir o agente. Medição passiva em vez de bake-off agendado, que é o tipo de
+  tarefa que nunca acontece.
 - **Atalho de retorno imediato:** mesmo sem decidir nada, as sete checklists do Addy
   (definition of done, segurança, acessibilidade, performance) já valem coladas num
   projeto seu.
@@ -288,6 +293,23 @@ publicada e datada, o que dá para reproduzir.
   admite o limite costuma estar medindo direito.
 - **O resultado vira achado** deste repositório, com o seu número — o primeiro que não sai
   de README alheio.
+
+### Podar a coleção de skills
+
+Toda coleção de skills cresce por adição e nunca por remoção. Hoje já são cinco fontes
+instaláveis nesta biblioteca — mattpocock, addyosmani, ponytail, impeccable, react-doctor —
+e nenhuma evidência sobre quais são de fato acionadas. O
+[task-observer](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)
+registra o uso real, o que dá a base para remover em vez de acumular.
+
+- **Alimenta:** task-observer + todas as skills instaladas
+- **Esforço:** baixo (a coleta é passiva; o trabalho é revisar)
+- **Primeiro passo:** instalar, trabalhar normalmente por duas semanas e só então abrir o
+  registro.
+- **A pergunta que interessa:** quais skills nunca apareceram? Essas são candidatas a sair,
+  e cada uma que sai devolve contexto e atenção.
+- **Cuidado:** o observador só vale se a revisão acontecer. Sem isso, é mais um arquivo
+  crescendo sem leitor — vale agendá-la junto com a manutenção do repositório.
 
 ### Digest do que entrou
 
