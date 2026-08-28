@@ -20,28 +20,29 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**12** achados · **7** categorias · **37** tags · atualizado em 2026-08-27
+**13** achados · **8** categorias · **41** tags · atualizado em 2026-08-28
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 6 |  | novo | 12 |
-| projeto | 5 |  |  |  |
+| ferramenta | 6 |  | novo | 13 |
+| projeto | 6 |  |  |  |
 | outro | 1 |  |  |  |
 
-Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `seguranca` · `web`
+Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
 
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>10</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>11</sub>
     - [Ferramentas](#ferramentas) <sub>6</sub>
-    - [Projetos](#projetos) <sub>3</sub>
+    - [Projetos](#projetos) <sub>4</sub>
     - [Outros](#outros) <sub>1</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>4</sub>
 - [Engenharia de software](#engenharia-de-software) <sub>4</sub>
 - [Web](#web) <sub>3</sub>
 - [Design](#design) <sub>1</sub>
+- [Finanças](#finanças) <sub>1</sub>
 - [Negócios](#negócios) <sub>1</sub>
 - [Segurança](#segurança) <sub>1</sub>
 <!-- FIM:SUMARIO -->
@@ -65,6 +66,7 @@ Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `segur
 
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+* 🛠 [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria. `MIT` ★★★☆☆ [análise](achados/2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md)<br><sub>⚠️ executa ordens reais com dinheiro seu, por decisão de LLM — comece e permaneça em papel até provar o contrário</sub>
 * 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
 
 ### Outros
@@ -95,6 +97,10 @@ Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `segur
 
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 
+## Finanças
+
+* 🛠 [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria. `MIT` ★★★☆☆ [análise](achados/2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md)<br><sub>⚠️ executa ordens reais com dinheiro seu, por decisão de LLM — comece e permaneça em papel até provar o contrário</sub>
+
 ## Negócios
 
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
@@ -107,6 +113,7 @@ Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `segur
 ## Adicionados recentemente
 
 <!-- INICIO:RECENTES -->
+* `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
 * `2026-08-27` [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais.
 * `2026-08-27` [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus.
 * `2026-08-23` [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar.
@@ -114,7 +121,6 @@ Categorias: `design` · `devops` · `engenharia` · `ia` · `negocios` · `segur
 * `2026-08-22` [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta.
 * `2026-08-22` [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso.
 * `2026-08-22` [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art.
-* `2026-08-22` [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

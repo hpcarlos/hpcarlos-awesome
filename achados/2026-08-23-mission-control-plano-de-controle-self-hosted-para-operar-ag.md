@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-23
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md]
+relacionados: [2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md, 2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md]
 ---
 
 # mission-control — plano de controle self-hosted para operar agentes de IA

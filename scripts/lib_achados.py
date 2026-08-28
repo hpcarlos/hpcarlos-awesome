@@ -35,6 +35,7 @@ ROTULOS_CATEGORIA = {
     "design": "Design",
     "seguranca": "Segurança",
     "negocios": "Negócios",
+    "financas": "Finanças",
     "dados": "Dados",
     "hardware": "Hardware",
     "carreira": "Carreira",

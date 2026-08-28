@@ -161,6 +161,25 @@ redistribui assinaturas e o próprio README avisa que isso pode violar termos de
 - **Ganho colateral:** decidido isso, todo achado futuro de IA já nasce sabendo por onde
   suas chamadas passam.
 
+### Um cinto de segurança para agentes que agem
+
+O [Vibe-Trading](achados/2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md)
+resolveu, por necessidade, o problema que todo agente com poder de ação tem: kill-switch
+que zera tudo ao receber HALT, teto de exposição, limite diário de operações, confirmação
+em dois fatores para liberar mandato, conta-sombra espelhando a execução e livro de
+auditoria encadeado por hash. Nada disso é específico de finanças — vale para agente que
+manda e-mail, altera banco ou publica em nome de alguém. O
+[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)
+diz que se deve tratar agente como entrada não confiável; este mostra como.
+
+- **Alimenta:** Vibe-Trading + mission-control
+- **Esforço:** médio
+- **Primeiro passo:** ler o módulo de contenção do Vibe-Trading e escrever a versão mínima
+  — um limite de ações por execução e um log append-only — no primeiro projeto seu em que
+  o agente faz algo irreversível.
+- **Por que agora:** metade da coleção já é sobre dar mais autonomia a agentes. Esta é a
+  única entrada que fala em como tirar essa autonomia de volta quando algo dá errado.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou

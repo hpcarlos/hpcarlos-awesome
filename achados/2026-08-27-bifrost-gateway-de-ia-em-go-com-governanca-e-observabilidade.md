@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-27
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md]
+relacionados: [2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md]
 ---
 
 # bifrost — gateway de IA em Go com governança e observabilidade
