@@ -20,13 +20,13 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**22** achados · **8** categorias · **65** tags · atualizado em 2026-08-28
+**23** achados · **8** categorias · **69** tags · atualizado em 2026-08-28
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 14 |  | novo | 22 |
+| ferramenta | 14 |  | novo | 23 |
 | projeto | 7 |  |  |  |
-| outro | 1 |  |  |  |
+| outro | 2 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
@@ -42,10 +42,14 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-1) <sub>7</sub>
     - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
-- [Web](#web) <sub>6</sub>
+- [Web](#web) <sub>7</sub>
     - [Ferramentas](#ferramentas-2) <sub>3</sub>
     - [Projetos](#projetos-2) <sub>3</sub>
-- [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>4</sub>
+    - [Outros](#outros-2) <sub>1</sub>
+- [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>5</sub>
+    - [Ferramentas](#ferramentas-3) <sub>3</sub>
+    - [Outros](#outros-3) <sub>1</sub>
+    - [Projetos](#projetos-3) <sub>1</sub>
 - [Design](#design) <sub>3</sub>
 - [Negócios](#negócios) <sub>2</sub>
 - [Finanças](#finanças) <sub>1</sub>
@@ -119,11 +123,24 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 
+### Outros
+
+* 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
+
 ## Infraestrutura e DevOps
+
+### Ferramentas
 
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
+
+### Outros
+
+* 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
+
+### Projetos
+
 * 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
 
 ## Design
@@ -189,9 +206,13 @@ python3 scripts/buscar.py --tags          # todas as tags existentes
 Veja também [`TAGS.md`](TAGS.md) (mapa de tags) e [`IDEIAS.md`](IDEIAS.md) — projetos que
 só existem cruzando mais de um achado.
 
-**Coleções derivadas.** Quando um único achado traz dezenas de projetos dentro dele, o
-catálogo vai para arquivo próprio: [`LLM-APPS.md`](LLM-APPS.md) lista as 115 aplicações do
-awesome-llm-apps, com ideias em [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md).
+**Coleções derivadas.** Quando um único achado traz dezenas ou centenas de projetos dentro
+dele, o catálogo vai para arquivo próprio, com documento de ideias ao lado:
+
+| Coleção | Catálogo | Ideias |
+| --- | --- | --- |
+| 115 aplicações de LLM prontas | [`LLM-APPS.md`](LLM-APPS.md) | [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) |
+| 1.255 softwares para auto-hospedar | [`SELFHOSTED.md`](SELFHOSTED.md) | [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) |
 
 | Caminho | O que é |
 | --- | --- |
@@ -200,9 +221,9 @@ awesome-llm-apps, com ideias em [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md).
 | [`IDEIAS.md`](IDEIAS.md) | Ideias que cruzam vários achados |
 | [`TAGS.md`](TAGS.md) | Mapa de tags — **gerado** |
 | [`scripts/`](scripts/) | `novo.py`, `indexar.py`, `buscar.py` (Python puro, sem deps) |
-| [`LLM-APPS.md`](LLM-APPS.md) | Catálogo das 115 aplicações do awesome-llm-apps — **gerado** |
-| [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) | Ideias a partir dessas aplicações |
-| [`dados/`](dados/) | Fontes das coleções derivadas (`llm-apps.tsv`) |
+| [`LLM-APPS.md`](LLM-APPS.md) · [`SELFHOSTED.md`](SELFHOSTED.md) | Catálogos das coleções derivadas — **gerados** |
+| [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) · [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) | Ideias de cada coleção derivada |
+| [`dados/`](dados/) | Fontes tabulares das coleções derivadas |
 | [`modelos/`](modelos/) | Template de achado e workflow de CI opcional |
 
 ---

@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md]
+relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md]
 ---
 
 # awesome-llm-apps — 115 aplicações de LLM com código completo

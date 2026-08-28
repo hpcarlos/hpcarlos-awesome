@@ -79,8 +79,15 @@ Quando um achado é, ele mesmo, uma lista com dezenas de projetos dentro (caso d
 2. Ponha os itens numa fonte tabular em `dados/<nome>.tsv`
    (`categoria`, `nome`, `href`, `tldr`, separados por tabulação).
 3. Escreva o cabeçalho fixo de `<NOME>.md` com os marcadores `ESTATISTICAS`, `SUMARIO` e
-   `LISTA`, e um script `scripts/indexar_<nome>.py` que os preencha — o de LLM apps serve
-   de modelo e reaproveita `escrever()` e `substituir_bloco()` do `indexar.py`.
+   `LISTA`, e um script `scripts/indexar_<nome>.py` que os preencha — os de LLM apps e de
+   selfhosted servem de modelo e reaproveitam `escrever()` e `substituir_bloco()` do
+   `indexar.py`.
+   - **Se a fonte for grande (centenas de itens), não transcreva à mão:** baixe o Markdown
+     de origem e escreva um importador que faça o parse determinístico, como
+     `scripts/importar_selfhosted.py`. Transcrever centenas de linhas manualmente convida
+     ao erro e à invenção; o parser é reprodutível quando a fonte atualizar.
+   - Preserve o que a fonte já traz estruturado (licença, stack, marcas de projeto
+     abandonado) — é o que torna a coleção derivada útil de verdade.
 4. Crie `IDEIAS-<NOME>.md` com as ideias daquele conjunto, inclusive as que cruzam com a
    lista principal.
 5. **Diga no cabeçalho** que as descrições vieram do nome e da categoria, e não de leitura
@@ -138,7 +145,8 @@ o que foi pedido. Se nada casar, diga isso claramente antes de sugerir buscar fo
 Se o usuário pedir uma revisão (ou se passar muito tempo sem uma):
 
 - Rode `python3 scripts/indexar.py --conferir` e conserte o que aparecer.
-- Rode `python3 scripts/indexar_llm_apps.py --conferir` para as coleções derivadas.
+- Rode `python3 scripts/indexar_llm_apps.py --conferir` e
+  `python3 scripts/indexar_selfhosted.py --conferir` para as coleções derivadas.
 - Procure achados `status: novo` com mais de um mês parados e sugira arquivar ou testar.
 - Procure achados órfãos (sem `relacionados`) que se conectem a outros.
 - Atualize `IDEIAS.md` com combinações novas.
