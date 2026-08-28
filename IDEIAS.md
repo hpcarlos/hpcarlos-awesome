@@ -200,6 +200,24 @@ sustentação — e não tem nada de específico de anúncios.
 - **Encaixe:** a regra de "verificação inegociável" das skills do Addy é a mesma ideia pelo
   lado do processo; aqui ela vira número.
 
+### Auditar as bases antes de escolher uma
+
+A coleção acumulou três candidatas a fundação de projeto — o
+[saas-starter-kit](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md),
+o [wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) e o
+[mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)
+— e nenhuma evidência sobre a qualidade interna delas além do README de cada uma. O
+[react-doctor](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)
+resolve isso em uma tarde: as três são React.
+
+- **Alimenta:** react-doctor + saas-starter-kit + wacrm + mission-control
+- **Esforço:** baixo
+- **Primeiro passo:** clonar as três e rodar `npx react-doctor@latest` em cada uma.
+- **O que fazer com o resultado:** virar um achado deste repositório, com os números lado a
+  lado. É a primeira medição própria da coleção — até aqui tudo veio de README alheio.
+- **Ganho:** escolher base por evidência em vez de por contagem de estrelas, que aliás
+  nunca consegui verificar nesta sessão.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
