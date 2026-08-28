@@ -19,10 +19,13 @@ leem tudo. O que costuma sair feio é a interface, e é aí que entra o
 `shape` para planejar, `craft` para construir, `audit` e `polish` para tirar a cara de
 template. Publicável no GitHub Pages.
 
-- **Alimenta:** impeccable
+- **Alimenta:** impeccable + OpenDesign + graphify
 - **Esforço:** médio
 - **Primeiro passo:** `scripts/exportar.py` que despeja todos os achados num `dados.json`
   (o `lib_achados.py` já entrega os objetos prontos) — o site consome isso.
+- **A peça que faltava:** esta ideia ficou parada por falta de vontade de desenhar
+  interface. O [OpenDesign](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)
+  gera o protótipo a partir do JSON, o impeccable faz o acabamento. Agora é executável.
 - **Bônus:** é um projeto frontend real para testar o impeccable de verdade, em vez de
   avaliar a ferramenta por captura de tela.
 
@@ -241,6 +244,28 @@ interpretar e corrigir. É barato, reproduzível e não alucina achado.
   puder ser escrita como código, escreva como código — o agente entra depois.
 - **Teste:** pegue uma checagem que você pede ao agente com frequência e tente reescrevê-la
   como script. Se der, ela vira gratuita e confiável.
+
+### Checklist de primeira execução
+
+Padrão que só aparece com volume: quase toda ferramenta de agente desta coleção manda algo
+para fora ou pede confiança cega na instalação. Telemetria ligada por padrão no
+[react-doctor](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md),
+no [camofox-browser](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)
+e no [OpenDesign](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md);
+`curl | sudo bash` no [sub2api](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)
+e script remoto no [lobehub](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md);
+credenciais padrão a trocar no [mission-control](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md).
+Nenhum deles é malicioso — é o costume da categoria.
+
+- **Alimenta:** metade da coleção
+- **Esforço:** baixo
+- **O checklist:** desligar telemetria antes do primeiro uso sério; ler o script de
+  instalação antes de dar `sudo`; trocar toda credencial gerada; conferir o que sai da
+  máquina quando a ferramenta processa código de cliente.
+- **Onde guardar:** como seção fixa no `CLAUDE.md`, para todo achado novo de ferramenta já
+  nascer com essa verificação feita.
+- **Por que importa:** rodar essas coisas em código de terceiro sem checar é o tipo de
+  descuido que só aparece depois.
 
 ### Digest do que entrou
 
