@@ -235,10 +235,14 @@ Quatro achados da coleção resolvem análise de código do mesmo jeito, e não 
 [graphify](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)
 (AST com tree-sitter) e o detector do
 [claude-ads](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)
-(pontuação determinística). Todos fazem a **detecção sem modelo** e deixam o LLM só para
-interpretar e corrigir. É barato, reproduzível e não alucina achado.
+(pontuação determinística). Some-se o
+[archify](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md),
+que rejeita auto-layout para que o mesmo JSON dê sempre o mesmo desenho. Todos fazem a
+**detecção e a renderização sem modelo**, deixando o LLM só para interpretar e corrigir.
+É barato, reproduzível e não alucina achado — e, no caso do archify, torna o resultado
+versionável em git.
 
-- **Alimenta:** impeccable + react-doctor + graphify + claude-ads
+- **Alimenta:** impeccable + react-doctor + graphify + claude-ads + archify
 - **Esforço:** baixo (é princípio de projeto, não construção)
 - **Onde aplicar:** em qualquer verificação sua que hoje é feita por prompt. Se a regra
   puder ser escrita como código, escreva como código — o agente entra depois.
@@ -266,6 +270,24 @@ Nenhum deles é malicioso — é o costume da categoria.
   nascer com essa verificação feita.
 - **Por que importa:** rodar essas coisas em código de terceiro sem checar é o tipo de
   descuido que só aparece depois.
+
+### Medir por conta própria, de uma vez
+
+Vinte e um achados e nenhuma medição sua: toda avaliação até agora veio do README de quem
+escreveu a ferramenta, e as contagens de estrelas nunca puderam ser verificadas nesta
+sessão. O [ponytail](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)
+é a melhor porta de entrada para mudar isso: promete ~54% menos código com metodologia
+publicada e datada, o que dá para reproduzir.
+
+- **Alimenta:** ponytail + react-doctor + graphify (as três com número mensurável)
+- **Esforço:** médio
+- **Primeiro passo:** duas tarefas reais suas, rodadas com e sem a skill, anotando linhas
+  de código, tokens e tempo.
+- **Por que este e não outro:** o próprio projeto declara onde o ganho é quase nulo (código
+  já enxuto) e que modelos que raciocinam muito podem gastar mais token deliberando. Quem
+  admite o limite costuma estar medindo direito.
+- **O resultado vira achado** deste repositório, com o seu número — o primeiro que não sai
+  de README alheio.
 
 ### Digest do que entrou
 

@@ -20,11 +20,11 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**19** achados · **8** categorias · **57** tags · atualizado em 2026-08-28
+**21** achados · **8** categorias · **62** tags · atualizado em 2026-08-28
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 12 |  | novo | 19 |
+| ferramenta | 14 |  | novo | 21 |
 | projeto | 6 |  |  |  |
 | outro | 1 |  |  |  |
 
@@ -34,19 +34,19 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>15</sub>
-    - [Ferramentas](#ferramentas) <sub>10</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>16</sub>
+    - [Ferramentas](#ferramentas) <sub>11</sub>
     - [Projetos](#projetos) <sub>4</sub>
     - [Outros](#outros) <sub>1</sub>
-- [Engenharia de software](#engenharia-de-software) <sub>7</sub>
-    - [Ferramentas](#ferramentas-1) <sub>5</sub>
+- [Engenharia de software](#engenharia-de-software) <sub>9</sub>
+    - [Ferramentas](#ferramentas-1) <sub>7</sub>
     - [Outros](#outros-1) <sub>1</sub>
     - [Projetos](#projetos-1) <sub>1</sub>
 - [Web](#web) <sub>6</sub>
     - [Ferramentas](#ferramentas-2) <sub>3</sub>
     - [Projetos](#projetos-2) <sub>3</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>4</sub>
-- [Design](#design) <sub>2</sub>
+- [Design](#design) <sub>3</sub>
 - [Negócios](#negócios) <sub>2</sub>
 - [Finanças](#finanças) <sub>1</sub>
 - [Segurança](#segurança) <sub>1</sub>
@@ -68,6 +68,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * ⚙️ [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)<br><sub>⚠️ telemetria ligada por padrão; imagem e vídeo consomem API paga por conta própria, e ainda está em 0.10</sub>
+* ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
 
@@ -88,7 +89,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 * ⚙️ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias. `MIT` ★★★★★ [análise](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)<br><sub>⚠️ instalar skill avulsa não traz as checklists de `references/`</sub>
 * ⚙️ [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review. `MIT` ★★★★★ [análise](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
+* ⚙️ [archify](https://github.com/tt-a1i/archify) - Skill que transforma JSON tipado em diagrama de arquitetura, fluxo, sequência ou ciclo de vida, com layout determinístico e saída num arquivo só. `MIT` ★★★★☆ [análise](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md)<br><sub>⚠️ sem auto-layout, editor visual ou import de Mermaid — o agente precisa escrever o JSON tipado</sub>
 * ⚙️ [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual. `Apache-2.0 e MIT` ★★★★☆ [análise](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)<br><sub>⚠️ a v1 pública ainda não saiu (o desenvolvimento corre no branch v8) e há plataforma comercial paralela</sub>
+* ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 
@@ -123,6 +126,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ## Design
 
+* ⚙️ [archify](https://github.com/tt-a1i/archify) - Skill que transforma JSON tipado em diagrama de arquitetura, fluxo, sequência ou ciclo de vida, com layout determinístico e saída num arquivo só. `MIT` ★★★★☆ [análise](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md)<br><sub>⚠️ sem auto-layout, editor visual ou import de Mermaid — o agente precisa escrever o JSON tipado</sub>
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 * ⚙️ [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)<br><sub>⚠️ telemetria ligada por padrão; imagem e vídeo consomem API paga por conta própria, e ainda está em 0.10</sub>
 
@@ -146,11 +150,11 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
 * `2026-08-28` [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script.
 * `2026-08-28` [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome.
+* `2026-08-28` [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada.
 * `2026-08-28` [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real.
 * `2026-08-28` [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual.
 * `2026-08-28` [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório.
 * `2026-08-28` [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados.
-* `2026-08-27` [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona
