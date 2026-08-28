@@ -311,6 +311,24 @@ registra o uso real, o que dá a base para remover em vez de acumular.
 - **Cuidado:** o observador só vale se a revisão acontecer. Sem isso, é mais um arquivo
   crescendo sem leitor — vale agendá-la junto com a manutenção do repositório.
 
+### Pensar como adversário antes de expor
+
+O [awesome-selfhosted](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)
+convida a hospedar dezenas de serviços; a skill de
+[red-team](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)
+ensina a olhar para eles como um atacante olharia — kill-chain, alvos críticos, pontos de
+estrangulamento. Antes de abrir uma porta na internet, vale saber por onde ela seria
+arrombada. Uso puramente defensivo, sobre a sua própria infraestrutura.
+
+- **Alimenta:** red-team + awesome-selfhosted
+- **Esforço:** médio
+- **Primeiro passo:** ler a metodologia da skill e transformar "alvos críticos" e "pontos
+  de estrangulamento" num checklist do que proteger primeiro no seu servidor.
+- **Limite claro:** isto é sobre o que é seu. Apontar qualquer técnica para sistema alheio
+  sem autorização escrita é crime — a própria skill abre com esse aviso.
+- **Liga com a base:** casa com "montar a base antes dos serviços" em
+  [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) — proxy, backup e agora endurecimento.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou

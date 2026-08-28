@@ -12,7 +12,7 @@ status: novo
 nota: 5
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md]
+relacionados: [2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md]
 ---
 
 # awesome-selfhosted — 1.255 softwares livres para rodar no seu servidor

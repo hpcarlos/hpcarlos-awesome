@@ -1,12 +1,12 @@
 # Tags
 
-71 tag(s) em 24 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+75 tag(s) em 25 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`claude-code`](#claude-code) (12) · [`agentes`](#agentes) (11) · [`skills`](#skills) (10) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (7) · [`typescript`](#typescript) (7) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`code-review`](#code-review) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`tdd`](#tdd) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1) · [`api`](#api) (1) · [`apresentacoes`](#apresentacoes) (1) · [`arquitetura`](#arquitetura) (1) · [`ast`](#ast) (1) · [`auth`](#auth) (1)
+[`claude-code`](#claude-code) (13) · [`agentes`](#agentes) (11) · [`skills`](#skills) (11) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (7) · [`typescript`](#typescript) (7) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`code-review`](#code-review) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`tdd`](#tdd) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1) · [`api`](#api) (1) · [`apresentacoes`](#apresentacoes) (1) · [`arquitetura`](#arquitetura) (1) · [`ast`](#ast) (1) · [`auth`](#auth) (1)
 
 ## agentes
 
@@ -85,6 +85,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
 
 ## cli
 
@@ -201,6 +202,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
 
+## mitre-attack
+
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
+
 ## multiagente
 
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
@@ -231,6 +236,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
+
+## pentest
+
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
 
 ## performance
 
@@ -282,6 +291,10 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 
+## red-team
+
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
+
 ## referencia
 
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
@@ -293,6 +306,10 @@ Volte para a lista completa: [README.md](README.md).
 ## scraping
 
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
+
+## seguranca-ofensiva
+
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
 
 ## self-hosted
 
@@ -320,6 +337,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
+* ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
 
 ## sqlite
 
