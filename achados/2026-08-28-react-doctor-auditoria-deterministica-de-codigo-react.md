@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md, 2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md]
 ---
 
 # react-doctor — auditoria determinística de código React
@@ -58,6 +58,9 @@ ferramenta que faz esse exame.
   coleções do [addyosmani](2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)
   e do [mattpocock](2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md):
   ferramenta que vira capacidade do agente, não programa separado.
+- **É o sucessor declarado do [react-scan](2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)**, do mesmo grupo: aquele só
+  mostra render em tempo real, este acrescenta análise estática de arquitetura,
+  segurança e acessibilidade. O README do react-scan recomenda vir para cá.
 - **Vem da millionco**, gente do Million.js — projeto conhecido por trabalho de performance
   em React. A ligação não é declarada no README, mas o histórico do grupo dá contexto ao
   foco em render.

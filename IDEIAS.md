@@ -210,13 +210,37 @@ o [wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) e o
 [react-doctor](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)
 resolve isso em uma tarde: as três são React.
 
-- **Alimenta:** react-doctor + saas-starter-kit + wacrm + mission-control
+- **Alimenta:** react-doctor + graphify + saas-starter-kit + wacrm + mission-control
 - **Esforço:** baixo
 - **Primeiro passo:** clonar as três e rodar `npx react-doctor@latest` em cada uma.
+- **A outra metade:** o [graphify](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)
+  com `--code-only` desenha a arquitetura de cada uma sem custo de LLM. Um responde "qual é
+  a mais sadia", o outro "qual eu consigo entender" — e a segunda pergunta costuma decidir
+  mais que a primeira.
 - **O que fazer com o resultado:** virar um achado deste repositório, com os números lado a
   lado. É a primeira medição própria da coleção — até aqui tudo veio de README alheio.
 - **Ganho:** escolher base por evidência em vez de por contagem de estrelas, que aliás
   nunca consegui verificar nesta sessão.
+
+### O padrão determinístico
+
+Quatro achados da coleção resolvem análise de código do mesmo jeito, e não é coincidência:
+[impeccable](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+(59 detectores de anti-padrão visual),
+[react-doctor](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)
+(regras de estado e render),
+[graphify](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)
+(AST com tree-sitter) e o detector do
+[claude-ads](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)
+(pontuação determinística). Todos fazem a **detecção sem modelo** e deixam o LLM só para
+interpretar e corrigir. É barato, reproduzível e não alucina achado.
+
+- **Alimenta:** impeccable + react-doctor + graphify + claude-ads
+- **Esforço:** baixo (é princípio de projeto, não construção)
+- **Onde aplicar:** em qualquer verificação sua que hoje é feita por prompt. Se a regra
+  puder ser escrita como código, escreva como código — o agente entra depois.
+- **Teste:** pegue uma checagem que você pede ao agente com frequência e tente reescrevê-la
+  como script. Se der, ela vira gratuita e confiável.
 
 ### Digest do que entrou
 

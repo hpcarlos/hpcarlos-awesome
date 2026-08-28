@@ -12,7 +12,7 @@ status: novo
 nota: 5
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md, 2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md, 2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md]
+relacionados: [2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md, 2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md, 2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md, 2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md, 2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md]
 ---
 
 # addyosmani/agent-skills — 24 skills que impõem disciplina de engenharia ao agente
