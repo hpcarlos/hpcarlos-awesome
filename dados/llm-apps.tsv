@@ -1,0 +1,116 @@
+# categoria	nome	href	tldr — fonte: github.com/Shubhamsaboo/awesome-llm-apps (Apache-2.0)
+skills	Project Graveyard	agent_skills/project-graveyard/	Skill que registra e analisa projetos abandonados, para entender por que morreram
+skills	Scope Creep Detector	agent_skills/scope-creep-detector/	Skill que detecta quando o escopo de uma tarefa está inchando além do combinado
+skills	Commit Archaeologist	agent_skills/commit-archaeologist/	Skill que escava o histórico de commits para explicar por que o código chegou onde chegou
+skills	Dependency Doctor	agent_skills/dependency-doctor/	Skill que diagnostica a árvore de dependências: o que está obsoleto, duplicado ou sobrando
+skills	Advisor Orchestrator Worker	agent_skills/advisor-orchestrator-worker/	Skill que implementa o padrão conselheiro-orquestrador-executor entre agentes
+skills	Self-Improving Agent Skills	agent_skills/self-improving-agent-skills/	Skills que se reescrevem a partir do resultado das próprias execuções
+starter	AI Blog to Podcast Agent	starter_ai_agents/ai_blog_to_podcast_agent/	Converte um post de blog em episódio de podcast narrado
+starter	AI Breakup Recovery Agent	starter_ai_agents/ai_breakup_recovery_agent/	Agente de apoio conversacional para término de relacionamento
+starter	AI Data Analysis Agent	starter_ai_agents/ai_data_analysis_agent/	Analisa um conjunto de dados e responde perguntas sobre ele em linguagem natural
+starter	AI Medical Imaging Agent	starter_ai_agents/ai_medical_imaging_agent/	Interpreta imagens médicas — demonstração de visão, não ferramenta clínica
+starter	AI Meme Generator Agent (Browser)	starter_ai_agents/ai_meme_generator_agent_browseruse/	Gera memes controlando o navegador, com browser-use
+starter	AI Music Generator Agent	starter_ai_agents/ai_music_generator_agent/	Gera trechos musicais a partir de descrição em texto
+starter	AI Travel Agent (Local & Cloud)	starter_ai_agents/ai_travel_agent/	Monta roteiro de viagem, com versão local e versão em nuvem
+starter	Gemini Multimodal Agent	starter_ai_agents/multimodal_ai_agent/	Agente multimodal com Gemini, combinando texto e imagem
+starter	Mixture of Agents	starter_ai_agents/mixture_of_agents/	Combina respostas de vários modelos para produzir uma resposta melhor
+starter	xAI Finance Agent	starter_ai_agents/xai_finance_agent/	Agente de análise financeira usando modelos da xAI
+starter	OpenAI Research Agent	starter_ai_agents/openai_research_agent/	Agente de pesquisa construído sobre o SDK da OpenAI
+starter	Web Scraping AI Agent	starter_ai_agents/web_scraping_ai_agent/	Extrai dados de páginas web guiado por instrução em linguagem natural
+avancados	AI Home Renovation Agent	advanced_ai_agents/multi_agent_apps/ai_home_renovation_agent	Planeja reforma doméstica com geração de imagem do resultado
+avancados	DevPulse AI	advanced_ai_agents/multi_agent_apps/devpulse_ai/	Inteligência de sinais para times de desenvolvimento, com vários agentes
+avancados	AI Deep Research Agent	advanced_ai_agents/single_agent_apps/ai_deep_research_agent/	Pesquisa profunda sobre um tema, com várias rodadas de busca e síntese
+avancados	AI VC Due Diligence Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_vc_due_diligence_agent_team	Time de agentes que faz diligência de investimento sobre uma empresa
+avancados	AI Research Planner & Executor	advanced_ai_agents/single_agent_apps/research_agent_gemini_interaction_api	Separa o planejamento da pesquisa da sua execução, com a API do Gemini
+avancados	AI Consultant Agent	advanced_ai_agents/single_agent_apps/ai_consultant_agent	Agente que responde como consultor de negócios sobre um problema apresentado
+avancados	AI System Architect Agent	advanced_ai_agents/single_agent_apps/ai_system_architect_r1/	Propõe arquitetura de sistema a partir de requisitos, usando modelo de raciocínio
+avancados	AI Financial Coach Agent	advanced_ai_agents/multi_agent_apps/ai_financial_coach_agent/	Orientação financeira pessoal a partir da situação descrita pelo usuário
+avancados	AI Movie Production Agent	advanced_ai_agents/single_agent_apps/ai_movie_production_agent/	Desenvolve conceito de filme: roteiro, elenco e produção
+avancados	AI Investment Agent	advanced_ai_agents/single_agent_apps/ai_investment_agent/	Compara ações e monta tese de investimento
+avancados	Earnings Call Analyst Agent	advanced_ai_agents/single_agent_apps/earnings_call_analyst_agent/	Analisa teleconferência de resultados e extrai o que importa
+avancados	AI Health & Fitness Agent	advanced_ai_agents/single_agent_apps/ai_health_fitness_agent/	Monta plano de treino e alimentação a partir do perfil informado
+avancados	AI Product Launch Intelligence Agent	advanced_ai_agents/multi_agent_apps/product_launch_intelligence_agent	Analisa lançamentos de produto de concorrentes
+avancados	AI Fraud Investigation Agent	advanced_ai_agents/single_agent_apps/ai_fraud_investigation_agent/	Investiga indícios de fraude em transações e documentos
+avancados	AI Journalist Agent	advanced_ai_agents/single_agent_apps/ai_journalist_agent/	Apura e escreve matéria jornalística sobre um tema
+avancados	AI Mental Wellbeing Agent	advanced_ai_agents/multi_agent_apps/ai_mental_wellbeing_agent/	Time de agentes de apoio ao bem-estar mental — demonstração, não terapia
+avancados	AI Meeting Agent	advanced_ai_agents/single_agent_apps/ai_meeting_agent/	Prepara pauta e material de apoio para uma reunião
+avancados	AI Self-Evolving Agent	advanced_ai_agents/multi_agent_apps/ai_self_evolving_agent/	Agente que ajusta as próprias instruções conforme os resultados
+avancados	AI Sales Intelligence Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_sales_intelligence_agent_team	Time que pesquisa prospects e prepara abordagem comercial
+avancados	AI Social Media News and Podcast Agent	advanced_ai_agents/multi_agent_apps/ai_news_and_podcast_agents/	Acompanha notícias e transforma em conteúdo para redes e podcast
+avancados	Openwork - Open Browser Automation Agent	https://github.com/accomplish-ai/openwork	Automação de navegador de código aberto — projeto externo, ligado a partir da lista
+avancados	Trust-Gated Multi-Agent Research Team	advanced_ai_agents/multi_agent_apps/trust_gated_agent_team/	Time de pesquisa em que cada passo passa por uma trava de confiança
+sempre-ativos	Always-on Hacker News Briefing Agent	always_on_agents/always_on_hn_briefing_agent/	Agente que roda continuamente e entrega resumo do Hacker News
+sempre-ativos	Release Radar Agent	always_on_agents/release_radar_agent/	Monitora lançamentos de projetos e avisa o que mudou
+times	AI Competitor Intelligence Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_competitor_intelligence_agent_team/	Time que monitora e compara concorrentes
+times	AI Finance Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_finance_agent_team/	Time de agentes para análise financeira dividida por especialidade
+times	AI Game Design Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_game_design_agent_team/	Time que desenvolve conceito de jogo: mecânica, narrativa e arte
+times	AG2 Adaptive Research Team	advanced_ai_agents/multi_agent_apps/agent_teams/ag2_adaptive_research_team/	Time de pesquisa que adapta a própria composição, com o framework AG2
+times	AI Legal Agent Team (Cloud & Local)	advanced_ai_agents/multi_agent_apps/agent_teams/ai_legal_agent_team/	Time que analisa documento jurídico, com versão local e em nuvem
+times	AI Recruitment Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_recruitment_agent_team/	Time que triagem currículos e prepara entrevista
+times	AI Real Estate Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_real_estate_agent_team	Time que pesquisa imóveis e compara oportunidades
+times	AI Services Agency (CrewAI)	advanced_ai_agents/multi_agent_apps/agent_teams/ai_services_agency/	Simula uma agência de serviços inteira com CrewAI
+times	AI Teaching Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_teaching_agent_team/	Time que monta trilha de estudo e ensina um assunto
+times	Multimodal Coding Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_coding_agent_team/	Time de programação que aceita imagem além de texto como entrada
+times	Multimodal Design Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_design_agent_team/	Time de design que trabalha a partir de referências visuais
+times	Multimodal UI/UX Feedback Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/multimodal_uiux_feedback_agent_team/	Time que critica interface a partir de captura de tela
+times	AI Travel Planner Agent Team	advanced_ai_agents/multi_agent_apps/agent_teams/ai_travel_planner_agent_team/	Time que planeja viagem dividindo voo, hospedagem e roteiro
+voz	AI Audio Tour Agent	voice_ai_agents/ai_audio_tour_agent/	Gera narração de audioguia para um lugar ou museu
+voz	Customer Support Voice Agent	voice_ai_agents/customer_support_voice_agent/	Atendimento ao cliente por voz, com resposta falada
+voz	Insurance Claim Live Agent Team	voice_ai_agents/insurance_claim_live_agent_team/	Time que conduz abertura de sinistro por voz, ao vivo
+voz	Voice RAG Agent (OpenAI SDK)	voice_ai_agents/voice_rag_openaisdk/	RAG com entrada e saída por voz, sobre o SDK da OpenAI
+voz	OpenSource Voice Dictation Agent	voice_ai_agents/	Ditado por voz com modelos abertos
+interfaces	Generative UI Starter Project	generative_ui_agents/generative-ui-starter-project/	Ponto de partida para interface gerada pelo agente em tempo de execução
+interfaces	AI Financial Coach Agent	generative_ui_agents/ai-financial-coach-agent/	Orientação financeira com interface montada pelo próprio agente
+interfaces	AI Dashboard Canvas Agent	generative_ui_agents/ai-dashboard-canvas-agent/	Agente que monta painel de dados como tela editável
+interfaces	AI MCP App Builder	generative_ui_agents/ai-mcp-app-builder/	Constrói aplicação a partir de servidores MCP disponíveis
+interfaces	MCP Apps Generative UI Showcase	generative_ui_agents/mcp-apps-generative-ui-showcase/	Vitrine de interfaces geradas a partir de aplicações MCP
+interfaces	AI Shadcn Component Generator	generative_ui_agents/ai-shadcn-component-generator/	Gera componentes shadcn/ui a partir de descrição
+interfaces	AI Deep Research Agent (UI)	generative_ui_agents/ai-deep-research-agent/	Pesquisa profunda com interface gerada para acompanhar o processo
+jogos	AI 3D Pygame Agent	advanced_ai_agents/autonomous_game_playing_agent_apps/ai_3dpygame_r1/	Agente que programa jogo 3D em Pygame com modelo de raciocínio
+jogos	AI Chess Agent	advanced_ai_agents/autonomous_game_playing_agent_apps/ai_chess_agent/	Dois agentes jogando xadrez um contra o outro
+jogos	AI Tic-Tac-Toe Agent	advanced_ai_agents/autonomous_game_playing_agent_apps/ai_tic_tac_toe_agent/	Agentes disputando jogo da velha — exemplo mínimo de confronto
+mcp	Browser MCP Agent	mcp_ai_agents/browser_mcp_agent/	Agente que controla o navegador através de servidor MCP
+mcp	GitHub MCP Agent	mcp_ai_agents/github_mcp_agent/	Agente que opera repositórios do GitHub via MCP
+mcp	Notion MCP Agent	mcp_ai_agents/notion_mcp_agent	Agente que lê e escreve no Notion via MCP
+mcp	AI Travel Planner MCP Agent	mcp_ai_agents/ai_travel_planner_mcp_agent_team	Time de planejamento de viagem consumindo várias ferramentas MCP
+mcp	Multi-MCP Agent Router	mcp_ai_agents/multi_mcp_agent_router/	Roteia a tarefa para o servidor MCP certo entre vários disponíveis
+mcp	OpenAI Remote MCP Tool Bridge	mcp_ai_agents/openai_remote_mcp_bridge/	Ponte que expõe ferramentas MCP remotas para a API da OpenAI
+rag	Agentic RAG with Embedding Gemma	rag_tutorials/agentic_rag_embedding_gemma	RAG com agente usando o modelo de embedding Gemma
+rag	Agentic RAG with Reasoning	rag_tutorials/agentic_rag_with_reasoning/	RAG em que o agente raciocina sobre o que buscar antes de responder
+rag	AI Blog Search (RAG)	rag_tutorials/ai_blog_search/	Busca semântica sobre uma coleção de posts de blog
+rag	Autonomous RAG	rag_tutorials/autonomous_rag/	RAG que decide sozinho quando e o que recuperar
+rag	Contextual AI RAG Agent	rag_tutorials/contextualai_rag_agent/	RAG sobre a plataforma da Contextual AI
+rag	Corrective RAG (CRAG)	rag_tutorials/corrective_rag/	RAG que avalia e corrige a própria recuperação quando ela vem ruim
+rag	Typed Agentic RAG with Pydantic AI	rag_tutorials/agentic_typed_rag_pydanticai/	RAG com saída tipada e validada, usando Pydantic AI
+rag	Deepseek Local RAG Agent	rag_tutorials/deepseek_local_rag_agent/	RAG rodando inteiramente local com modelos DeepSeek
+rag	Gemini Agentic RAG	rag_tutorials/gemini_agentic_rag/	RAG com agente usando modelos Gemini
+rag	Hybrid Search RAG (Cloud)	rag_tutorials/hybrid_search_rag/	Combina busca por palavra-chave e por vetor, em nuvem
+rag	Llama 3.1 Local RAG	rag_tutorials/llama3.1_local_rag/	RAG local com Llama 3.1
+rag	Local Hybrid Search RAG	rag_tutorials/local_hybrid_search_rag/	Busca híbrida rodando na própria máquina, sem serviço externo
+rag	Multimodal Agentic RAG	rag_tutorials/multimodal_agentic_rag/	RAG que recupera e raciocina sobre texto e imagem
+rag	Local RAG Agent	rag_tutorials/local_rag_agent/	Agente de RAG local, sem depender de API paga
+rag	RAG-as-a-Service	rag_tutorials/rag-as-a-service/	RAG empacotado como serviço consumível por API
+rag	RAG Agent with Cohere	rag_tutorials/rag_agent_cohere/	RAG usando os modelos e o reranker da Cohere
+rag	Basic RAG Chain	rag_tutorials/rag_chain/	A cadeia mínima de RAG — o ponto de partida para entender o resto
+rag	RAG with Database Routing	rag_tutorials/rag_database_routing/	Escolhe entre várias bases qual consultar para cada pergunta
+rag	Vision RAG	rag_tutorials/vision_rag/	Recuperação sobre imagens, respondendo perguntas visuais
+rag	RAG Failure Diagnostics Clinic	rag_tutorials/rag_failure_diagnostics_clinic/	Diagnostica por que um RAG está respondendo errado
+rag	Knowledge Graph RAG with Citations	rag_tutorials/knowledge_graph_rag_citations/	RAG sobre grafo de conhecimento, com citação da fonte de cada afirmação
+memoria	AI ArXiv Agent with Memory	advanced_llm_apps/llm_apps_with_memory_tutorials/ai_arxiv_agent_memory/	Agente de leitura de artigos que lembra o que já foi lido
+memoria	AI Travel Agent with Memory	advanced_llm_apps/llm_apps_with_memory_tutorials/ai_travel_agent_memory/	Planejador de viagem que retém preferências entre conversas
+memoria	Llama3 Stateful Chat	advanced_llm_apps/llm_apps_with_memory_tutorials/llama3_stateful_chat/	Conversa com estado persistente sobre Llama 3
+memoria	LLM App with Personalized Memory	advanced_llm_apps/llm_apps_with_memory_tutorials/llm_app_personalized_memory/	Aplicação que constrói memória personalizada por usuário
+memoria	Local ChatGPT Clone with Memory	advanced_llm_apps/llm_apps_with_memory_tutorials/local_chatgpt_with_memory/	Clone local de chat com memória, sem enviar dado para fora
+memoria	Multi-LLM Application with Shared Memory	advanced_llm_apps/llm_apps_with_memory_tutorials/multi_llm_memory/	Vários modelos compartilhando a mesma memória
+conversar	Chat with GitHub (GPT & Llama3)	advanced_llm_apps/chat_with_X_tutorials/chat_with_github/	Conversa com um repositório do GitHub
+conversar	Chat with Gmail	advanced_llm_apps/chat_with_X_tutorials/chat_with_gmail/	Conversa com a própria caixa de e-mail
+conversar	Chat with PDF (GPT & Llama3)	advanced_llm_apps/chat_with_X_tutorials/chat_with_pdf/	Conversa com um PDF — o exemplo canônico de RAG
+conversar	Chat with Research Papers (ArXiv)	advanced_llm_apps/chat_with_X_tutorials/chat_with_research_papers/	Conversa com artigos científicos do arXiv
+conversar	Chat with Substack	advanced_llm_apps/chat_with_X_tutorials/chat_with_substack/	Conversa com o arquivo de uma newsletter do Substack
+conversar	Chat with YouTube Videos	advanced_llm_apps/chat_with_X_tutorials/chat_with_youtube_videos/	Conversa com a transcrição de vídeos do YouTube
+otimizacao	Toonify Token Optimization	advanced_llm_apps/llm_optimization_tools/toonify_token_optimization/	Reduz o consumo de token de uma aplicação
+otimizacao	Headroom Context Optimization	advanced_llm_apps/llm_optimization_tools/headroom_context_optimization/	Gerencia a folga da janela de contexto para não estourar o limite
+fine-tuning	Gemma 3 Fine-tuning	advanced_llm_apps/llm_finetuning_tutorials/gemma3_finetuning/	Ajuste fino do Gemma 3 para uma tarefa específica
+fine-tuning	Llama 3.2 Fine-tuning	advanced_llm_apps/llm_finetuning_tutorials/llama3.2_finetuning/	Ajuste fino do Llama 3.2, com Unsloth
+cursos	Google ADK Crash Course	ai_agent_framework_crash_course/google_adk_crash_course/	Curso rápido do Agent Development Kit do Google
+cursos	OpenAI Agents SDK Crash Course	ai_agent_framework_crash_course/openai_sdk_crash_course/	Curso rápido do SDK de agentes da OpenAI

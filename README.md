@@ -20,12 +20,12 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**21** achados · **8** categorias · **62** tags · atualizado em 2026-08-28
+**22** achados · **8** categorias · **65** tags · atualizado em 2026-08-28
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 14 |  | novo | 21 |
-| projeto | 6 |  |  |  |
+| ferramenta | 14 |  | novo | 22 |
+| projeto | 7 |  |  |  |
 | outro | 1 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
@@ -34,14 +34,14 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>16</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>17</sub>
     - [Ferramentas](#ferramentas) <sub>11</sub>
-    - [Projetos](#projetos) <sub>4</sub>
+    - [Projetos](#projetos) <sub>5</sub>
     - [Outros](#outros) <sub>1</sub>
-- [Engenharia de software](#engenharia-de-software) <sub>9</sub>
+- [Engenharia de software](#engenharia-de-software) <sub>10</sub>
     - [Ferramentas](#ferramentas-1) <sub>7</sub>
+    - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
-    - [Projetos](#projetos-1) <sub>1</sub>
 - [Web](#web) <sub>6</sub>
     - [Ferramentas](#ferramentas-2) <sub>3</sub>
     - [Projetos](#projetos-2) <sub>3</sub>
@@ -74,6 +74,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ### Projetos
 
+* 🛠 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 115 aplicações de LLM prontas e executáveis — agentes, times, RAG, memória, voz e interfaces geradas — num repositório só, sob Apache-2.0. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md)<br><sub>⚠️ são demonstrações: dependem de chave de API e não trazem contenção nem tratamento de produção</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
 * 🛠 [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria. `MIT` ★★★☆☆ [análise](achados/2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md)<br><sub>⚠️ executa ordens reais com dinheiro seu, por decisão de LLM — comece e permaneça em papel até provar o contrário</sub>
@@ -95,13 +96,14 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 
+### Projetos
+
+* 🛠 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 115 aplicações de LLM prontas e executáveis — agentes, times, RAG, memória, voz e interfaces geradas — num repositório só, sob Apache-2.0. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md)<br><sub>⚠️ são demonstrações: dependem de chave de API e não trazem contenção nem tratamento de produção</sub>
+* 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+
 ### Outros
 
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
-
-### Projetos
-
-* 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
 
 ## Web
 
@@ -187,6 +189,10 @@ python3 scripts/buscar.py --tags          # todas as tags existentes
 Veja também [`TAGS.md`](TAGS.md) (mapa de tags) e [`IDEIAS.md`](IDEIAS.md) — projetos que
 só existem cruzando mais de um achado.
 
+**Coleções derivadas.** Quando um único achado traz dezenas de projetos dentro dele, o
+catálogo vai para arquivo próprio: [`LLM-APPS.md`](LLM-APPS.md) lista as 115 aplicações do
+awesome-llm-apps, com ideias em [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md).
+
 | Caminho | O que é |
 | --- | --- |
 | [`achados/`](achados/) | Um Markdown por achado — a fonte da verdade |
@@ -194,6 +200,9 @@ só existem cruzando mais de um achado.
 | [`IDEIAS.md`](IDEIAS.md) | Ideias que cruzam vários achados |
 | [`TAGS.md`](TAGS.md) | Mapa de tags — **gerado** |
 | [`scripts/`](scripts/) | `novo.py`, `indexar.py`, `buscar.py` (Python puro, sem deps) |
+| [`LLM-APPS.md`](LLM-APPS.md) | Catálogo das 115 aplicações do awesome-llm-apps — **gerado** |
+| [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) | Ideias a partir dessas aplicações |
+| [`dados/`](dados/) | Fontes das coleções derivadas (`llm-apps.tsv`) |
 | [`modelos/`](modelos/) | Template de achado e workflow de CI opcional |
 
 ---

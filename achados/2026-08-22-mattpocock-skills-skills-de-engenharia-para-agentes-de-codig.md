@@ -12,7 +12,7 @@ status: novo
 nota: 5
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md, 2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md, 2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md, 2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md]
 ---
 
 # mattpocock/skills — skills de engenharia para agentes de código

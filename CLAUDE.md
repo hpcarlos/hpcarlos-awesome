@@ -69,6 +69,23 @@ importam tanto:
 
 As categorias com mais de 4 achados são subdivididas por tipo automaticamente.
 
+## Coleções derivadas
+
+Quando um achado é, ele mesmo, uma lista com dezenas de projetos dentro (caso do
+`awesome-llm-apps`), **não crie um achado por item** — isso afogaria a lista principal, que
+é curada e tem análise individual. Em vez disso:
+
+1. Crie o achado normal do repositório em `achados/`, com a análise de sempre.
+2. Ponha os itens numa fonte tabular em `dados/<nome>.tsv`
+   (`categoria`, `nome`, `href`, `tldr`, separados por tabulação).
+3. Escreva o cabeçalho fixo de `<NOME>.md` com os marcadores `ESTATISTICAS`, `SUMARIO` e
+   `LISTA`, e um script `scripts/indexar_<nome>.py` que os preencha — o de LLM apps serve
+   de modelo e reaproveita `escrever()` e `substituir_bloco()` do `indexar.py`.
+4. Crie `IDEIAS-<NOME>.md` com as ideias daquele conjunto, inclusive as que cruzam com a
+   lista principal.
+5. **Diga no cabeçalho** que as descrições vieram do nome e da categoria, e não de leitura
+   individual de cada item — a lista principal promete análise, a derivada promete mapa.
+
 ## Regras de conteúdo
 
 - **Sempre em português do Brasil**, incluindo resumos de conteúdo em inglês.
@@ -121,6 +138,7 @@ o que foi pedido. Se nada casar, diga isso claramente antes de sugerir buscar fo
 Se o usuário pedir uma revisão (ou se passar muito tempo sem uma):
 
 - Rode `python3 scripts/indexar.py --conferir` e conserte o que aparecer.
+- Rode `python3 scripts/indexar_llm_apps.py --conferir` para as coleções derivadas.
 - Procure achados `status: novo` com mais de um mês parados e sugira arquivar ou testar.
 - Procure achados órfãos (sem `relacionados`) que se conectem a outros.
 - Atualize `IDEIAS.md` com combinações novas.
