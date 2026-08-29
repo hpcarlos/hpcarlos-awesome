@@ -308,6 +308,11 @@ registra o uso real, o que dá a base para remover em vez de acumular.
   registro.
 - **A pergunta que interessa:** quais skills nunca apareceram? Essas são candidatas a sair,
   e cada uma que sai devolve contexto e atenção.
+- **Aceleração possível:** se você adotar o
+  [gstack](achados/2026-08-29-gstack-23-skills-que-transformam-o-claude-code-num-time-de-e.md),
+  que cobre o sprint inteiro (plano, review, QA, deploy), boa parte das skills soltas vira
+  redundância de uma vez. A poda deixa de ser item a item e passa a ser "o que o gstack não
+  faz melhor?".
 - **Cuidado:** o observador só vale se a revisão acontecer. Sem isso, é mais um arquivo
   crescendo sem leitor — vale agendá-la junto com a manutenção do repositório.
 
