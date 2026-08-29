@@ -20,13 +20,13 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**26** achados · **8** categorias · **77** tags · atualizado em 2026-08-29
+**27** achados · **8** categorias · **80** tags · atualizado em 2026-08-29
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 16 |  | novo | 26 |
+| ferramenta | 16 |  | novo | 27 |
 | projeto | 8 |  |  |  |
-| outro | 2 |  |  |  |
+| outro | 3 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
@@ -42,15 +42,15 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-1) <sub>8</sub>
     - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
-- [Web](#web) <sub>8</sub>
+- [Web](#web) <sub>9</sub>
     - [Projetos](#projetos-2) <sub>4</sub>
     - [Ferramentas](#ferramentas-2) <sub>3</sub>
-    - [Outros](#outros-2) <sub>1</sub>
+    - [Outros](#outros-2) <sub>2</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>6</sub>
     - [Ferramentas](#ferramentas-3) <sub>3</sub>
     - [Projetos](#projetos-3) <sub>2</sub>
     - [Outros](#outros-3) <sub>1</sub>
-- [Design](#design) <sub>3</sub>
+- [Design](#design) <sub>4</sub>
 - [Negócios](#negócios) <sub>2</sub>
 - [Segurança](#segurança) <sub>2</sub>
 - [Finanças](#finanças) <sub>1</sub>
@@ -130,6 +130,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ### Outros
 
 * 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
 ## Infraestrutura e DevOps
 
@@ -153,6 +154,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [archify](https://github.com/tt-a1i/archify) - Skill que transforma JSON tipado em diagrama de arquitetura, fluxo, sequência ou ciclo de vida, com layout determinístico e saída num arquivo só. `MIT` ★★★★☆ [análise](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md)<br><sub>⚠️ sem auto-layout, editor visual ou import de Mermaid — o agente precisa escrever o JSON tipado</sub>
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 * ⚙️ [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)<br><sub>⚠️ telemetria ligada por padrão; imagem e vídeo consomem API paga por conta própria, e ainda está em 0.10</sub>
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
 ## Negócios
 
@@ -172,6 +174,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Adicionados recentemente
 
 <!-- INICIO:RECENTES -->
+* `2026-08-29` [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários.
 * `2026-08-29` [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion.
 * `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
 * `2026-08-28` [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma.
@@ -179,7 +182,6 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-08-28` [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script.
 * `2026-08-28` [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome.
 * `2026-08-28` [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada.
-* `2026-08-28` [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

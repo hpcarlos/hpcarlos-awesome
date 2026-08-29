@@ -1,12 +1,12 @@
 # Tags
 
-77 tag(s) em 26 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+80 tag(s) em 27 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`claude-code`](#claude-code) (13) · [`agentes`](#agentes) (11) · [`skills`](#skills) (11) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (8) · [`typescript`](#typescript) (8) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`crm`](#crm) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`tdd`](#tdd) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1) · [`api`](#api) (1) · [`apresentacoes`](#apresentacoes) (1) · [`arquitetura`](#arquitetura) (1)
+[`claude-code`](#claude-code) (13) · [`agentes`](#agentes) (11) · [`skills`](#skills) (11) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (8) · [`typescript`](#typescript) (8) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`crm`](#crm) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`referencia`](#referencia) (2) · [`saas`](#saas) (2) · [`tdd`](#tdd) (2) · [`ui`](#ui) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1)
 
 ## agentes
 
@@ -170,6 +170,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * ⚙️ [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual. `Apache-2.0 e MIT` ★★★★☆ [análise](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)<br><sub>⚠️ a v1 pública ainda não saiu (o desenvolvimento corre no branch v8) e há plataforma comercial paralela</sub>
 
+## inspiracao
+
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
+
 ## licencas
 
 * 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
@@ -243,6 +247,10 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 
+## padroes
+
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
+
 ## pentest
 
 * ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
@@ -303,11 +311,13 @@ Volte para a lista completa: [README.md](README.md).
 
 ## referencia
 
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
 
 ## saas
 
 * 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
 ## scraping
 
@@ -385,6 +395,11 @@ Volte para a lista completa: [README.md](README.md).
 ## ui
 
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
+
+## ux
+
+* 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
 ## voz
 
