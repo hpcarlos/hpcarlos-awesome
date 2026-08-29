@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md, 2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md, 2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md, 2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md, 2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md]
 ---
 
 # OpenDesign — gerador de artefatos de design dirigido por agente
