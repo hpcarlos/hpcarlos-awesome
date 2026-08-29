@@ -20,12 +20,12 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**25** achados · **8** categorias · **75** tags · atualizado em 2026-08-28
+**26** achados · **8** categorias · **77** tags · atualizado em 2026-08-29
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 16 |  | novo | 25 |
-| projeto | 7 |  |  |  |
+| ferramenta | 16 |  | novo | 26 |
+| projeto | 8 |  |  |  |
 | outro | 2 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
@@ -42,14 +42,14 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-1) <sub>8</sub>
     - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
-- [Web](#web) <sub>7</sub>
+- [Web](#web) <sub>8</sub>
+    - [Projetos](#projetos-2) <sub>4</sub>
     - [Ferramentas](#ferramentas-2) <sub>3</sub>
-    - [Projetos](#projetos-2) <sub>3</sub>
     - [Outros](#outros-2) <sub>1</sub>
-- [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>5</sub>
+- [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>6</sub>
     - [Ferramentas](#ferramentas-3) <sub>3</sub>
+    - [Projetos](#projetos-3) <sub>2</sub>
     - [Outros](#outros-3) <sub>1</sub>
-    - [Projetos](#projetos-3) <sub>1</sub>
 - [Design](#design) <sub>3</sub>
 - [Negócios](#negócios) <sub>2</sub>
 - [Segurança](#segurança) <sub>2</sub>
@@ -114,17 +114,18 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ## Web
 
+### Projetos
+
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
+* 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
+* 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
+* 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
+
 ### Ferramentas
 
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
-
-### Projetos
-
-* 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
-* 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
-* 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 
 ### Outros
 
@@ -138,13 +139,14 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 
+### Projetos
+
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
+* 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
+
 ### Outros
 
 * 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
-
-### Projetos
-
-* 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
 
 ## Design
 
@@ -170,6 +172,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Adicionados recentemente
 
 <!-- INICIO:RECENTES -->
+* `2026-08-29` [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion.
 * `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
 * `2026-08-28` [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma.
 * `2026-08-28` [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada.
@@ -177,7 +180,6 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-08-28` [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome.
 * `2026-08-28` [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada.
 * `2026-08-28` [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real.
-* `2026-08-28` [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

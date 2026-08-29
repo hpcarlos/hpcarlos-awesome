@@ -1,12 +1,12 @@
 # Tags
 
-75 tag(s) em 25 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+77 tag(s) em 26 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`claude-code`](#claude-code) (13) · [`agentes`](#agentes) (11) · [`skills`](#skills) (11) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (7) · [`typescript`](#typescript) (7) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`code-review`](#code-review) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`tdd`](#tdd) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1) · [`api`](#api) (1) · [`apresentacoes`](#apresentacoes) (1) · [`arquitetura`](#arquitetura) (1) · [`ast`](#ast) (1) · [`auth`](#auth) (1)
+[`claude-code`](#claude-code) (13) · [`agentes`](#agentes) (11) · [`skills`](#skills) (11) · [`mcp`](#mcp) (9) · [`self-hosted`](#self-hosted) (8) · [`typescript`](#typescript) (8) · [`llm`](#llm) (6) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`cli`](#cli) (3) · [`frontend`](#frontend) (3) · [`gateway`](#gateway) (3) · [`nodejs`](#nodejs) (3) · [`performance`](#performance) (3) · [`automacao`](#automacao) (2) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`crm`](#crm) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`observabilidade`](#observabilidade) (2) · [`openai-api`](#openai-api) (2) · [`react`](#react) (2) · [`tdd`](#tdd) (2) · [`workflow`](#workflow) (2) · [`anuncios`](#anuncios) (1) · [`api`](#api) (1) · [`apresentacoes`](#apresentacoes) (1) · [`arquitetura`](#arquitetura) (1)
 
 ## agentes
 
@@ -69,6 +69,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## chat
 
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
 
 ## claude-code
@@ -104,6 +105,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## crm
 
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 
 ## custos
@@ -154,6 +156,10 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
+
+## gestao-de-projetos
+
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 
 ## go
 
@@ -315,6 +321,7 @@ Volte para a lista completa: [README.md](README.md).
 
 * 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
@@ -347,6 +354,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 
+## svelte
+
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
+
 ## tdd
 
 * ⚙️ [addyosmani/agent-skills](https://github.com/addyosmani/agent-skills) - 24 skills que cobrem o ciclo inteiro — spec, plano, TDD, review, segurança, performance e deploy — com 8 comandos e provas obrigatórias. `MIT` ★★★★★ [análise](achados/2026-08-22-addyosmani-agent-skills-24-skills-que-impoem-disciplina-de-e.md)<br><sub>⚠️ instalar skill avulsa não traz as checklists de `references/`</sub>
@@ -362,6 +373,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## typescript
 
+* 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>

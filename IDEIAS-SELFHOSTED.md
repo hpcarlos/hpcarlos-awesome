@@ -65,6 +65,21 @@ novo vira um problema de rede; sem painel, você esquece o que está rodando.
 
 ## Combinações com a lista principal
 
+### Sede de operação sem assinaturas
+
+O [Huly](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)
+concentra num app só o que costuma ser Jira + Slack + Notion + CRM. Combinado com o
+[wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) na ponta do
+atendimento, vira a espinha de operação de um negócio pequeno sem nenhuma mensalidade de
+SaaS — o Huly cuida do time por dentro, o wacrm do cliente por fora.
+
+- **Alimenta:** Huly + wacrm
+- **Esforço:** alto (a stack do Huly — Mongo, Elastic, MinIO — é pesada)
+- **Primeiro passo:** subir só um módulo do Huly (gestão de projetos) e viver com ele um
+  mês antes de migrar qualquer coisa de verdade.
+- **Cuidado:** adotar a suíte inteira de uma vez é como isso vira peso morto. Se o módulo
+  mais importante não convencer, os outros cinco não salvam.
+
 ### O CRM que você já tem, mais o que falta
 
 O [wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) cobre WhatsApp e
