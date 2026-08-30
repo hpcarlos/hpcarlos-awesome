@@ -38,6 +38,9 @@ sugere, você aprova, o fluxo normal processa.
 
 - **Alimenta:** Always-on HN Briefing Agent + `INBOX.md`
 - **Esforço:** médio
+- **A fonte de leitura:** o [agent-reach](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)
+  dá ao agente o acesso a HN, Reddit e YouTube sem taxa de API — use só as plataformas sem
+  login (web, RSS, YouTube, GitHub) e não há risco de conta.
 - **Cuidado:** filtro apertado. Uma inbox com trinta links por dia é pior que uma vazia — o
   gargalo aqui é a sua atenção, não a coleta.
 

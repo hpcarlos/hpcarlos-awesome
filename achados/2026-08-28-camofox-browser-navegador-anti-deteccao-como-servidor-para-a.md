@@ -12,7 +12,7 @@ status: novo
 nota: 2
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md]
+relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md]
 ---
 
 # camofox-browser — navegador anti-detecção como servidor para agentes
