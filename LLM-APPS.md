@@ -19,7 +19,7 @@ aplicações usam modelos variados (Claude, GPT, Gemini, DeepSeek, Llama, Qwen) 
 depende de chave de API — algumas rodam local. O único item externo está marcado como tal.
 
 <!-- INICIO:ESTATISTICAS -->
-**115** aplicações em **15** categorias · todas sob Apache-2.0, no mesmo repositório · atualizado em 2026-08-28
+**115** aplicações em **15** categorias · todas sob Apache-2.0, no mesmo repositório · atualizado em 2026-08-30
 <!-- FIM:ESTATISTICAS -->
 
 ## Conteúdo
