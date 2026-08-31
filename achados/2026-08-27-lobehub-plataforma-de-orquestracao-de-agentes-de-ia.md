@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-27
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md]
+relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-31-rome-o-so-agentico-que-persiste-software-nao-so-conversa.md]
 ---
 
 # lobehub — plataforma de orquestração de agentes de IA
