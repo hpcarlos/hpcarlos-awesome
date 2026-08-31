@@ -20,11 +20,11 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**30** achados · **8** categorias · **87** tags · atualizado em 2026-08-30
+**31** achados · **8** categorias · **89** tags · atualizado em 2026-08-31
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 19 |  | novo | 30 |
+| ferramenta | 20 |  | novo | 31 |
 | projeto | 8 |  |  |  |
 | outro | 3 |  |  |  |
 
@@ -34,16 +34,16 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>21</sub>
-    - [Ferramentas](#ferramentas) <sub>15</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>22</sub>
+    - [Ferramentas](#ferramentas) <sub>16</sub>
     - [Projetos](#projetos) <sub>5</sub>
     - [Outros](#outros) <sub>1</sub>
 - [Engenharia de software](#engenharia-de-software) <sub>12</sub>
     - [Ferramentas](#ferramentas-1) <sub>9</sub>
     - [Projetos](#projetos-1) <sub>2</sub>
     - [Outros](#outros-1) <sub>1</sub>
-- [Web](#web) <sub>11</sub>
-    - [Ferramentas](#ferramentas-2) <sub>5</sub>
+- [Web](#web) <sub>12</sub>
+    - [Ferramentas](#ferramentas-2) <sub>6</sub>
     - [Projetos](#projetos-2) <sub>4</sub>
     - [Outros](#outros-2) <sub>2</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>6</sub>
@@ -70,6 +70,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * ⚙️ [gstack](https://github.com/garrytan/gstack) - Kit de 23 skills que dá ao Claude Code o sprint inteiro: office-hours, plano, design, review, QA em navegador real, ship e deploy monitorado. `MIT` ★★★★★ [análise](achados/2026-08-29-gstack-23-skills-que-transformam-o-claude-code-num-time-de-e.md)<br><sub>⚠️ amplo e opinativo; instala navegador Chromium, classificador ML de 22MB e telemetria opt-in — leia o que roda antes</sub>
 * ⚙️ [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review. `MIT` ★★★★★ [análise](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
 * ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
+* ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
 * ⚙️ [bifrost](https://github.com/maximhq/bifrost) - Gateway Apache 2.0 em Go: um endpoint OpenAI para 23+ provedores, com chaves virtuais, limite de gasto, cache semântico e métricas Prometheus. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md)<br><sub>⚠️ modelo open core: cluster e recursos avançados ficam na edição paga</sub>
 * ⚙️ [graphify](https://github.com/Graphify-Labs/graphify) - Transforma código, docs, PDFs e esquemas num grafo consultável: AST determinístico em ~40 linguagens, com LLM só para a parte textual. `Apache-2.0 e MIT` ★★★★☆ [análise](achados/2026-08-28-graphify-transforma-um-repositorio-em-grafo-de-conhecimento.md)<br><sub>⚠️ a v1 pública ainda não saiu (o desenvolvimento corre no branch v8) e há plataforma comercial paralela</sub>
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
@@ -122,6 +123,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ### Ferramentas
 
 * ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
+* ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
@@ -187,6 +189,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Adicionados recentemente
 
 <!-- INICIO:RECENTES -->
+* `2026-08-31` [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso.
 * `2026-08-30` [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta.
 * `2026-08-29` [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar.
 * `2026-08-29` [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários.
@@ -194,7 +197,6 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-08-29` [gstack](https://github.com/garrytan/gstack) - Kit de 23 skills que dá ao Claude Code o sprint inteiro: office-hours, plano, design, review, QA em navegador real, ship e deploy monitorado.
 * `2026-08-28` [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria.
 * `2026-08-28` [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma.
-* `2026-08-28` [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

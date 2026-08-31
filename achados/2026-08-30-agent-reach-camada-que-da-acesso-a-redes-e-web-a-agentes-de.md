@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-30
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md, 2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md]
+relacionados: [2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md, 2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md, 2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md]
 ---
 
 # Agent Reach — camada que dá acesso a redes e web a agentes de IA
