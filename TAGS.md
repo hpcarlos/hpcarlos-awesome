@@ -1,12 +1,12 @@
 # Tags
 
-91 tag(s) em 33 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+92 tag(s) em 34 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`claude-code`](#claude-code) (16) · [`agentes`](#agentes) (15) · [`skills`](#skills) (13) · [`mcp`](#mcp) (12) · [`self-hosted`](#self-hosted) (10) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`cli`](#cli) (4) · [`frontend`](#frontend) (4) · [`gateway`](#gateway) (4) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`scraping`](#scraping) (3) · [`ui`](#ui) (3) · [`workflow`](#workflow) (3) · [`automacao`](#automacao) (2) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`crm`](#crm) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`referencia`](#referencia) (2) · [`saas`](#saas) (2) · [`tdd`](#tdd) (2)
+[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`skills`](#skills) (13) · [`mcp`](#mcp) (12) · [`self-hosted`](#self-hosted) (10) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`frontend`](#frontend) (5) · [`cli`](#cli) (4) · [`gateway`](#gateway) (4) · [`nextjs`](#nextjs) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`automacao`](#automacao) (2) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`crm`](#crm) (2) · [`design`](#design) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`saas`](#saas) (2)
 
 ## agentes
 
@@ -15,6 +15,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [mattpocock/skills](https://github.com/mattpocock/skills) - Coleção de skills pequenas e componíveis que dão método de engenharia ao agente: triagem, spec, TDD, diagnóstico de bug e code review. `MIT` ★★★★★ [análise](achados/2026-08-22-mattpocock-skills-skills-de-engenharia-para-agentes-de-codig.md)
 * ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
 * ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * 🛠 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 115 aplicações de LLM prontas e executáveis — agentes, times, RAG, memória, voz e interfaces geradas — num repositório só, sob Apache-2.0. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md)<br><sub>⚠️ são demonstrações: dependem de chave de API e não trazem contenção nem tratamento de produção</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
@@ -146,7 +147,12 @@ Volte para a lista completa: [README.md](README.md).
 
 ## design
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * ⚙️ [OpenDesign](https://github.com/nexu-io/open-design) - Faz o agente entregar protótipo, deck, dashboard, imagem e vídeo em vez de só código — com 151 design systems e exportação real. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md)<br><sub>⚠️ telemetria ligada por padrão; imagem e vídeo consomem API paga por conta própria, e ainda está em 0.10</sub>
+
+## design-md
+
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 
 ## devtools
 
@@ -175,6 +181,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## frontend
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
@@ -364,6 +371,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## referencia
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
 
@@ -462,6 +470,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## ui
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 * ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>

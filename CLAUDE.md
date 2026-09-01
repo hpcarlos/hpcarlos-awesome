@@ -145,8 +145,9 @@ o que foi pedido. Se nada casar, diga isso claramente antes de sugerir buscar fo
 Se o usuário pedir uma revisão (ou se passar muito tempo sem uma):
 
 - Rode `python3 scripts/indexar.py --conferir` e conserte o que aparecer.
-- Rode `python3 scripts/indexar_llm_apps.py --conferir` e
-  `python3 scripts/indexar_selfhosted.py --conferir` para as coleções derivadas.
+- Rode `python3 scripts/indexar_llm_apps.py --conferir`,
+  `python3 scripts/indexar_selfhosted.py --conferir` e
+  `python3 scripts/indexar_design_md.py --conferir` para as coleções derivadas.
 - Procure achados `status: novo` com mais de um mês parados e sugira arquivar ou testar.
 - Procure achados órfãos (sem `relacionados`) que se conectem a outros.
 - Atualize `IDEIAS.md` com combinações novas.

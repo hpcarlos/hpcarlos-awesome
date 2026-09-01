@@ -20,13 +20,13 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**33** achados · **8** categorias · **91** tags · atualizado em 2026-09-01
+**34** achados · **8** categorias · **92** tags · atualizado em 2026-09-01
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 21 |  | novo | 33 |
+| ferramenta | 21 |  | novo | 34 |
 | projeto | 9 |  |  |  |
-| outro | 3 |  |  |  |
+| outro | 4 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
@@ -34,10 +34,10 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>24</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>25</sub>
     - [Ferramentas](#ferramentas) <sub>17</sub>
     - [Projetos](#projetos) <sub>6</sub>
-    - [Outros](#outros) <sub>1</sub>
+    - [Outros](#outros) <sub>2</sub>
 - [Engenharia de software](#engenharia-de-software) <sub>13</sub>
     - [Ferramentas](#ferramentas-1) <sub>9</sub>
     - [Projetos](#projetos-1) <sub>3</sub>
@@ -50,9 +50,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-3) <sub>4</sub>
     - [Projetos](#projetos-3) <sub>2</sub>
     - [Outros](#outros-3) <sub>1</sub>
-- [Design](#design) <sub>5</sub>
+- [Design](#design) <sub>6</sub>
     - [Ferramentas](#ferramentas-4) <sub>4</sub>
-    - [Outros](#outros-4) <sub>1</sub>
+    - [Outros](#outros-4) <sub>2</sub>
 - [Negócios](#negócios) <sub>2</sub>
 - [Segurança](#segurança) <sub>2</sub>
 - [Finanças](#finanças) <sub>1</sub>
@@ -95,6 +95,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ### Outros
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
 
 ## Engenharia de software
@@ -173,6 +174,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ### Outros
 
+* 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
 ## Negócios
@@ -194,13 +196,13 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 <!-- INICIO:RECENTES -->
 * `2026-09-01` [Portkey Gateway](https://github.com/portkey-ai/gateway) - Gateway de LLM enxuto e testado em produção: um endpoint para 45+ provedores, com fallback, load balancing, cache e mais de 50 guardrails.
+* `2026-09-01` [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara.
 * `2026-08-31` [Rome](https://github.com/rome-os/rome) - Ambiente auto-hospedável onde agentes constroem apps, ações e skills que persistem entre tarefas — memória de software, não só de texto.
 * `2026-08-31` [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso.
 * `2026-08-30` [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta.
 * `2026-08-29` [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar.
 * `2026-08-29` [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários.
 * `2026-08-29` [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion.
-* `2026-08-29` [gstack](https://github.com/garrytan/gstack) - Kit de 23 skills que dá ao Claude Code o sprint inteiro: office-hours, plano, design, review, QA em navegador real, ship e deploy monitorado.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona
@@ -240,6 +242,7 @@ dele, o catálogo vai para arquivo próprio, com documento de ideias ao lado:
 | --- | --- | --- |
 | 115 aplicações de LLM prontas | [`LLM-APPS.md`](LLM-APPS.md) | [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) |
 | 1.255 softwares para auto-hospedar | [`SELFHOSTED.md`](SELFHOSTED.md) | [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) |
+| 73 arquivos DESIGN.md de produtos reais | [`DESIGN-MD.md`](DESIGN-MD.md) | [`IDEIAS-DESIGN-MD.md`](IDEIAS-DESIGN-MD.md) |
 
 | Caminho | O que é |
 | --- | --- |
@@ -248,8 +251,8 @@ dele, o catálogo vai para arquivo próprio, com documento de ideias ao lado:
 | [`IDEIAS.md`](IDEIAS.md) | Ideias que cruzam vários achados |
 | [`TAGS.md`](TAGS.md) | Mapa de tags — **gerado** |
 | [`scripts/`](scripts/) | `novo.py`, `indexar.py`, `buscar.py` (Python puro, sem deps) |
-| [`LLM-APPS.md`](LLM-APPS.md) · [`SELFHOSTED.md`](SELFHOSTED.md) | Catálogos das coleções derivadas — **gerados** |
-| [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) · [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) | Ideias de cada coleção derivada |
+| [`LLM-APPS.md`](LLM-APPS.md) · [`SELFHOSTED.md`](SELFHOSTED.md) · [`DESIGN-MD.md`](DESIGN-MD.md) | Catálogos das coleções derivadas — **gerados** |
+| [`IDEIAS-LLM-APPS.md`](IDEIAS-LLM-APPS.md) · [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) · [`IDEIAS-DESIGN-MD.md`](IDEIAS-DESIGN-MD.md) | Ideias de cada coleção derivada |
 | [`dados/`](dados/) | Fontes tabulares das coleções derivadas |
 | [`modelos/`](modelos/) | Template de achado e workflow de CI opcional |
 

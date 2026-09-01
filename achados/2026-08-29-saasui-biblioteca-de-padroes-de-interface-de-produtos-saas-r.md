@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-29
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md, 2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-28-opendesign-gerador-de-artefatos-de-design-dirigido-por-agent.md, 2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md, 2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md]
 ---
 
 # SaaSUI — biblioteca de padrões de interface de produtos SaaS reais

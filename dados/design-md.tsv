@@ -1,0 +1,75 @@
+# categoria	nome	url	descricao (estilo, original em inglês)
+# fonte: github.com/VoltAgent/awesome-design-md — gerado por scripts/importar_design_md.py
+Plataformas de IA e LLM	Claude	https://getdesign.md/claude/design-md	Anthropic's AI assistant. Warm terracotta accent, clean editorial layout
+Plataformas de IA e LLM	Cohere	https://getdesign.md/cohere/design-md	Enterprise AI platform. Vibrant gradients, data-rich dashboard aesthetic
+Plataformas de IA e LLM	ElevenLabs	https://getdesign.md/elevenlabs/design-md	AI voice platform. Dark cinematic UI, audio-waveform aesthetics
+Plataformas de IA e LLM	Minimax	https://getdesign.md/minimax/design-md	AI model provider. Bold dark interface with neon accents
+Plataformas de IA e LLM	Mistral AI	https://getdesign.md/mistral.ai/design-md	Open-weight LLM provider. French-engineered minimalism, purple-toned
+Plataformas de IA e LLM	Ollama	https://getdesign.md/ollama/design-md	Run LLMs locally. Terminal-first, monochrome simplicity
+Plataformas de IA e LLM	OpenCode AI	https://getdesign.md/opencode.ai/design-md	AI coding platform. Developer-centric dark theme
+Plataformas de IA e LLM	Replicate	https://getdesign.md/replicate/design-md	Run ML models via API. Clean white canvas, code-forward
+Plataformas de IA e LLM	Runway	https://getdesign.md/runwayml/design-md	AI creative-tools platform with an editorial film-festival aesthetic — cinematic dark heroes, paper-white reading bands, single proprietary sans, and pure black pill CTAs.
+Plataformas de IA e LLM	Together AI	https://getdesign.md/together.ai/design-md	Open-source AI infrastructure. Technical, blueprint-style design
+Plataformas de IA e LLM	VoltAgent	https://getdesign.md/voltagent/design-md	AI agent framework. Void-black canvas, emerald accent, terminal-native
+Plataformas de IA e LLM	xAI	https://getdesign.md/x.ai/design-md	Elon Musk's AI lab. Stark monochrome, futuristic minimalism
+Ferramentas de desenvolvimento e IDEs	Cursor	https://getdesign.md/cursor/design-md	AI-first code editor. Sleek dark interface, gradient accents
+Ferramentas de desenvolvimento e IDEs	Expo	https://getdesign.md/expo/design-md	React Native platform. Dark theme, tight letter-spacing, code-centric
+Ferramentas de desenvolvimento e IDEs	Lovable	https://getdesign.md/lovable/design-md	AI full-stack builder. Playful gradients, friendly dev aesthetic
+Ferramentas de desenvolvimento e IDEs	Raycast	https://getdesign.md/raycast/design-md	Productivity launcher. Sleek dark chrome, vibrant gradient accents
+Ferramentas de desenvolvimento e IDEs	Superhuman	https://getdesign.md/superhuman/design-md	Fast email client. Premium dark UI, keyboard-first, purple glow
+Ferramentas de desenvolvimento e IDEs	Vercel	https://getdesign.md/vercel/design-md	Frontend deployment platform. Black and white precision, Geist font
+Ferramentas de desenvolvimento e IDEs	Warp	https://getdesign.md/warp/design-md	Modern terminal. Dark IDE-like interface, block-based command UI
+Backend, banco de dados e DevOps	ClickHouse	https://getdesign.md/clickhouse/design-md	Fast analytics database. Yellow-accented, technical documentation style
+Backend, banco de dados e DevOps	Composio	https://getdesign.md/composio/design-md	Tool integration platform. Modern dark with colorful integration icons
+Backend, banco de dados e DevOps	HashiCorp	https://getdesign.md/hashicorp/design-md	Infrastructure automation. Enterprise-clean, black and white
+Backend, banco de dados e DevOps	MongoDB	https://getdesign.md/mongodb/design-md	Document database. Green leaf branding, developer documentation focus
+Backend, banco de dados e DevOps	PostHog	https://getdesign.md/posthog/design-md	Product analytics. Playful hedgehog branding, developer-friendly dark UI
+Backend, banco de dados e DevOps	Sanity	https://getdesign.md/sanity/design-md	Headless content platform with a dark-first editorial marketing surface — 112px display type, IBM Plex Mono technical eyebrows, and a single coral-red accent reserved for the highest-priority CTA.
+Backend, banco de dados e DevOps	Sentry	https://getdesign.md/sentry/design-md	Error monitoring. Dark dashboard, data-dense, pink-purple accent
+Backend, banco de dados e DevOps	Supabase	https://getdesign.md/supabase/design-md	Open-source Firebase alternative. Dark emerald theme, code-first
+Produtividade e SaaS	Cal.com	https://getdesign.md/cal/design-md	Open-source scheduling. Clean neutral UI, developer-oriented simplicity
+Produtividade e SaaS	Intercom	https://getdesign.md/intercom/design-md	Customer messaging. Friendly blue palette, conversational UI patterns
+Produtividade e SaaS	Linear	https://getdesign.md/linear.app/design-md	Project management for engineers. Ultra-minimal, precise, purple accent
+Produtividade e SaaS	Mintlify	https://getdesign.md/mintlify/design-md	Documentation platform. Clean, green-accented, reading-optimized
+Produtividade e SaaS	Notion	https://getdesign.md/notion/design-md	All-in-one workspace. Warm minimalism, serif headings, soft surfaces
+Produtividade e SaaS	Resend	https://getdesign.md/resend/design-md	Email API for developers. Minimal dark theme, monospace accents
+Produtividade e SaaS	Zapier	https://getdesign.md/zapier/design-md	Automation platform. Warm orange, friendly illustration-driven
+Design e ferramentas criativas	Airtable	https://getdesign.md/airtable/design-md	Spreadsheet-database hybrid. Colorful, friendly, structured data aesthetic
+Design e ferramentas criativas	Clay	https://getdesign.md/clay/design-md	Creative agency. Organic shapes, soft gradients, art-directed layout
+Design e ferramentas criativas	Figma	https://getdesign.md/figma/design-md	Collaborative design tool. Vibrant multi-color, playful yet professional
+Design e ferramentas criativas	Framer	https://getdesign.md/framer/design-md	Website builder. Bold black and blue, motion-first, design-forward
+Design e ferramentas criativas	Miro	https://getdesign.md/miro/design-md	Visual collaboration. Bright yellow accent, infinite canvas aesthetic
+Design e ferramentas criativas	Webflow	https://getdesign.md/webflow/design-md	Visual web builder. Blue-accented, polished marketing site aesthetic
+Fintech e cripto	Binance	https://getdesign.md/binance/design-md	Crypto exchange. Bold Binance Yellow on monochrome, trading-floor urgency
+Fintech e cripto	Coinbase	https://getdesign.md/coinbase/design-md	Crypto exchange. Clean blue identity, trust-focused, institutional feel
+Fintech e cripto	Kraken	https://getdesign.md/kraken/design-md	Crypto trading platform. Purple-accented dark UI, data-dense dashboards
+Fintech e cripto	Mastercard	https://getdesign.md/mastercard/design-md	Global payments network. Warm cream canvas, orbital pill shapes, editorial warmth
+Fintech e cripto	Revolut	https://getdesign.md/revolut/design-md	Digital banking. Sleek dark interface, gradient cards, fintech precision
+Fintech e cripto	Stripe	https://getdesign.md/stripe/design-md	Payment infrastructure. Signature purple gradients, weight-300 elegance
+Fintech e cripto	Wise	https://getdesign.md/wise/design-md	International money transfer. Bright green accent, friendly and clear
+Comércio eletrônico e varejo	Airbnb	https://getdesign.md/airbnb/design-md	Travel marketplace. Warm coral accent, photography-driven, rounded UI
+Comércio eletrônico e varejo	Meta	https://getdesign.md/meta/design-md	Tech retail store. Photography-first, binary light/dark surfaces, Meta Blue CTAs
+Comércio eletrônico e varejo	Nike	https://getdesign.md/nike/design-md	Athletic retail. Monochrome UI, massive uppercase Futura, full-bleed photography
+Comércio eletrônico e varejo	Shopify	https://getdesign.md/shopify/design-md	E-commerce platform. Dark-first cinematic, neon green accent, ultra-light display type
+Comércio eletrônico e varejo	Starbucks	https://getdesign.md/starbucks/design-md	Coffee retail flagship. Four-tier earth-green system, warm cream canvas, proprietary SoDoSans typography
+Mídia e tecnologia de consumo	Apple	https://getdesign.md/apple/design-md	Consumer electronics. Premium white space, SF Pro, cinematic imagery
+Mídia e tecnologia de consumo	HP	https://getdesign.md/hp/design-md	PC and printer maker. Pure white canvas, HP Electric Blue signal CTA, geometric Forma DJR Micro, blue chevron decorations
+Mídia e tecnologia de consumo	IBM	https://getdesign.md/ibm/design-md	Enterprise technology. Carbon design system, structured blue palette
+Mídia e tecnologia de consumo	NVIDIA	https://getdesign.md/nvidia/design-md	GPU computing. Green-black energy, technical power aesthetic
+Mídia e tecnologia de consumo	Pinterest	https://getdesign.md/pinterest/design-md	Visual discovery platform. Red accent, masonry grid, image-first
+Mídia e tecnologia de consumo	PlayStation	https://getdesign.md/playstation/design-md	Gaming console retail. Three-surface channel layout, cyan hover-scale interaction
+Mídia e tecnologia de consumo	SpaceX	https://getdesign.md/spacex/design-md	Space technology. Stark black and white, full-bleed imagery, futuristic
+Mídia e tecnologia de consumo	Spotify	https://getdesign.md/spotify/design-md	Music streaming. Vibrant green on dark, bold type, album-art-driven
+Mídia e tecnologia de consumo	The Verge	https://getdesign.md/theverge/design-md	Tech editorial media. Acid-mint and ultraviolet accents, Manuka display type
+Mídia e tecnologia de consumo	Uber	https://getdesign.md/uber/design-md	Mobility platform. Bold black and white, tight type, urban energy
+Mídia e tecnologia de consumo	Vodafone	https://getdesign.md/vodafone/design-md	Global telecom brand. Monumental uppercase display, Vodafone Red chapter bands
+Mídia e tecnologia de consumo	WIRED	https://getdesign.md/wired/design-md	Tech magazine. Paper-white broadsheet density, custom serif, ink-blue links
+Automotivo	BMW	https://getdesign.md/bmw/design-md	Luxury automotive. Dark premium surfaces, precise German engineering aesthetic
+Automotivo	BMW M	https://getdesign.md/bmw-m/design-md	Performance automotive. Motorsport-inspired contrast, M color accents, precision-driven layout
+Automotivo	Bugatti	https://getdesign.md/bugatti/design-md	Luxury hypercar. Cinema-black canvas, monochrome austerity, monumental display type
+Automotivo	Ferrari	https://getdesign.md/ferrari/design-md	Luxury automotive. Chiaroscuro black-white editorial, Ferrari Red with extreme sparseness
+Automotivo	Lamborghini	https://getdesign.md/lamborghini/design-md	Luxury automotive. True black cathedral, gold accent, LamboType custom Neo-Grotesk
+Automotivo	Renault	https://getdesign.md/renault/design-md	French automotive. Vivid aurora gradients, NouvelR proprietary typeface, zero-radius buttons
+Automotivo	Tesla	https://getdesign.md/tesla/design-md	Electric vehicles. Radical subtraction, cinematic full-viewport photography, Universal Sans
+Web retrô · nostalgia	Dell (1996)	https://getdesign.md/dell-1996/design-md	Catalog-era enterprise web. Literal black page frame, flat color-block "ribbon cards", chunky Helvetica-Black titles over Times Roman body, and hand-cut GIF stickers (NEW! bursts, award seals, beveled product photos).
+Web retrô · nostalgia	Nintendo.com (2001)	https://getdesign.md/nintendo-2001/design-md	Y2K "console chrome" web. Brushed-periwinkle beveled metal panels, a halftone-dotted carbon nav glowing amber, outlined Arial-Black box-art wordmarks over circuit-board hero fields, and a pixel Mario welcome bubble.
