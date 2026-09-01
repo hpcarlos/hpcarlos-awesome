@@ -161,13 +161,18 @@ Já são três gateways na coleção resolvendo o mesmo problema, e a escolha n�
 [sub2api](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)
 redistribui assinaturas e o próprio README avisa que isso pode violar termos de serviço.
 
-- **Regra prática:** bifrost onde houver cliente ou produto; OmniRoute para experimento
-  pessoal; sub2api só como leitura de arquitetura.
+- **Regra prática:** para produto sério, a escolha é entre bifrost e
+  [Portkey](achados/2026-09-01-portkey-ai-gateway-gateway-de-llm-com-guardrails-e-observabi.md)
+  (ambos permissivos, sobre suas chaves) — Portkey se você precisa de guardrails na frente do
+  usuário, bifrost se quer tudo aberto sem empurrão para a nuvem paga. OmniRoute para
+  experimento pessoal; sub2api só como leitura de arquitetura.
 - **Esforço:** baixo — é decisão, não construção.
 - **Primeiro passo:** `npx -y @maximhq/bifrost`, apontar um projeto existente para
   `localhost:8080` e ver se a troca é mesmo só de URL base.
 - **Ganho colateral:** decidido isso, todo achado futuro de IA já nasce sabendo por onde
   suas chamadas passam.
+- **Atualização:** com quatro gateways catalogados, o bake-off que importa é bifrost × Portkey,
+  medido com o seu próprio tráfego. A tabela comparativa está no achado do Portkey.
 
 ### Um cinto de segurança para agentes que agem
 

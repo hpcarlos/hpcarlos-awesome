@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-08-21
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md]
+relacionados: [2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-09-01-portkey-ai-gateway-gateway-de-llm-com-guardrails-e-observabi.md]
 ---
 
 # OmniRoute — gateway de IA com um endpoint para centenas de provedores
