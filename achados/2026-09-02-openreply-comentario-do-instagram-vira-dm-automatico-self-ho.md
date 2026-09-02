@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-09-02
 fonte: enviado pelo hpcarlos
-relacionados: [2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md]
+relacionados: [2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-09-02-chatbotx-plataforma-omnichannel-de-chatbot-com-ia-self-hoste.md]
 ---
 
 # OpenReply — comentário do Instagram vira DM automático, self-hosted

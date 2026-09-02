@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-22
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md, 2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md, 2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md]
+relacionados: [2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md, 2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md, 2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md, 2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md, 2026-09-02-chatbotx-plataforma-omnichannel-de-chatbot-com-ia-self-hoste.md]
 ---
 
 # wacrm — CRM auto-hospedável para WhatsApp

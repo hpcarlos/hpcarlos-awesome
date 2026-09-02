@@ -339,6 +339,27 @@ arrombada. Uso puramente defensivo, sobre a sua própria infraestrutura.
 - **Liga com a base:** casa com "montar a base antes dos serviços" em
   [`IDEIAS-SELFHOSTED.md`](IDEIAS-SELFHOSTED.md) — proxy, backup e agora endurecimento.
 
+### Escolher o construtor de conversa por dependência
+
+Três construtores de chatbot entraram na coleção em sequência, e a escolha entre eles não é
+de recursos — é de **laço**:
+[ChatbotX](achados/2026-09-02-chatbotx-plataforma-omnichannel-de-chatbot-com-ia-self-hoste.md)
+cobre seis redes com chave de IA própria e sem intermediário;
+[ZernFlow](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)
+cobre sete, mas cada mensagem passa pela API paga da Zernio;
+[OpenReply](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)
+faz só comment-to-DM no Instagram, sem dependência e com uma fração da infraestrutura.
+
+- **Alimenta:** ChatbotX + ZernFlow + OpenReply
+- **Esforço:** baixo — é decisão, não construção
+- **Regra prática:** só Instagram → OpenReply; operação multicanal séria → ChatbotX;
+  ZernFlow só se algum canal exclusivo dele for indispensável.
+- **O que nenhum resolve:** a janela de 24 horas da Meta. Ela limita disparo nos três, porque
+  é regra da plataforma, não do software.
+- **Complemento obrigatório:** se o fluxo tiver nó de IA respondendo ao cliente, ele passa por
+  um gateway com guardrail ([Portkey](achados/2026-09-01-portkey-ai-gateway-gateway-de-llm-com-guardrails-e-observabi.md)) —
+  não é opcional quando o modelo fala com público.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
