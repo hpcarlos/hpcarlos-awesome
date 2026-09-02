@@ -71,7 +71,9 @@ O [Huly](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-
 concentra num app só o que costuma ser Jira + Slack + Notion + CRM. Combinado com o
 [wacrm](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md) na ponta do
 atendimento, vira a espinha de operação de um negócio pequeno sem nenhuma mensalidade de
-SaaS — o Huly cuida do time por dentro, o wacrm do cliente por fora.
+SaaS — o Huly cuida do time por dentro, o wacrm do cliente por fora. Para automação de conversa em várias redes, o
+[ZernFlow](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)
+entra como terceira peça — com a ressalva de que o envio dele depende da API paga da Zernio.
 
 - **Alimenta:** Huly + wacrm
 - **Esforço:** alto (a stack do Huly — Mongo, Elastic, MinIO — é pesada)
