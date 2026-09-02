@@ -1,12 +1,12 @@
 # Tags
 
-93 tag(s) em 35 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+95 tag(s) em 36 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`skills`](#skills) (13) · [`mcp`](#mcp) (12) · [`self-hosted`](#self-hosted) (11) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`frontend`](#frontend) (5) · [`nextjs`](#nextjs) (5) · [`cli`](#cli) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`automacao`](#automacao) (3) · [`crm`](#crm) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`design`](#design) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`saas`](#saas) (2)
+[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`skills`](#skills) (13) · [`mcp`](#mcp) (12) · [`self-hosted`](#self-hosted) (12) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (6) · [`frontend`](#frontend) (5) · [`automacao`](#automacao) (4) · [`cli`](#cli) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`crm`](#crm) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`chat`](#chat) (2) · [`code-review`](#code-review) (2) · [`design`](#design) (2) · [`electron`](#electron) (2) · [`go`](#go) (2) · [`linter`](#linter) (2) · [`marketing`](#marketing) (2)
 
 ## agentes
 
@@ -58,6 +58,7 @@ Volte para a lista completa: [README.md](README.md).
 ## automacao
 
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
 
@@ -168,6 +169,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * ⚙️ [archify](https://github.com/tt-a1i/archify) - Skill que transforma JSON tipado em diagrama de arquitetura, fluxo, sequência ou ciclo de vida, com layout determinístico e saída num arquivo só. `MIT` ★★★★☆ [análise](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md)<br><sub>⚠️ sem auto-layout, editor visual ou import de Mermaid — o agente precisa escrever o JSON tipado</sub>
 
+## dm
+
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
+
 ## documentacao
 
 * ⚙️ [archify](https://github.com/tt-a1i/archify) - Skill que transforma JSON tipado em diagrama de arquitetura, fluxo, sequência ou ciclo de vida, com layout determinístico e saída num arquivo só. `MIT` ★★★★☆ [análise](achados/2026-08-28-archify-diagramas-de-arquitetura-deterministicos-a-partir-de.md)<br><sub>⚠️ sem auto-layout, editor visual ou import de Mermaid — o agente precisa escrever o JSON tipado</sub>
@@ -221,6 +226,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
+## instagram
+
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
+
 ## licencas
 
 * 🔗 [awesome-selfhosted](https://github.com/awesome-selfhosted/awesome-selfhosted) - Catálogo de 1.255 softwares livres para hospedar você mesmo, com licença e stack declaradas e os projetos abandonados sinalizados. `CC-BY-SA-3.0` ★★★★★ [análise](achados/2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md)<br><sub>⚠️ 305 dos projetos são AGPL ou equivalente — decisivo se a ideia for produto fechado</sub>
@@ -243,6 +252,7 @@ Volte para a lista completa: [README.md](README.md).
 ## marketing
 
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 
 ## mcp
 
@@ -280,6 +290,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>
 
@@ -410,6 +421,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * ⚙️ [Portkey Gateway](https://github.com/portkey-ai/gateway) - Gateway de LLM enxuto e testado em produção: um endpoint para 45+ provedores, com fallback, load balancing, cache e mais de 50 guardrails. `MIT` ★★★★☆ [análise](achados/2026-09-01-portkey-ai-gateway-gateway-de-llm-com-guardrails-e-observabi.md)<br><sub>⚠️ open core: cache semântico, otimização de provedor e templates ficam na versão paga</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
+* 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 * 🛠 [Rome](https://github.com/rome-os/rome) - Ambiente auto-hospedável onde agentes constroem apps, ações e skills que persistem entre tarefas — memória de software, não só de texto. `MIT` ★★★☆☆ [análise](achados/2026-08-31-rome-o-so-agentico-que-persiste-software-nao-so-conversa.md)<br><sub>⚠️ preview em evolução ativa; exige Docker e a nuvem própria ainda está fechada</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>

@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-09-02
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md]
+relacionados: [2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md]
 ---
 
 # ZernFlow — construtor visual de chatbots multicanal, alternativa ao ManyChat
