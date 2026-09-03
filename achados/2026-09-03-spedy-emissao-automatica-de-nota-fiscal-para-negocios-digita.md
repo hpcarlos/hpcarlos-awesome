@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-09-03
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md]
+relacionados: [2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md, 2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md, 2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md]
 ---
 
 # Spedy — emissão automática de nota fiscal para negócios digitais

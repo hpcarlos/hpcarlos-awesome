@@ -375,6 +375,13 @@ fecha esse buraco por API, entre receber o pagamento e estar em dia com o fisco.
   (Spedy) → só então o produto em si.
 - **O que verificar antes de amarrar:** como exportar o histórico de notas. Emissão fiscal é
   obrigação sua, não do fornecedor — precisa haver plano B se o serviço sair do ar.
+- **A outra ponta:** a [Polp](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)
+  resolve a entrada de dado bancário (Open Finance já categorizado) como a Spedy resolve a
+  saída fiscal. Com as duas, o encanamento brasileiro de um produto financeiro está inteiro
+  catalogado — falta a ideia de produto, não a infraestrutura.
+- **Cuidado extra do lado da Polp:** dado bancário de terceiro exige consentimento pelo fluxo
+  do Open Finance e cai sob a LGPD. É o único item da coleção cujo risco principal é legal, e
+  não técnico ou de licença.
 
 ### Digest do que entrou
 
