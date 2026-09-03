@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-28
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md, 2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md]
+relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-bifrost-gateway-de-ia-em-go-com-governanca-e-observabilidade.md, 2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md, 2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md, 2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md]
 ---
 
 # Vibe-Trading — agente de IA para pesquisa e execução de ordens em corretora

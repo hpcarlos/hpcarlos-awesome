@@ -1,12 +1,12 @@
 # Tags
 
-107 tag(s) em 42 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+111 tag(s) em 43 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`api`](#api) (5) · [`automacao`](#automacao) (5) · [`brasil`](#brasil) (5) · [`frontend`](#frontend) (5) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`saas`](#saas) (4) · [`ui`](#ui) (4) · [`dados`](#dados) (3) · [`fiscal`](#fiscal) (3) · [`nodejs`](#nodejs) (3) · [`nota-fiscal`](#nota-fiscal) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2)
+[`agentes`](#agentes) (17) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (10) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`api`](#api) (5) · [`automacao`](#automacao) (5) · [`brasil`](#brasil) (5) · [`frontend`](#frontend) (5) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`saas`](#saas) (4) · [`ui`](#ui) (4) · [`dados`](#dados) (3) · [`fiscal`](#fiscal) (3) · [`nodejs`](#nodejs) (3) · [`nota-fiscal`](#nota-fiscal) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2)
 
 ## agentes
 
@@ -17,6 +17,7 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
 * 🔗 [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara. `própria (coleção)` ★★★★☆ [análise](achados/2026-09-01-awesome-design-md-73-arquivos-design-md-de-produtos-conhecid.md)<br><sub>⚠️ replicam a identidade de marcas reais; use a estrutura, não copie a cara de ninguém</sub>
 * 🛠 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 115 aplicações de LLM prontas e executáveis — agentes, times, RAG, memória, voz e interfaces geradas — num repositório só, sob Apache-2.0. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md)<br><sub>⚠️ são demonstrações: dependem de chave de API e não trazem contenção nem tratamento de produção</sub>
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [ponytail](https://github.com/DietrichGebert/ponytail) - Skill sempre ativa que obriga o agente a percorrer uma escada de decisão antes de escrever código, cortando solução inflada. `MIT` ★★★★☆ [análise](achados/2026-08-28-ponytail-skill-que-faz-o-agente-escrever-menos-codigo.md)<br><sub>⚠️ os ganhos anunciados vêm de benchmark do próprio projeto; o efeito é quase nulo onde o código já é enxuto</sub>
 * ⚙️ [task-observer](https://github.com/rebelytics/one-skill-to-rule-them-all) - Meta-skill que assiste às suas sessões, anota padrões e correções, e devolve melhorias para as outras skills — inclusive para si mesma. `CC-BY-4.0` ★★★★☆ [análise](achados/2026-08-28-task-observer-one-skill-to-rule-them-all-a-skill-que-melhora.md)<br><sub>⚠️ para poucas skills, a memória embutida do assistente já resolve — quem diz isso é o próprio projeto</sub>
@@ -139,6 +140,10 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [impeccable](https://github.com/pbakaus/impeccable) - Ensina agentes de código a fazer interfaces com cara decidida: 23 comandos e 59 detectores de anti-padrões visuais. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-21-impeccable-design-language-e-skill-para-agentes-de-codigo.md)
 * ⚙️ [OmniRoute](https://github.com/diegosouzapw/OmniRoute) - Gateway local que expõe um endpoint OpenAI para centenas de provedores de LLM, com fallback automático quando a cota grátis acaba. `MIT` ★★★★☆ [análise](achados/2026-08-21-omniroute-gateway-de-ia-com-um-endpoint-para-centenas-de-pro.md)<br><sub>⚠️ parte dos tiers gratuitos é marcada como sensível a termos de uso</sub>
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
+
+## cloudflare
+
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 
 ## code-review
 
@@ -471,6 +476,10 @@ Volte para a lista completa: [README.md](README.md).
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>
 
+## sandbox
+
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
+
 ## scraping
 
 * ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
@@ -480,6 +489,10 @@ Volte para a lista completa: [README.md](README.md).
 ## seguranca
 
 * ⚙️ [gstack](https://github.com/garrytan/gstack) - Kit de 23 skills que dá ao Claude Code o sprint inteiro: office-hours, plano, design, review, QA em navegador real, ship e deploy monitorado. `MIT` ★★★★★ [análise](achados/2026-08-29-gstack-23-skills-que-transformam-o-claude-code-num-time-de-e.md)<br><sub>⚠️ amplo e opinativo; instala navegador Chromium, classificador ML de 22MB e telemetria opt-in — leia o que roda antes</sub>
+
+## seguranca-de-agentes
+
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 
 ## seguranca-ofensiva
 
@@ -553,6 +566,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## typescript
 
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 * 🛠 [Huly](https://github.com/hcengineering/platform) - Suíte de trabalho auto-hospedável num app só: gestão de projetos, chat, CRM, RH e recrutamento — alternativa a Jira, Linear, Slack e Notion. `EPL-2.0` ★★★★☆ [análise](achados/2026-08-29-huly-platform-alternativa-self-hosted-a-jira-linear-slack-e.md)<br><sub>⚠️ o serviço hospedado foi descontinuado; agora é auto-hospedar, e a stack (Mongo, Elastic, MinIO) é pesada</sub>
 * ⚙️ [mission-control](https://github.com/builderz-labs/mission-control) - Painel self-hosted para operar agentes: despacho de tarefas, sessões, custo por execução, auditoria, cron e webhooks num lugar só. `MIT` ★★★★☆ [análise](achados/2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md)<br><sub>⚠️ alpha declarado; troque as credenciais padrão antes de expor na rede</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
@@ -581,6 +595,10 @@ Volte para a lista completa: [README.md](README.md).
 ## whatsapp
 
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
+
+## workers
+
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 
 ## workflow
 

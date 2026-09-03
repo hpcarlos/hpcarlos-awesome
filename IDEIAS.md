@@ -196,6 +196,13 @@ diz que se deve tratar agente como entrada não confiável; este mostra como.
   chega ao mesmo desenho em outro domínio — leitura por padrão, mudança como rascunho,
   escrita atrás de aprovação, idempotência e verificação. Dois projetos sem relação
   convergindo é um bom indício de que esse é *o* padrão, e não gosto de um autor.
+- **Terceira confirmação, e a mais forte:** o
+  [cloudflare-os](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)
+  põe isso na arquitetura em vez de na política — agente e app **nascem sem acesso a nada** e
+  cada recurso é concedido explicitamente, com isolamento de rede por padrão. Vindo de uma
+  empresa de infraestrutura, é o desenho mais maduro do padrão na coleção.
+- **A regra a levar para os seus projetos:** comece negando tudo. É mais fácil conceder um
+  acesso que faltou do que descobrir qual acesso sobrou.
 
 ### Fazer o agente declarar o que não sabe
 

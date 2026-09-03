@@ -20,12 +20,12 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**42** achados · **8** categorias · **107** tags · atualizado em 2026-09-03
+**43** achados · **8** categorias · **111** tags · atualizado em 2026-09-03
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 25 |  | novo | 42 |
-| projeto | 12 |  |  |  |
+| ferramenta | 25 |  | novo | 43 |
+| projeto | 13 |  |  |  |
 | outro | 4 |  |  |  |
 | biblioteca | 1 |  |  |  |
 
@@ -35,9 +35,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Conteúdo
 
 <!-- INICIO:SUMARIO -->
-- [Inteligência artificial](#inteligência-artificial) <sub>25</sub>
+- [Inteligência artificial](#inteligência-artificial) <sub>26</sub>
     - [Ferramentas](#ferramentas) <sub>17</sub>
-    - [Projetos](#projetos) <sub>6</sub>
+    - [Projetos](#projetos) <sub>7</sub>
     - [Outros](#outros) <sub>2</sub>
 - [Web](#web) <sub>17</sub>
     - [Ferramentas](#ferramentas-1) <sub>8</sub>
@@ -60,7 +60,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-5) <sub>4</sub>
     - [Outros](#outros-4) <sub>2</sub>
 - [Finanças](#finanças) <sub>3</sub>
-- [Segurança](#segurança) <sub>2</sub>
+- [Segurança](#segurança) <sub>3</sub>
 <!-- FIM:SUMARIO -->
 
 - [Adicionados recentemente](#adicionados-recentemente)
@@ -92,6 +92,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ### Projetos
 
 * 🛠 [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - 115 aplicações de LLM prontas e executáveis — agentes, times, RAG, memória, voz e interfaces geradas — num repositório só, sob Apache-2.0. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-28-awesome-llm-apps-115-aplicacoes-de-llm-com-codigo-completo.md)<br><sub>⚠️ são demonstrações: dependem de chave de API e não trazem contenção nem tratamento de produção</sub>
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 * 🛠 [lobehub](https://github.com/lobehub/lobehub) - Plataforma para operar equipes de agentes — grupos, agendamento, memória editável e plugins MCP — sob licença própria com restrições comerciais. `própria` ★★★☆☆ [análise](achados/2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md)<br><sub>⚠️ LobeHub Community License, com restrições de uso comercial</sub>
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
 * 🛠 [Rome](https://github.com/rome-os/rome) - Ambiente auto-hospedável onde agentes constroem apps, ações e skills que persistem entre tarefas — memória de software, não só de texto. `MIT` ★★★☆☆ [análise](achados/2026-08-31-rome-o-so-agentico-que-persiste-software-nao-so-conversa.md)<br><sub>⚠️ preview em evolução ativa; exige Docker e a nuvem própria ainda está fechada</sub>
@@ -220,6 +221,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ## Segurança
 
+* 🛠 [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita. `Apache-2.0` ★★★★☆ [análise](achados/2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md)<br><sub>⚠️ early access com arestas assumidas, não aceita contribuição externa e a produção depende da infraestrutura Cloudflare</sub>
 * 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
 * ⚙️ [red-team](https://www.skills.sh/alirezarezvani/claude-skills/red-team) - Skill que monta plano de red team a partir de técnicas MITRE ATT&CK, pontuando esforço e risco de detecção — só com autorização assinada. `MIT` ★★★☆☆ [análise](achados/2026-08-28-red-team-skill-de-planejamento-de-simulacao-adversarial-mitr.md)<br><sub>⚠️ uso sem autorização escrita é crime (CFAA e equivalentes); a ferramenta exige a flag --authorized</sub>
 <!-- FIM:LISTA -->
@@ -232,9 +234,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-09-03` [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar.
 * `2026-09-03` [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring.
 * `2026-09-03` [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo.
+* `2026-09-03` [cloudflare-os](https://github.com/cloudflare/cloudflare-os) - Plataforma interna da Cloudflare, aberta: agentes e mini-apps que nascem sem acesso a nada e só ganham recursos por apresentação explícita.
 * `2026-09-02` [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat.
 * `2026-09-02` [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta.
-* `2026-09-02` [ChatbotX](https://github.com/ChatbotXIO/ChatbotX) - Plataforma completa de chatbot para 6 redes, e-mail e webchat, com agentes de IA por chave própria, CRM, disparo e servidor MCP.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

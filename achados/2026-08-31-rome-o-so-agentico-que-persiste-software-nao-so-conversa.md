@@ -12,7 +12,7 @@ status: novo
 nota: 3
 adicionado: 2026-08-31
 fonte: enviado pelo hpcarlos
-relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md]
+relacionados: [2026-08-23-mission-control-plano-de-controle-self-hosted-para-operar-ag.md, 2026-08-27-lobehub-plataforma-de-orquestracao-de-agentes-de-ia.md, 2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md, 2026-09-03-cloudflare-os-plataforma-de-agentes-com-acesso-por-capacidad.md]
 ---
 
 # Rome — o SO agêntico que persiste software, não só conversa
