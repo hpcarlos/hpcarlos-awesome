@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-09-03
 fonte: enviado pelo hpcarlos
-relacionados: [2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md, 2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md]
+relacionados: [2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md, 2026-08-28-awesome-selfhosted-1255-softwares-livres-para-rodar-no-seu-s.md, 2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md]
 ---
 
 # Projeto ACBr — componentes livres de automação comercial e fiscal brasileira

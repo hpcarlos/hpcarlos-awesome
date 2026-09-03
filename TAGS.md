@@ -1,12 +1,12 @@
 # Tags
 
-107 tag(s) em 41 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+107 tag(s) em 42 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`automacao`](#automacao) (5) · [`frontend`](#frontend) (5) · [`api`](#api) (4) · [`brasil`](#brasil) (4) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`dados`](#dados) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`saas`](#saas) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2) · [`chat`](#chat) (2) · [`chatbot`](#chatbot) (2)
+[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`api`](#api) (5) · [`automacao`](#automacao) (5) · [`brasil`](#brasil) (5) · [`frontend`](#frontend) (5) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`saas`](#saas) (4) · [`ui`](#ui) (4) · [`dados`](#dados) (3) · [`fiscal`](#fiscal) (3) · [`nodejs`](#nodejs) (3) · [`nota-fiscal`](#nota-fiscal) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2)
 
 ## agentes
 
@@ -33,6 +33,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## api
 
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
@@ -90,6 +91,7 @@ Volte para a lista completa: [README.md](README.md).
 ## brasil
 
 * 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
@@ -226,6 +228,7 @@ Volte para a lista completa: [README.md](README.md).
 ## fiscal
 
 * 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
 ## frontend
@@ -270,6 +273,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## integracao
 
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
 ## lazarus
@@ -355,6 +359,7 @@ Volte para a lista completa: [README.md](README.md).
 ## nota-fiscal
 
 * 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
 ## observabilidade
@@ -461,6 +466,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## saas
 
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * 🛠 [saas-starter-kit](https://github.com/boxyhq/saas-starter-kit) - Boilerplate Next.js de SaaS B2B com autenticação, SSO/SAML, times, convites, audit log e webhooks já prontos. `Apache-2.0` ★★★★☆ [análise](achados/2026-08-22-boxyhq-saas-starter-kit-boilerplate-next-js-para-saas-b2b.md)<br><sub>⚠️ webhooks, audit log e cobrança dependem de serviços externos pagos</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 * 🔗 [SaaSUI](https://www.saasui.design/) - Galeria de referência com capturas reais de produtos SaaS, organizada por padrão de interface — dashboards, onboarding, preços, formulários. `própria (site)` ★★★☆☆ [análise](achados/2026-08-29-saasui-biblioteca-de-padroes-de-interface-de-produtos-saas-r.md)<br><sub>⚠️ não consegui abrir o site nesta sessão; resumo baseado em busca externa, não em leitura direta</sub>

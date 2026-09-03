@@ -20,11 +20,11 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**41** achados · **8** categorias · **107** tags · atualizado em 2026-09-03
+**42** achados · **8** categorias · **107** tags · atualizado em 2026-09-03
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 24 |  | novo | 41 |
+| ferramenta | 25 |  | novo | 42 |
 | projeto | 12 |  |  |  |
 | outro | 4 |  |  |  |
 | biblioteca | 1 |  |  |  |
@@ -39,8 +39,8 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas) <sub>17</sub>
     - [Projetos](#projetos) <sub>6</sub>
     - [Outros](#outros) <sub>2</sub>
-- [Web](#web) <sub>16</sub>
-    - [Ferramentas](#ferramentas-1) <sub>7</sub>
+- [Web](#web) <sub>17</sub>
+    - [Ferramentas](#ferramentas-1) <sub>8</sub>
     - [Projetos](#projetos-1) <sub>7</sub>
     - [Outros](#outros-1) <sub>2</sub>
 - [Engenharia de software](#engenharia-de-software) <sub>14</sub>
@@ -48,8 +48,8 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Projetos](#projetos-2) <sub>3</sub>
     - [Bibliotecas](#bibliotecas) <sub>1</sub>
     - [Outros](#outros-2) <sub>1</sub>
-- [Negócios](#negócios) <sub>9</sub>
-    - [Ferramentas](#ferramentas-3) <sub>4</sub>
+- [Negócios](#negócios) <sub>10</sub>
+    - [Ferramentas](#ferramentas-3) <sub>5</sub>
     - [Projetos](#projetos-3) <sub>4</sub>
     - [Bibliotecas](#bibliotecas-1) <sub>1</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>7</sub>
@@ -109,6 +109,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 * ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
 * ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
 * ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
@@ -162,6 +163,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ### Ferramentas
 
+* ⚙️ [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-focus-nfe-api-rest-para-emissao-de-documentos-fiscais-brasil.md)<br><sub>⚠️ serviço pago; preço não apurado nesta sessão, e município novo tem taxa fixa de integração</sub>
 * ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
@@ -229,10 +231,10 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-09-03` [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida.
 * `2026-09-03` [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar.
 * `2026-09-03` [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring.
+* `2026-09-03` [Focus NFe](https://focusnfe.com.br/) - API REST que emite NF-e, NFC-e, NFS-e, MDF-e, NFCom e DC-e, com integração ativa em mais de três mil municípios e sem contrato mínimo.
 * `2026-09-02` [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat.
 * `2026-09-02` [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta.
 * `2026-09-02` [ChatbotX](https://github.com/ChatbotXIO/ChatbotX) - Plataforma completa de chatbot para 6 redes, e-mail e webchat, com agentes de IA por chave própria, CRM, disparo e servidor MCP.
-* `2026-09-01` [Portkey Gateway](https://github.com/portkey-ai/gateway) - Gateway de LLM enxuto e testado em produção: um endpoint para 45+ provedores, com fallback, load balancing, cache e mais de 50 guardrails.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona
