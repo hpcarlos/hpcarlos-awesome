@@ -12,7 +12,7 @@ status: novo
 nota: 4
 adicionado: 2026-09-03
 fonte: enviado pelo hpcarlos
-relacionados: [2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md, 2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md]
+relacionados: [2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md, 2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md, 2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md]
 ---
 
 # Polp — API de Open Finance com dados bancários enriquecidos por IA
@@ -91,6 +91,7 @@ Brasil.
 - **Primeiro passo ao abrir:** confirmar o modelo de cobrança, o que exatamente é devolvido
   pela API (campos, histórico disponível) e como o consentimento do titular é gerenciado e
   revogado.
-- Segundo achado de infraestrutura brasileira da coleção. Como sugerido no achado da Spedy,
-  vale cotar alternativas (outros agregadores de Open Finance) antes de fechar — hoje há só
-  um lado da história catalogado.
+- Segundo achado de infraestrutura brasileira da coleção. A comparação sugerida no achado da
+  Spedy já existe: o [Malvo](2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)
+  ocupa o mesmo espaço, com foco mais explicitamente B2B — a tabela lado a lado está no achado
+  dele.

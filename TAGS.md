@@ -1,12 +1,12 @@
 # Tags
 
-103 tag(s) em 39 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+103 tag(s) em 40 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`automacao`](#automacao) (5) · [`frontend`](#frontend) (5) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`api`](#api) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`saas`](#saas) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`brasil`](#brasil) (2) · [`chat`](#chat) (2) · [`chatbot`](#chatbot) (2) · [`code-review`](#code-review) (2) · [`dados`](#dados) (2)
+[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`automacao`](#automacao) (5) · [`frontend`](#frontend) (5) · [`api`](#api) (4) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`brasil`](#brasil) (3) · [`dados`](#dados) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`saas`](#saas) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2) · [`chat`](#chat) (2) · [`chatbot`](#chatbot) (2)
 
 ## agentes
 
@@ -33,6 +33,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## api
 
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 * 🛠 [sub2api](https://github.com/Wei-Shaw/sub2api) - Gateway em Go que revende acesso a assinaturas de IA como chaves de API, com cobrança e painel — o próprio README avisa que viola termos de uso. `LGPL-3.0` ★★☆☆☆ [análise](achados/2026-08-22-sub2api-gateway-que-distribui-quotas-de-assinaturas-de-ia.md)<br><sub>⚠️ o próprio README avisa que o uso pode violar os termos dos provedores</sub>
@@ -71,6 +72,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## bancos
 
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 
 ## billing
@@ -83,6 +85,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## brasil
 
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
@@ -157,6 +160,7 @@ Volte para a lista completa: [README.md](README.md).
 ## dados
 
 * ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 
 ## debug
@@ -207,6 +211,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## fintech
 
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 
 ## fiscal
@@ -345,6 +350,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## open-finance
 
+* ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 
 ## openai-api

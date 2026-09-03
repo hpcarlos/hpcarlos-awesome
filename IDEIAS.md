@@ -382,6 +382,11 @@ fecha esse buraco por API, entre receber o pagamento e estar em dia com o fisco.
 - **Cuidado extra do lado da Polp:** dado bancário de terceiro exige consentimento pelo fluxo
   do Open Finance e cai sob a LGPD. É o único item da coleção cujo risco principal é legal, e
   não técnico ou de licença.
+- **Há concorrente catalogado:** o [Malvo](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)
+  ocupa o mesmo espaço da Polp, com foco B2B. Antes de escolher, mande as mesmas quatro
+  perguntas para os dois — preço, cobertura de bancos, acurácia com o seu extrato e gestão de
+  consentimento — e compare as respostas. Fornecedor de infraestrutura sem comparação é
+  decisão no escuro.
 
 ### Digest do que entrou
 
