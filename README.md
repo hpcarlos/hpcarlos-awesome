@@ -20,11 +20,11 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**37** achados · **8** categorias · **96** tags · atualizado em 2026-09-02
+**38** achados · **8** categorias · **100** tags · atualizado em 2026-09-03
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 21 |  | novo | 37 |
+| ferramenta | 22 |  | novo | 38 |
 | projeto | 12 |  |  |  |
 | outro | 4 |  |  |  |
 
@@ -38,9 +38,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas) <sub>17</sub>
     - [Projetos](#projetos) <sub>6</sub>
     - [Outros](#outros) <sub>2</sub>
-- [Web](#web) <sub>15</sub>
+- [Web](#web) <sub>16</sub>
+    - [Ferramentas](#ferramentas-1) <sub>7</sub>
     - [Projetos](#projetos-1) <sub>7</sub>
-    - [Ferramentas](#ferramentas-1) <sub>6</sub>
     - [Outros](#outros-1) <sub>2</sub>
 - [Engenharia de software](#engenharia-de-software) <sub>13</sub>
     - [Ferramentas](#ferramentas-2) <sub>9</sub>
@@ -53,9 +53,9 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 - [Design](#design) <sub>6</sub>
     - [Ferramentas](#ferramentas-4) <sub>4</sub>
     - [Outros](#outros-4) <sub>2</sub>
-- [Negócios](#negócios) <sub>5</sub>
+- [Negócios](#negócios) <sub>6</sub>
     - [Projetos](#projetos-4) <sub>4</sub>
-    - [Ferramentas](#ferramentas-5) <sub>1</sub>
+    - [Ferramentas](#ferramentas-5) <sub>2</sub>
 - [Segurança](#segurança) <sub>2</sub>
 - [Finanças](#finanças) <sub>1</sub>
 <!-- FIM:SUMARIO -->
@@ -102,6 +102,16 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ## Web
 
+### Ferramentas
+
+* ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
+* ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
+* ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
+* ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
+* ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
+* ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
+* ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
+
 ### Projetos
 
 * 🛠 [ChatbotX](https://github.com/ChatbotXIO/ChatbotX) - Plataforma completa de chatbot para 6 redes, e-mail e webchat, com agentes de IA por chave própria, CRM, disparo e servidor MCP. `MIT + comercial` ★★★★☆ [análise](achados/2026-09-02-chatbotx-plataforma-omnichannel-de-chatbot-com-ia-self-hoste.md)<br><sub>⚠️ licença dupla: recursos enterprise ficam na comercial, e a stack self-hosted exige DevOps de verdade</sub>
@@ -111,15 +121,6 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>
-
-### Ferramentas
-
-* ⚙️ [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta. `MIT` ★★★★☆ [análise](achados/2026-08-30-agent-reach-camada-que-da-acesso-a-redes-e-web-a-agentes-de.md)<br><sub>⚠️ acessar plataforma com login por navegador pode banir a conta; o próprio projeto manda usar conta descartável</sub>
-* ⚙️ [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso. `MIT` ★★★★☆ [análise](achados/2026-08-31-apify-mcp-server-milhares-de-scrapers-prontos-como-ferrament.md)<br><sub>⚠️ o servidor é open source, mas rodar os Actors é pago por uso e exige conta na Apify</sub>
-* ⚙️ [react-doctor](https://github.com/millionco/react-doctor) - Audita projeto React em estado, efeitos, performance, arquitetura, segurança e acessibilidade — na análise estática e no runtime do Chrome. `MIT` ★★★★☆ [análise](achados/2026-08-28-react-doctor-auditoria-deterministica-de-codigo-react.md)<br><sub>⚠️ telemetria ligada por padrão; o trace de runtime captura o navegador inteiro, com URLs e caminhos</sub>
-* ⚙️ [Shoogle](https://shoogle.dev/) - Buscador único de componentes e blocos shadcn/ui: varre milhares de páginas de mais de 100 bibliotecas, com preview e código para copiar. `própria (serviço web)` ★★★★☆ [análise](achados/2026-08-29-shoogle-buscador-de-componentes-e-blocos-shadcn-ui.md)<br><sub>⚠️ o código-fonte é fechado; o repo público é só para feedback, e há um servidor MCP para agentes</sub>
-* ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
-* ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
 
 ### Outros
 
@@ -193,6 +194,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 ### Ferramentas
 
+* ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 * ⚙️ [claude-ads](https://github.com/AgriciDaniel/claude-ads) - Plugin de agente para operar mídia paga em 12 plataformas: auditoria com evidência datada, plano, criação, monitoramento e relatório. `MIT` ★★★☆☆ [análise](achados/2026-08-28-claude-ads-operacao-de-midia-paga-como-plugin-de-agente.md)<br><sub>⚠️ não é produto oficial da Anthropic; opera contas de anúncios reais quando a escrita é liberada</sub>
 
 ## Segurança
@@ -208,6 +210,7 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 ## Adicionados recentemente
 
 <!-- INICIO:RECENTES -->
+* `2026-09-03` [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações.
 * `2026-09-02` [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat.
 * `2026-09-02` [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta.
 * `2026-09-02` [ChatbotX](https://github.com/ChatbotXIO/ChatbotX) - Plataforma completa de chatbot para 6 redes, e-mail e webchat, com agentes de IA por chave própria, CRM, disparo e servidor MCP.
@@ -215,7 +218,6 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * `2026-09-01` [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara.
 * `2026-08-31` [Rome](https://github.com/rome-os/rome) - Ambiente auto-hospedável onde agentes constroem apps, ações e skills que persistem entre tarefas — memória de software, não só de texto.
 * `2026-08-31` [apify-mcp-server](https://github.com/apify/apify-mcp-server) - Servidor MCP oficial da Apify que expõe milhares de scrapers prontos (Actors) ao agente — busca, executa e traz o dado, cobrando por uso.
-* `2026-08-30` [agent-reach](https://github.com/Panniantong/agent-reach) - CLI unificada que deixa o agente ler e buscar em Twitter, Reddit, YouTube, GitHub e outras plataformas sem taxa de API — só leitura, nunca posta.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

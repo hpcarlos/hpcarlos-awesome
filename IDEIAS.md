@@ -360,6 +360,22 @@ faz só comment-to-DM no Instagram, sem dependência e com uma fração da infra
   um gateway com guardrail ([Portkey](achados/2026-09-01-portkey-ai-gateway-gateway-de-llm-com-guardrails-e-observabi.md)) —
   não é opcional quando o modelo fala com público.
 
+### O micro-SaaS brasileiro, agora completo
+
+A ideia do micro-SaaS de IA está no arquivo desde os primeiros achados, mas faltava uma peça
+que nenhum boilerplate estrangeiro entrega: **nota fiscal brasileira**. A
+[Spedy](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)
+fecha esse buraco por API, entre receber o pagamento e estar em dia com o fisco.
+
+- **Alimenta:** saas-starter-kit + Stripe + Spedy + um gateway de IA
+- **Esforço:** médio
+- **Primeiro passo:** cotar o custo por nota contra o seu volume estimado. Se não fechar, o
+  emissor gratuito da prefeitura resolve com mais trabalho manual — a decisão é aritmética.
+- **Ordem de montagem:** contas e assinatura (starter kit) → pagamento (Stripe) → nota
+  (Spedy) → só então o produto em si.
+- **O que verificar antes de amarrar:** como exportar o histórico de notas. Emissão fiscal é
+  obrigação sua, não do fornecedor — precisa haver plano B se o serviço sair do ar.
+
 ### Digest do que entrou
 
 CLI que lê os achados adicionados na última semana e monta um resumo — por e-mail, ou
