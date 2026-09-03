@@ -20,13 +20,14 @@ risco de termos de uso, software em alpha).
 🛠 projeto · ⚙️ ferramenta · 📄 artigo · 📦 biblioteca · 📚 paper · 🎥 vídeo · 🔗 outro
 
 <!-- INICIO:ESTATISTICAS -->
-**40** achados · **8** categorias · **103** tags · atualizado em 2026-09-03
+**41** achados · **8** categorias · **107** tags · atualizado em 2026-09-03
 
 | tipo | qtd. |  | status | qtd. |
 | --- | ---: | --- | --- | ---: |
-| ferramenta | 24 |  | novo | 40 |
+| ferramenta | 24 |  | novo | 41 |
 | projeto | 12 |  |  |  |
 | outro | 4 |  |  |  |
+| biblioteca | 1 |  |  |  |
 
 Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negocios` · `seguranca` · `web`
 <!-- FIM:ESTATISTICAS -->
@@ -42,13 +43,15 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
     - [Ferramentas](#ferramentas-1) <sub>7</sub>
     - [Projetos](#projetos-1) <sub>7</sub>
     - [Outros](#outros-1) <sub>2</sub>
-- [Engenharia de software](#engenharia-de-software) <sub>13</sub>
+- [Engenharia de software](#engenharia-de-software) <sub>14</sub>
     - [Ferramentas](#ferramentas-2) <sub>9</sub>
     - [Projetos](#projetos-2) <sub>3</sub>
+    - [Bibliotecas](#bibliotecas) <sub>1</sub>
     - [Outros](#outros-2) <sub>1</sub>
-- [Negócios](#negócios) <sub>8</sub>
+- [Negócios](#negócios) <sub>9</sub>
     - [Ferramentas](#ferramentas-3) <sub>4</sub>
     - [Projetos](#projetos-3) <sub>4</sub>
+    - [Bibliotecas](#bibliotecas-1) <sub>1</sub>
 - [Infraestrutura e DevOps](#infraestrutura-e-devops) <sub>7</sub>
     - [Ferramentas](#ferramentas-4) <sub>4</sub>
     - [Projetos](#projetos-4) <sub>2</sub>
@@ -147,6 +150,10 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * 🛠 [munder-difflin](https://github.com/chaitanyagiri/munder-difflin) - App de desktop que roda vários CLIs de agente como um escritório: memória compartilhada, roteamento de tarefas e kanban, com avatares em pixel art. `MIT` ★★★☆☆ [análise](achados/2026-08-22-munder-difflin-escritorio-de-agentes-de-ia-num-app-de-deskto.md)<br><sub>⚠️ protótipo; a arte em pixel tem licença própria com exigência de crédito</sub>
 * 🛠 [Rome](https://github.com/rome-os/rome) - Ambiente auto-hospedável onde agentes constroem apps, ações e skills que persistem entre tarefas — memória de software, não só de texto. `MIT` ★★★☆☆ [análise](achados/2026-08-31-rome-o-so-agentico-que-persiste-software-nao-so-conversa.md)<br><sub>⚠️ preview em evolução ativa; exige Docker e a nuvem própria ainda está fechada</sub>
 
+### Bibliotecas
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+
 ### Outros
 
 * 🔗 [system-prompts](https://github.com/x1xhlol/system-prompts-and-models-of-ai-tools) - Coletânea de prompts de sistema de mais de 30 ferramentas de IA comerciais — valiosa para estudar padrões, arriscada para copiar. `GPL-3.0 declarada` ★★★☆☆ [análise](achados/2026-08-23-system-prompts-and-models-of-ai-tools-coletanea-de-prompts-d.md)<br><sub>⚠️ conteúdo de terceiros sem origem informada; não reutilize os textos</sub>
@@ -166,6 +173,10 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 * 🛠 [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-09-02-openreply-comentario-do-instagram-vira-dm-automatico-self-ho.md)<br><sub>⚠️ só Instagram; exige app Meta configurado e respeita o teto de 750 DMs/hora e a janela da Meta</sub>
 * 🛠 [wacrm](https://github.com/ArnasDon/wacrm) - CRM auto-hospedável para WhatsApp: caixa de entrada compartilhada, funil kanban, disparos e automações sobre a API oficial da Meta. `MIT` ★★★☆☆ [análise](achados/2026-08-22-wacrm-crm-auto-hospedavel-para-whatsapp.md)<br><sub>⚠️ depende de conta aprovada na WhatsApp Business API, com custo por conversa</sub>
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>
+
+### Bibliotecas
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
 
 ## Infraestrutura e DevOps
 
@@ -215,13 +226,13 @@ Categorias: `design` · `devops` · `engenharia` · `financas` · `ia` · `negoc
 
 <!-- INICIO:RECENTES -->
 * `2026-09-03` [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações.
+* `2026-09-03` [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida.
 * `2026-09-03` [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar.
 * `2026-09-03` [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring.
 * `2026-09-02` [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat.
 * `2026-09-02` [OpenReply](https://github.com/diwenne/openreply) - Alternativa self-hosted ao ManyChat focada num truque só: comentar uma palavra-chave num post dispara um DM automático, via API oficial da Meta.
 * `2026-09-02` [ChatbotX](https://github.com/ChatbotXIO/ChatbotX) - Plataforma completa de chatbot para 6 redes, e-mail e webchat, com agentes de IA por chave própria, CRM, disparo e servidor MCP.
 * `2026-09-01` [Portkey Gateway](https://github.com/portkey-ai/gateway) - Gateway de LLM enxuto e testado em produção: um endpoint para 45+ provedores, com fallback, load balancing, cache e mais de 50 guardrails.
-* `2026-09-01` [awesome-design-md](https://github.com/VoltAgent/awesome-design-md) - Coleção de 73 arquivos DESIGN.md que replicam a linguagem visual de produtos reais — cole um e peça ao agente uma tela com aquela cara.
 <!-- FIM:RECENTES -->
 
 ## Como isto funciona

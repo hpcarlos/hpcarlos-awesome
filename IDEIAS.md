@@ -369,8 +369,10 @@ fecha esse buraco por API, entre receber o pagamento e estar em dia com o fisco.
 
 - **Alimenta:** saas-starter-kit + Stripe + Spedy + um gateway de IA
 - **Esforço:** médio
-- **Primeiro passo:** cotar o custo por nota contra o seu volume estimado. Se não fechar, o
-  emissor gratuito da prefeitura resolve com mais trabalho manual — a decisão é aritmética.
+- **Primeiro passo:** cotar o custo por nota contra o seu volume estimado. A alternativa
+  livre está catalogada: o [ACBr](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)
+  emite sem taxa, cobrando em trabalho — certificado, SEFAZ, layout por estado. A decisão é
+  aritmética, e agora tem os dois lados.
 - **Ordem de montagem:** contas e assinatura (starter kit) → pagamento (Stripe) → nota
   (Spedy) → só então o produto em si.
 - **O que verificar antes de amarrar:** como exportar o histórico de notas. Emissão fiscal é

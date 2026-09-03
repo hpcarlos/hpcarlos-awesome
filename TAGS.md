@@ -1,12 +1,12 @@
 # Tags
 
-103 tag(s) em 40 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
+107 tag(s) em 41 achado(s) · gerado por `scripts/indexar.py` — não edite à mão.
 
 Volte para a lista completa: [README.md](README.md).
 
 ## Mais usadas
 
-[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`automacao`](#automacao) (5) · [`frontend`](#frontend) (5) · [`api`](#api) (4) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`brasil`](#brasil) (3) · [`dados`](#dados) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`saas`](#saas) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2) · [`chat`](#chat) (2) · [`chatbot`](#chatbot) (2)
+[`agentes`](#agentes) (16) · [`claude-code`](#claude-code) (16) · [`mcp`](#mcp) (13) · [`self-hosted`](#self-hosted) (13) · [`skills`](#skills) (13) · [`typescript`](#typescript) (9) · [`llm`](#llm) (7) · [`nextjs`](#nextjs) (7) · [`automacao`](#automacao) (5) · [`frontend`](#frontend) (5) · [`api`](#api) (4) · [`brasil`](#brasil) (4) · [`cli`](#cli) (4) · [`crm`](#crm) (4) · [`gateway`](#gateway) (4) · [`python`](#python) (4) · [`ui`](#ui) (4) · [`dados`](#dados) (3) · [`nodejs`](#nodejs) (3) · [`observabilidade`](#observabilidade) (3) · [`openai-api`](#openai-api) (3) · [`performance`](#performance) (3) · [`react`](#react) (3) · [`referencia`](#referencia) (3) · [`saas`](#saas) (3) · [`scraping`](#scraping) (3) · [`workflow`](#workflow) (3) · [`bancos`](#bancos) (2) · [`chat`](#chat) (2) · [`chatbot`](#chatbot) (2)
 
 ## agentes
 
@@ -66,6 +66,10 @@ Volte para a lista completa: [README.md](README.md).
 * 🛠 [ZernFlow](https://github.com/zernio-dev/zernflow) - Construtor visual de chatbots self-hosted para 7 redes, com CRM, disparo, gotejamento e nó de IA — alternativa aberta ao ManyChat. `MIT` ★★★☆☆ [análise](achados/2026-09-02-zernflow-construtor-visual-de-chatbots-multicanal-alternativ.md)<br><sub>⚠️ depende da API paga da Zernio para mensagens, e o WhatsApp esbarra na janela de 24h da Meta</sub>
 * ⚙️ [camofox-browser](https://github.com/jo-inc/camofox-browser) - Servidor REST de navegador headless com fingerprint falsificado no nível do Firefox, feito para agentes navegarem sem serem barrados. `MIT` ★★☆☆☆ [análise](achados/2026-08-28-camofox-browser-navegador-anti-deteccao-como-servidor-para-a.md)<br><sub>⚠️ contornar proteção anti-bot costuma violar os termos do site; envia telemetria por padrão</sub>
 
+## automacao-comercial
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+
 ## backtest
 
 * 🛠 [Vibe-Trading](https://github.com/HKUDS/Vibe-Trading) - Agente de IA que pesquisa, faz backtest e envia ordens reais em 13+ corretoras, com kill-switch, limites e trilha de auditoria. `MIT` ★★★☆☆ [análise](achados/2026-08-28-vibe-trading-agente-de-ia-para-pesquisa-e-execucao-de-ordens.md)<br><sub>⚠️ executa ordens reais com dinheiro seu, por decisão de LLM — comece e permaneça em papel até provar o contrário</sub>
@@ -85,6 +89,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## brasil
 
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
 * ⚙️ [Malvo](https://malvo.io/) - Camada de dados do Open Finance brasileiro: agrega, normaliza e categoriza transações com IA para PFM, ERP, crédito e scoring. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-malvo-camada-de-dados-de-open-finance-enriquecidos-por-ia.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Polp](https://www.polp.com.br/) - API brasileira de Open Finance que conecta qualquer banco e devolve o extrato já categorizado, com recorrências e insights prontos para usar. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-polp-api-de-open-finance-com-dados-bancarios-enriquecidos-po.md)<br><sub>⚠️ serviço pago com dado financeiro de terceiros: exige consentimento do titular e cuidado com LGPD</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
@@ -167,6 +172,10 @@ Volte para a lista completa: [README.md](README.md).
 
 * ⚙️ [react-scan](https://github.com/aidenybai/react-scan) - Destaca na tela os componentes React que re-renderizam sem precisar, sem exigir mudança no código — basta uma tag de script. `MIT` ★★★☆☆ [análise](achados/2026-08-28-react-scan-mostra-o-que-esta-re-renderizando-em-react.md)<br><sub>⚠️ o próprio projeto recomenda o react-doctor no lugar; não é para rodar em produção</sub>
 
+## delphi
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+
 ## deploy
 
 * ⚙️ [gstack](https://github.com/garrytan/gstack) - Kit de 23 skills que dá ao Claude Code o sprint inteiro: office-hours, plano, design, review, QA em navegador real, ship e deploy monitorado. `MIT` ★★★★★ [análise](achados/2026-08-29-gstack-23-skills-que-transformam-o-claude-code-num-time-de-e.md)<br><sub>⚠️ amplo e opinativo; instala navegador Chromium, classificador ML de 22MB e telemetria opt-in — leia o que roda antes</sub>
@@ -216,6 +225,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## fiscal
 
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
 ## frontend
@@ -261,6 +271,14 @@ Volte para a lista completa: [README.md](README.md).
 ## integracao
 
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
+
+## lazarus
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
+
+## lgpl
+
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
 
 ## licencas
 
@@ -336,6 +354,7 @@ Volte para a lista completa: [README.md](README.md).
 
 ## nota-fiscal
 
+* 📦 [ACBr](https://www.projetoacbr.com.br/) - Biblioteca livre brasileira para NF-e, NFS-e, SAT, boleto, PIX e impressoras fiscais — a alternativa a pagar por nota emitida. `LGPL-2.1+` ★★★★☆ [análise](achados/2026-09-03-projeto-acbr-componentes-livres-de-automacao-comercial-e-fis.md)<br><sub>⚠️ nativo em Delphi/Lazarus; outras linguagens só via ACBrLib, e emitir por conta própria exige lidar com certificado e SEFAZ</sub>
 * ⚙️ [Spedy](https://spedy.com.br/) - SaaS brasileiro que emite NF-e, NFS-e e NFC-e no automático a partir das suas vendas, com API própria e mais de 70 integrações. `própria (SaaS)` ★★★★☆ [análise](achados/2026-09-03-spedy-emissao-automatica-de-nota-fiscal-para-negocios-digita.md)<br><sub>⚠️ serviço pago por nota, não software aberto; o site não abriu nesta sessão — resumo por busca externa</sub>
 
 ## observabilidade
